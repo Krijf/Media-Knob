@@ -4,9 +4,6 @@ Multi purpose Media Knob/Dial for Windows
 
 emulate a usb HID device with the hid project lib.
 
-![Flowchart](https://github.com/Krijf/Media-Knob/blob/V0.1/Documentation/Media_Knob.png)
-
-
 Features:
 - Volume Control
 - Mute
@@ -16,6 +13,12 @@ Features:
 - 3D printed case
 - case is created with fusion 360
 - Open Source
+
+Flowchart:
+![Flowchart](https://github.com/Krijf/Media-Knob/blob/V0.1/Documentation/Media_Knob.png)
+
+
+
 
 
 
