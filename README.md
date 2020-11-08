@@ -14,8 +14,7 @@ Features:
 - case is created with fusion 360
 - Open Source
 
-Flowchart:
-![Flowchart](https://github.com/Krijf/Media-Knob/blob/V0.1/Documentation/Media_Knob.png)
+![Flowchart](https://github.com/Krijf/Media-Knob/blob/main/Documentation/Media_Knob.png)
 
 
 
