@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Media-Knob"
+Date "2020-11-08"
+Rev "V0.1"
+Comp "Benedikt Graf"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -666,8 +666,6 @@ NoConn ~ 7300 1800
 NoConn ~ 7300 1900
 NoConn ~ 7300 2000
 NoConn ~ 7300 2300
-NoConn ~ 7300 3800
-NoConn ~ 7300 3700
 NoConn ~ 7300 3000
 NoConn ~ 7300 2900
 Wire Wire Line
@@ -784,4 +782,12 @@ Text HLabel 4450 3650 0    50   Input ~ 0
 SW2
 Text HLabel 7450 2100 2    50   Input ~ 0
 SW1
+Text HLabel 7500 3700 2    39   Output ~ 0
+Input_Select
+Text HLabel 7500 3800 2    39   Output ~ 0
+Output_Select
+Wire Wire Line
+	7300 3800 7500 3800
+Wire Wire Line
+	7300 3700 7500 3700
 $EndSCHEMATC

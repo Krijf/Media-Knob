@@ -38,6 +38,8 @@ F10 "SW4" I R 8450 4250 50
 F11 "SW3" I R 8450 4150 50 
 F12 "SW2" I R 8450 4050 50 
 F13 "SW1" I R 8450 3950 50 
+F14 "Input_Select" O R 8450 5300 39 
+F15 "Output_Select" O R 8450 5400 39 
 $EndSheet
 $Sheet
 S 8650 4650 750  300 
@@ -84,4 +86,8 @@ Wire Wire Line
 	8450 3750 8650 3750
 Text Notes 9500 5350 0    50   ~ 0
 Auxiliary Switching\n
+Wire Wire Line
+	8450 5300 8650 5300
+Wire Wire Line
+	8450 5400 8650 5400
 $EndSCHEMATC
