@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Media-Knob"
 Date "2020-11-08"
 Rev "V0.1"
@@ -90,4 +90,10 @@ Wire Wire Line
 	8450 5300 8650 5300
 Wire Wire Line
 	8450 5400 8650 5400
+$Sheet
+S 8650 5900 700  750 
+U 5FBE9AF7
+F0 "USB" 50
+F1 "USB.sch" 50
+$EndSheet
 $EndSCHEMATC
