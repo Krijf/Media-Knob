@@ -1,16 +1,1701 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Sheet 5 7
+Title "Media-Knob_HID"
+Date "2020-12-13"
+Rev "V0.1"
+Comp "Benedikt Graf"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Stecker:USB_C_Buchse_SMD J1
+U 1 1 5FD05F39
+P 1650 4550
+F 0 "J1" H 1467 2835 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 1650 2900 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 1650 4550 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 1650 4550 50  0001 L CNN
+F 4 "" H 1467 2926 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 1650 4550 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 1650 4550 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 1650 4550 50  0001 L CNN "Distributor"
+F 8 "C168698" H 1650 4550 50  0001 L CNN "Bestellnummer"
+	1    1650 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Stecker:USB_C_Buchse_SMD J2
+U 1 1 5FD09142
+P 1650 7850
+F 0 "J2" H 1467 6135 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 1650 6200 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 1650 7850 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 1650 7850 50  0001 L CNN
+F 4 "" H 1467 6226 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 1650 7850 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 1650 7850 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 1650 7850 50  0001 L CNN "Distributor"
+F 8 "C168698" H 1650 7850 50  0001 L CNN "Bestellnummer"
+	1    1650 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Artikel:TS3USB30E IC1
+U 1 1 5FD64EC1
+P 4150 4750
+F 0 "IC1" H 4150 5301 39  0000 C CNN
+F 1 "TS3USB30E" H 4150 5226 39  0000 C CNN
+F 2 "Artikel:SOIC-10" H 4150 4750 39  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810100411_Texas-Instruments-TS3USB30EDGSR_C131998.pdf" H 4150 4750 39  0001 C CNN
+F 4 "" H 4150 5226 39  0000 C CNN "NB"
+F 5 "Texas Instruments" H 4150 4750 39  0001 C CNN "Hersteller"
+F 6 "TS3USB30EDGSR" H 4150 4750 39  0001 C CNN "Herstellerbestellnummer"
+F 7 "LCSC" H 4150 4750 39  0001 C CNN "Distributor"
+F 8 "C131998" H 4150 4750 39  0001 C CNN "Bestellnummer"
+	1    4150 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4050 2750 4050
+Wire Wire Line
+	2750 4050 2750 4700
+Wire Wire Line
+	3700 4800 2800 4800
+Wire Wire Line
+	2800 4800 2800 4150
+Wire Wire Line
+	2800 4150 2150 4150
+Wire Wire Line
+	3700 4950 3600 4950
+$Comp
+L power:GND #PWR046
+U 1 1 5FD664CE
+P 2300 9350
+F 0 "#PWR046" H 2300 9100 50  0001 C CNN
+F 1 "GND" H 2305 9177 50  0000 C CNN
+F 2 "" H 2300 9350 50  0001 C CNN
+F 3 "" H 2300 9350 50  0001 C CNN
+	1    2300 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3550 2150 3550
+$Comp
+L Kondensator:100n_0603 C41
+U 1 1 5FD674B6
+P 4750 5200
+F 0 "C41" V 4704 5328 50  0000 L CNN
+F 1 "100n_0603" H 4750 5050 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 4750 5050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 4750 5200 50  0001 L CNN
+F 4 "100nF" V 4795 5328 50  0000 L CNN "Wert"
+F 5 "" V 4841 5328 50  0000 L CNN "NB"
+	1    4750 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4950 4750 4950
+$Comp
+L power:GND #PWR055
+U 1 1 5FD6812D
+P 4600 5450
+F 0 "#PWR055" H 4600 5200 50  0001 C CNN
+F 1 "GND" H 4605 5277 50  0000 C CNN
+F 2 "" H 4600 5450 50  0001 C CNN
+F 3 "" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5450 4600 5450
+Wire Wire Line
+	4600 5450 4600 5050
+Wire Wire Line
+	2150 4650 2300 4650
+Connection ~ 2300 4650
+Wire Wire Line
+	2300 4650 2300 3550
+Wire Wire Line
+	2150 4800 2300 4800
+Connection ~ 2300 4800
+Wire Wire Line
+	2300 4800 2300 4650
+Wire Wire Line
+	2150 5900 2300 5900
+Connection ~ 2300 5900
+Wire Wire Line
+	2300 5900 2300 4800
+Wire Wire Line
+	2300 5900 2300 6400
+Wire Wire Line
+	2150 9200 2300 9200
+Connection ~ 2300 9200
+Wire Wire Line
+	2300 9200 2300 9350
+Wire Wire Line
+	2150 8100 2300 8100
+Connection ~ 2300 8100
+Wire Wire Line
+	2300 8100 2300 9200
+Wire Wire Line
+	2150 7950 2300 7950
+Connection ~ 2300 7950
+Wire Wire Line
+	2300 7950 2300 8100
+Wire Wire Line
+	2150 6850 2300 6850
+Connection ~ 2300 6850
+Wire Wire Line
+	2300 6850 2300 7950
+Wire Wire Line
+	2150 5300 2750 5300
+Wire Wire Line
+	2750 5300 2750 4700
+Connection ~ 2750 4700
+Wire Wire Line
+	2800 4800 2800 5400
+Wire Wire Line
+	2800 5400 2150 5400
+Connection ~ 2800 4800
+Wire Wire Line
+	3600 7350 2150 7350
+Wire Wire Line
+	3600 4950 3600 7350
+Wire Wire Line
+	3650 7450 2150 7450
+Wire Wire Line
+	3650 5050 3650 7450
+Wire Wire Line
+	3650 7450 3650 8700
+Wire Wire Line
+	3650 8700 2150 8700
+Connection ~ 3650 7450
+Wire Wire Line
+	2150 8600 3600 8600
+Wire Wire Line
+	3600 8600 3600 7350
+Connection ~ 3600 7350
+Wire Wire Line
+	2150 3100 2300 3100
+Wire Wire Line
+	2300 3100 2300 3200
+Connection ~ 2300 3550
+Wire Wire Line
+	2150 3200 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 2300 3300
+Wire Wire Line
+	2150 3300 2300 3300
+Connection ~ 2300 3300
+Wire Wire Line
+	2300 3300 2300 3400
+Wire Wire Line
+	2150 3400 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 2300 3550
+Wire Wire Line
+	2150 6400 2300 6400
+Connection ~ 2300 6400
+Wire Wire Line
+	2300 6400 2300 6500
+Wire Wire Line
+	2150 6500 2300 6500
+Connection ~ 2300 6500
+Wire Wire Line
+	2300 6500 2300 6600
+Wire Wire Line
+	2150 6600 2300 6600
+Connection ~ 2300 6600
+Wire Wire Line
+	2300 6600 2300 6700
+Wire Wire Line
+	2150 6700 2300 6700
+Connection ~ 2300 6700
+Wire Wire Line
+	2300 6700 2300 6850
+$Comp
+L Widerstand:10K_0603 R22
+U 1 1 5FD782D6
+P 5150 4850
+F 0 "R22" V 5104 4938 50  0000 L CNN
+F 1 "10K_0603" H 5000 4700 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 4550 5050 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4550 5050 50  0001 L CNN
+F 4 "10KR" V 5195 4938 50  0000 L CNN "Wert"
+F 5 "" V 5241 4938 50  0000 L CNN "NB"
+	1    5150 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Widerstand:10K_0603 R23
+U 1 1 5FD78BA5
+P 5850 4050
+F 0 "R23" V 5759 4138 50  0000 L CNN
+F 1 "10K_0603" H 5700 3900 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 5250 4250 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5250 4250 50  0001 L CNN
+F 4 "10KR" V 5850 4138 50  0000 L CNN "Wert"
+F 5 "NB" V 5941 4138 50  0000 L CNN "NB"
+	1    5850 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4500 5150 4500
+Wire Wire Line
+	5850 4400 4600 4400
+$Comp
+L power:+3.3V #PWR060
+U 1 1 5FD7B12F
+P 4750 4900
+F 0 "#PWR060" H 4750 4750 50  0001 C CNN
+F 1 "+3.3V" H 4765 5073 50  0000 C CNN
+F 2 "" H 4750 4900 50  0001 C CNN
+F 3 "" H 4750 4900 50  0001 C CNN
+	1    4750 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4950 4750 4900
+Connection ~ 4750 4950
+$Comp
+L power:+3.3V #PWR062
+U 1 1 5FD7CCD3
+P 5850 3600
+F 0 "#PWR062" H 5850 3450 50  0001 C CNN
+F 1 "+3.3V" H 5865 3773 50  0000 C CNN
+F 2 "" H 5850 3600 50  0001 C CNN
+F 3 "" H 5850 3600 50  0001 C CNN
+	1    5850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 5FD7D149
+P 5150 5450
+F 0 "#PWR061" H 5150 5200 50  0001 C CNN
+F 1 "GND" H 5155 5277 50  0000 C CNN
+F 2 "" H 5150 5450 50  0001 C CNN
+F 3 "" H 5150 5450 50  0001 C CNN
+	1    5150 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5450 5150 5200
+Wire Wire Line
+	5850 3600 5850 3700
+Text HLabel 5250 4500 2    50   Input ~ 0
+Input_Select
+Wire Wire Line
+	5150 4500 5250 4500
+Connection ~ 5150 4500
+$Comp
+L Widerstand:10K_0603 R24
+U 1 1 5FD8A13F
+P 5850 4750
+F 0 "R24" V 5804 4838 50  0000 L CNN
+F 1 "10K_0603" H 5700 4600 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 5250 4950 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5250 4950 50  0001 L CNN
+F 4 "10KR" V 5895 4838 50  0000 L CNN "Wert"
+F 5 "" V 5941 4838 50  0000 L CNN "NB"
+	1    5850 4750
+	0    1    1    0   
+$EndComp
+Connection ~ 5850 4400
+$Comp
+L power:GND #PWR063
+U 1 1 5FD8A5EA
+P 5850 5200
+F 0 "#PWR063" H 5850 4950 50  0001 C CNN
+F 1 "GND" H 5855 5027 50  0000 C CNN
+F 2 "" H 5850 5200 50  0001 C CNN
+F 3 "" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5200 5850 5100
+Text HLabel 3600 4500 0    50   BiDi ~ 0
+D-_HOST
+Text HLabel 3600 4400 0    50   BiDi ~ 0
+D+_HOST
+Wire Wire Line
+	3600 4400 3700 4400
+Wire Wire Line
+	3600 4500 3700 4500
+$Comp
+L Widerstand:0R_0603 R20
+U 1 1 5FD8F417
+P 3050 3850
+F 0 "R20" H 3050 4347 50  0000 C CNN
+F 1 "0R_0603" H 2900 3700 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 2450 4050 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2450 4050 50  0001 L CNN
+F 4 "0R" H 3050 4256 50  0000 C CNN "Wert"
+F 5 "" H 3050 4257 50  0000 C CNN "NB"
+F 6 "R" H 3050 4165 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 3050 4074 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 3050 3983 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    3050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:0R_0603 R21
+U 1 1 5FD8FD3A
+P 3050 7150
+F 0 "R21" H 3050 7647 50  0000 C CNN
+F 1 "0R_0603" H 2900 7000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 2450 7350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2450 7350 50  0001 L CNN
+F 4 "0R" H 3050 7556 50  0000 C CNN "Wert"
+F 5 "" H 3050 7557 50  0000 C CNN "NB"
+F 6 "R" H 3050 7465 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 3050 7374 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 3050 7283 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    3050 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3850 2650 3850
+Wire Wire Line
+	2700 7150 2650 7150
+Wire Wire Line
+	2150 8400 2650 8400
+Wire Wire Line
+	2650 8400 2650 7650
+Connection ~ 2650 7150
+Wire Wire Line
+	2650 7150 2150 7150
+Wire Wire Line
+	2150 8900 2650 8900
+Wire Wire Line
+	2650 8900 2650 8400
+Connection ~ 2650 8400
+Wire Wire Line
+	2150 7650 2650 7650
+Connection ~ 2650 7650
+Wire Wire Line
+	2650 7650 2650 7150
+Wire Wire Line
+	2150 4350 2650 4350
+Wire Wire Line
+	2650 4350 2650 3850
+Connection ~ 2650 3850
+Wire Wire Line
+	2650 3850 2700 3850
+Wire Wire Line
+	2150 5100 2650 5100
+Connection ~ 2650 4350
+Wire Wire Line
+	2150 5600 2650 5600
+Wire Wire Line
+	2650 5600 2650 5100
+Connection ~ 2650 5100
+NoConn ~ 2150 3650
+NoConn ~ 2150 3750
+NoConn ~ 2150 3950
+NoConn ~ 2150 4250
+NoConn ~ 2150 4450
+NoConn ~ 2150 4550
+NoConn ~ 2150 4900
+NoConn ~ 2150 5000
+NoConn ~ 2150 5200
+NoConn ~ 2150 5500
+NoConn ~ 2150 5700
+NoConn ~ 2150 5800
+NoConn ~ 2150 6950
+NoConn ~ 2150 7050
+NoConn ~ 2150 7250
+NoConn ~ 2150 7550
+NoConn ~ 2150 7750
+NoConn ~ 2150 7850
+NoConn ~ 2150 8200
+NoConn ~ 2150 8300
+NoConn ~ 2150 8500
+NoConn ~ 2150 8800
+NoConn ~ 2150 9000
+NoConn ~ 2150 9100
+$Comp
+L power:VBUS #PWR047
+U 1 1 5FDC9347
+P 3500 3850
+F 0 "#PWR047" H 3500 3700 50  0001 C CNN
+F 1 "VBUS" H 3515 4023 50  0000 C CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR052
+U 1 1 5FDC9A65
+P 3500 7150
+F 0 "#PWR052" H 3500 7000 50  0001 C CNN
+F 1 "VBUS" H 3515 7323 50  0000 C CNN
+F 2 "" H 3500 7150 50  0001 C CNN
+F 3 "" H 3500 7150 50  0001 C CNN
+	1    3500 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 7150 3500 7150
+Wire Wire Line
+	3400 3850 3500 3850
+Wire Wire Line
+	3650 5050 3700 5050
+Wire Wire Line
+	2750 4700 3700 4700
+Wire Wire Line
+	2650 4350 2650 5100
+Connection ~ 4600 5450
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 5FEA5999
+P 14850 2950
+F 0 "J?" H 14667 1235 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 14850 1300 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 14850 2950 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 14850 2950 50  0001 L CNN
+F 4 "" H 14667 1326 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 14850 2950 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 14850 2950 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 14850 2950 50  0001 L CNN "Distributor"
+F 8 "C168698" H 14850 2950 50  0001 L CNN "Bestellnummer"
+	1    14850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 5FEA9A19
+P 11850 2950
+F 0 "J?" H 11667 1235 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 11850 1300 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 11850 2950 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 11850 2950 50  0001 L CNN
+F 4 "" H 11667 1326 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 11850 2950 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 11850 2950 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 11850 2950 50  0001 L CNN "Distributor"
+F 8 "C168698" H 11850 2950 50  0001 L CNN "Bestellnummer"
+	1    11850 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7950 2100 0    50   BiDi ~ 0
+D-_Down2
+Text HLabel 7950 2200 0    50   BiDi ~ 0
+D+_Down2
+Text HLabel 7950 3350 0    50   BiDi ~ 0
+D-_Down2
+Text HLabel 7950 3450 0    50   BiDi ~ 0
+D+_Down2
+Text HLabel 10950 2100 0    50   BiDi ~ 0
+D-_Down3
+Text HLabel 10950 2200 0    50   BiDi ~ 0
+D+_Down3
+Text HLabel 10950 3350 0    50   BiDi ~ 0
+D-_Down3
+Text HLabel 10950 3450 0    50   BiDi ~ 0
+D+_Down3
+Text HLabel 13950 2100 0    50   BiDi ~ 0
+D-_Down4
+Text HLabel 13950 2200 0    50   BiDi ~ 0
+D+_Down4
+Text HLabel 13950 3350 0    50   BiDi ~ 0
+D-_Down4
+Text HLabel 13950 3450 0    50   BiDi ~ 0
+D+_Down4
+Wire Wire Line
+	7950 2100 8350 2100
+Wire Wire Line
+	7950 2200 8350 2200
+Wire Wire Line
+	7950 3350 8350 3350
+Wire Wire Line
+	7950 3450 8350 3450
+Wire Wire Line
+	13950 2100 14350 2100
+Wire Wire Line
+	13950 2200 14350 2200
+Wire Wire Line
+	13950 3350 14350 3350
+Wire Wire Line
+	13950 3450 14350 3450
+Wire Wire Line
+	10950 2100 11350 2100
+Wire Wire Line
+	10950 2200 11350 2200
+Wire Wire Line
+	11350 3350 10950 3350
+Wire Wire Line
+	10950 3450 11350 3450
+$Comp
+L power:GND #PWR?
+U 1 1 5FEEDC88
+P 8300 4450
+F 0 "#PWR?" H 8300 4200 50  0001 C CNN
+F 1 "GND" H 8305 4277 50  0000 C CNN
+F 2 "" H 8300 4450 50  0001 C CNN
+F 3 "" H 8300 4450 50  0001 C CNN
+	1    8300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEEE295
+P 11300 4450
+F 0 "#PWR?" H 11300 4200 50  0001 C CNN
+F 1 "GND" H 11305 4277 50  0000 C CNN
+F 2 "" H 11300 4450 50  0001 C CNN
+F 3 "" H 11300 4450 50  0001 C CNN
+	1    11300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEEE824
+P 14300 4450
+F 0 "#PWR?" H 14300 4200 50  0001 C CNN
+F 1 "GND" H 14305 4277 50  0000 C CNN
+F 2 "" H 14300 4450 50  0001 C CNN
+F 3 "" H 14300 4450 50  0001 C CNN
+	1    14300 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 4450 14300 4400
+Wire Wire Line
+	14300 4400 14350 4400
+Wire Wire Line
+	14350 4300 14300 4300
+Wire Wire Line
+	14300 4300 14300 4400
+Connection ~ 14300 4400
+Wire Wire Line
+	14300 4300 14300 4200
+Wire Wire Line
+	14300 1600 14350 1600
+Connection ~ 14300 4300
+Wire Wire Line
+	14350 2700 14300 2700
+Connection ~ 14300 2700
+Wire Wire Line
+	14300 2700 14300 1600
+Wire Wire Line
+	14350 2850 14300 2850
+Connection ~ 14300 2850
+Wire Wire Line
+	14300 2850 14300 2700
+Wire Wire Line
+	14350 3950 14300 3950
+Connection ~ 14300 3950
+Wire Wire Line
+	14300 3950 14300 2850
+Wire Wire Line
+	11300 4450 11300 4400
+Wire Wire Line
+	11300 1600 11350 1600
+Wire Wire Line
+	11350 2700 11300 2700
+Connection ~ 11300 2700
+Wire Wire Line
+	11300 2700 11300 1600
+Wire Wire Line
+	11350 2850 11300 2850
+Connection ~ 11300 2850
+Wire Wire Line
+	11300 2850 11300 2700
+Wire Wire Line
+	11350 3950 11300 3950
+Connection ~ 11300 3950
+Wire Wire Line
+	11300 3950 11300 2850
+Wire Wire Line
+	11350 4100 11300 4100
+Connection ~ 11300 4100
+Wire Wire Line
+	11300 4100 11300 3950
+Wire Wire Line
+	11350 4200 11300 4200
+Connection ~ 11300 4200
+Wire Wire Line
+	11300 4200 11300 4100
+Wire Wire Line
+	11350 4300 11300 4300
+Connection ~ 11300 4300
+Wire Wire Line
+	11300 4300 11300 4200
+Wire Wire Line
+	11350 4400 11300 4400
+Connection ~ 11300 4400
+Wire Wire Line
+	11300 4400 11300 4300
+Wire Wire Line
+	8300 4450 8300 4400
+Wire Wire Line
+	8300 1600 8350 1600
+Wire Wire Line
+	8350 2700 8300 2700
+Connection ~ 8300 2700
+Wire Wire Line
+	8350 2850 8300 2850
+Connection ~ 8300 2850
+Wire Wire Line
+	8300 2850 8300 2700
+Wire Wire Line
+	8350 3950 8300 3950
+Connection ~ 8300 3950
+Wire Wire Line
+	8300 3950 8300 2850
+Wire Wire Line
+	8350 4100 8300 4100
+Connection ~ 8300 4100
+Wire Wire Line
+	8300 4100 8300 3950
+Wire Wire Line
+	8350 4200 8300 4200
+Connection ~ 8300 4200
+Wire Wire Line
+	8300 4200 8300 4100
+Wire Wire Line
+	8350 4300 8300 4300
+Connection ~ 8300 4300
+Wire Wire Line
+	8300 4300 8300 4200
+Wire Wire Line
+	8350 4400 8300 4400
+Connection ~ 8300 4400
+Wire Wire Line
+	8300 4400 8300 4300
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 5FF459B4
+P 7850 1900
+F 0 "R?" H 7850 2397 50  0000 C CNN
+F 1 "0R_0603" H 7700 1750 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 7250 2100 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7250 2100 50  0001 L CNN
+F 4 "0R" H 7850 2306 50  0000 C CNN "Wert"
+F 5 "" H 7850 2307 50  0000 C CNN "NB"
+F 6 "R" H 7850 2215 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 7850 2124 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 7850 2033 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    7850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5FF459BA
+P 7450 1900
+F 0 "#PWR?" H 7450 1750 50  0001 C CNN
+F 1 "VBUS" H 7465 2073 50  0000 C CNN
+F 2 "" H 7450 1900 50  0001 C CNN
+F 3 "" H 7450 1900 50  0001 C CNN
+	1    7450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 1900 8250 1900
+Wire Wire Line
+	8300 1600 8300 2700
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 5FEABB0E
+P 8850 2950
+F 0 "J?" H 8667 1235 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 8850 1300 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 8850 2950 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 8850 2950 50  0001 L CNN
+F 4 "" H 8667 1326 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 8850 2950 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 8850 2950 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 8850 2950 50  0001 L CNN "Distributor"
+F 8 "C168698" H 8850 2950 50  0001 L CNN "Bestellnummer"
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1900 8250 2400
+Wire Wire Line
+	8250 2400 8350 2400
+Connection ~ 8250 1900
+Wire Wire Line
+	8250 1900 8350 1900
+Wire Wire Line
+	8250 2400 8250 3150
+Wire Wire Line
+	8250 3150 8350 3150
+Connection ~ 8250 2400
+Wire Wire Line
+	8250 3150 8250 3650
+Wire Wire Line
+	8250 3650 8350 3650
+Connection ~ 8250 3150
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 5FF6C8C0
+P 10850 1900
+F 0 "R?" H 10850 2397 50  0000 C CNN
+F 1 "0R_0603" H 10700 1750 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 10250 2100 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 10250 2100 50  0001 L CNN
+F 4 "0R" H 10850 2306 50  0000 C CNN "Wert"
+F 5 "" H 10850 2307 50  0000 C CNN "NB"
+F 6 "R" H 10850 2215 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 10850 2124 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 10850 2033 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    10850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5FF6C8C6
+P 10450 1900
+F 0 "#PWR?" H 10450 1750 50  0001 C CNN
+F 1 "VBUS" H 10465 2073 50  0000 C CNN
+F 2 "" H 10450 1900 50  0001 C CNN
+F 3 "" H 10450 1900 50  0001 C CNN
+	1    10450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 5FF72DB5
+P 13850 1900
+F 0 "R?" H 13850 2397 50  0000 C CNN
+F 1 "0R_0603" H 13700 1750 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 13250 2100 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 13250 2100 50  0001 L CNN
+F 4 "0R" H 13850 2306 50  0000 C CNN "Wert"
+F 5 "" H 13850 2307 50  0000 C CNN "NB"
+F 6 "R" H 13850 2215 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 13850 2124 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 13850 2033 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    13850 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5FF72DBB
+P 13450 1900
+F 0 "#PWR?" H 13450 1750 50  0001 C CNN
+F 1 "VBUS" H 13465 2073 50  0000 C CNN
+F 2 "" H 13450 1900 50  0001 C CNN
+F 3 "" H 13450 1900 50  0001 C CNN
+	1    13450 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 3650 11250 3650
+Wire Wire Line
+	11250 3650 11250 3150
+Wire Wire Line
+	11250 1900 11200 1900
+Wire Wire Line
+	11250 1900 11350 1900
+Connection ~ 11250 1900
+Wire Wire Line
+	11350 3150 11250 3150
+Connection ~ 11250 3150
+Wire Wire Line
+	11250 3150 11250 2400
+Wire Wire Line
+	11350 2400 11250 2400
+Connection ~ 11250 2400
+Wire Wire Line
+	11250 2400 11250 1900
+Wire Wire Line
+	14350 1900 14250 1900
+Wire Wire Line
+	14350 3650 14250 3650
+Wire Wire Line
+	14250 3650 14250 3150
+Connection ~ 14250 1900
+Wire Wire Line
+	14250 1900 14200 1900
+Wire Wire Line
+	14350 3150 14250 3150
+Connection ~ 14250 3150
+Wire Wire Line
+	14250 3150 14250 2400
+Wire Wire Line
+	14350 2400 14250 2400
+Connection ~ 14250 2400
+Wire Wire Line
+	14250 2400 14250 1900
+NoConn ~ 14350 1700
+NoConn ~ 14350 1800
+NoConn ~ 14350 2000
+NoConn ~ 14350 2300
+NoConn ~ 14350 2500
+NoConn ~ 14350 2600
+NoConn ~ 14350 2950
+NoConn ~ 14350 3050
+NoConn ~ 14350 3250
+NoConn ~ 14350 3550
+NoConn ~ 14350 3750
+NoConn ~ 14350 3850
+Wire Wire Line
+	14350 4200 14300 4200
+Connection ~ 14300 4200
+Wire Wire Line
+	14300 4200 14300 4100
+Wire Wire Line
+	14350 4100 14300 4100
+Connection ~ 14300 4100
+Wire Wire Line
+	14300 4100 14300 3950
+NoConn ~ 11350 1700
+NoConn ~ 11350 1800
+NoConn ~ 11350 2000
+NoConn ~ 11350 2300
+NoConn ~ 11350 2500
+NoConn ~ 11350 2600
+NoConn ~ 11350 2950
+NoConn ~ 11350 3050
+NoConn ~ 11350 3250
+NoConn ~ 11350 3550
+NoConn ~ 11350 3750
+NoConn ~ 11350 3850
+NoConn ~ 8350 1700
+NoConn ~ 8350 1800
+NoConn ~ 8350 2000
+NoConn ~ 8350 2300
+NoConn ~ 8350 2500
+NoConn ~ 8350 2600
+NoConn ~ 8350 2950
+NoConn ~ 8350 3050
+NoConn ~ 8350 3250
+NoConn ~ 8350 3550
+NoConn ~ 8350 3750
+NoConn ~ 8350 3850
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 600BF665
+P 14850 7450
+F 0 "J?" H 14667 5735 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 14850 5800 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 14850 7450 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 14850 7450 50  0001 L CNN
+F 4 "" H 14667 5826 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 14850 7450 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 14850 7450 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 14850 7450 50  0001 L CNN "Distributor"
+F 8 "C168698" H 14850 7450 50  0001 L CNN "Bestellnummer"
+	1    14850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 600BF670
+P 11850 7450
+F 0 "J?" H 11667 5735 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 11850 5800 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 11850 7450 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 11850 7450 50  0001 L CNN
+F 4 "" H 11667 5826 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 11850 7450 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 11850 7450 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 11850 7450 50  0001 L CNN "Distributor"
+F 8 "C168698" H 11850 7450 50  0001 L CNN "Bestellnummer"
+	1    11850 7450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7950 6600 0    50   BiDi ~ 0
+D-_Down5
+Text HLabel 7950 6700 0    50   BiDi ~ 0
+D+_Down5
+Text HLabel 7950 7850 0    50   BiDi ~ 0
+D-_Down5
+Text HLabel 7950 7950 0    50   BiDi ~ 0
+D+_Down5
+Text HLabel 10950 6600 0    50   BiDi ~ 0
+D-_Down6
+Text HLabel 10950 6700 0    50   BiDi ~ 0
+D+_Down6
+Text HLabel 10950 7850 0    50   BiDi ~ 0
+D-_Down6
+Text HLabel 10950 7950 0    50   BiDi ~ 0
+D+_Down6
+Text HLabel 13950 6600 0    50   BiDi ~ 0
+D-_Down7
+Text HLabel 13950 6700 0    50   BiDi ~ 0
+D+_Down7
+Text HLabel 13950 7850 0    50   BiDi ~ 0
+D-_Down7
+Text HLabel 13950 7950 0    50   BiDi ~ 0
+D+_Down7
+Wire Wire Line
+	7950 6600 8350 6600
+Wire Wire Line
+	7950 6700 8350 6700
+Wire Wire Line
+	7950 7850 8350 7850
+Wire Wire Line
+	7950 7950 8350 7950
+Wire Wire Line
+	13950 6600 14350 6600
+Wire Wire Line
+	13950 6700 14350 6700
+Wire Wire Line
+	13950 7850 14350 7850
+Wire Wire Line
+	13950 7950 14350 7950
+Wire Wire Line
+	10950 6600 11350 6600
+Wire Wire Line
+	10950 6700 11350 6700
+Wire Wire Line
+	11350 7850 10950 7850
+Wire Wire Line
+	10950 7950 11350 7950
+$Comp
+L power:GND #PWR?
+U 1 1 600BF68E
+P 8300 8950
+F 0 "#PWR?" H 8300 8700 50  0001 C CNN
+F 1 "GND" H 8305 8777 50  0000 C CNN
+F 2 "" H 8300 8950 50  0001 C CNN
+F 3 "" H 8300 8950 50  0001 C CNN
+	1    8300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600BF694
+P 11300 8950
+F 0 "#PWR?" H 11300 8700 50  0001 C CNN
+F 1 "GND" H 11305 8777 50  0000 C CNN
+F 2 "" H 11300 8950 50  0001 C CNN
+F 3 "" H 11300 8950 50  0001 C CNN
+	1    11300 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 600BF69A
+P 14300 8950
+F 0 "#PWR?" H 14300 8700 50  0001 C CNN
+F 1 "GND" H 14305 8777 50  0000 C CNN
+F 2 "" H 14300 8950 50  0001 C CNN
+F 3 "" H 14300 8950 50  0001 C CNN
+	1    14300 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 8950 14300 8900
+Wire Wire Line
+	14300 8900 14350 8900
+Wire Wire Line
+	14350 8800 14300 8800
+Wire Wire Line
+	14300 8800 14300 8900
+Connection ~ 14300 8900
+Wire Wire Line
+	14300 8800 14300 8700
+Wire Wire Line
+	14300 6100 14350 6100
+Connection ~ 14300 8800
+Wire Wire Line
+	14350 7200 14300 7200
+Connection ~ 14300 7200
+Wire Wire Line
+	14300 7200 14300 6100
+Wire Wire Line
+	14350 7350 14300 7350
+Connection ~ 14300 7350
+Wire Wire Line
+	14300 7350 14300 7200
+Wire Wire Line
+	14350 8450 14300 8450
+Connection ~ 14300 8450
+Wire Wire Line
+	14300 8450 14300 7350
+Wire Wire Line
+	11300 8950 11300 8900
+Wire Wire Line
+	11300 6100 11350 6100
+Wire Wire Line
+	11350 7200 11300 7200
+Connection ~ 11300 7200
+Wire Wire Line
+	11300 7200 11300 6100
+Wire Wire Line
+	11350 7350 11300 7350
+Connection ~ 11300 7350
+Wire Wire Line
+	11300 7350 11300 7200
+Wire Wire Line
+	11350 8450 11300 8450
+Connection ~ 11300 8450
+Wire Wire Line
+	11300 8450 11300 7350
+Wire Wire Line
+	11350 8600 11300 8600
+Connection ~ 11300 8600
+Wire Wire Line
+	11300 8600 11300 8450
+Wire Wire Line
+	11350 8700 11300 8700
+Connection ~ 11300 8700
+Wire Wire Line
+	11300 8700 11300 8600
+Wire Wire Line
+	11350 8800 11300 8800
+Connection ~ 11300 8800
+Wire Wire Line
+	11300 8800 11300 8700
+Wire Wire Line
+	11350 8900 11300 8900
+Connection ~ 11300 8900
+Wire Wire Line
+	11300 8900 11300 8800
+Wire Wire Line
+	8300 8950 8300 8900
+Wire Wire Line
+	8300 6100 8350 6100
+Wire Wire Line
+	8350 7200 8300 7200
+Connection ~ 8300 7200
+Wire Wire Line
+	8350 7350 8300 7350
+Connection ~ 8300 7350
+Wire Wire Line
+	8300 7350 8300 7200
+Wire Wire Line
+	8350 8450 8300 8450
+Connection ~ 8300 8450
+Wire Wire Line
+	8300 8450 8300 7350
+Wire Wire Line
+	8350 8600 8300 8600
+Connection ~ 8300 8600
+Wire Wire Line
+	8300 8600 8300 8450
+Wire Wire Line
+	8350 8700 8300 8700
+Connection ~ 8300 8700
+Wire Wire Line
+	8300 8700 8300 8600
+Wire Wire Line
+	8350 8800 8300 8800
+Connection ~ 8300 8800
+Wire Wire Line
+	8300 8800 8300 8700
+Wire Wire Line
+	8350 8900 8300 8900
+Connection ~ 8300 8900
+Wire Wire Line
+	8300 8900 8300 8800
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 600BF6E3
+P 7850 6400
+F 0 "R?" H 7850 6897 50  0000 C CNN
+F 1 "0R_0603" H 7700 6250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 7250 6600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 7250 6600 50  0001 L CNN
+F 4 "0R" H 7850 6806 50  0000 C CNN "Wert"
+F 5 "" H 7850 6807 50  0000 C CNN "NB"
+F 6 "R" H 7850 6715 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 7850 6624 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 7850 6533 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    7850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 600BF6E9
+P 7450 6400
+F 0 "#PWR?" H 7450 6250 50  0001 C CNN
+F 1 "VBUS" H 7465 6573 50  0000 C CNN
+F 2 "" H 7450 6400 50  0001 C CNN
+F 3 "" H 7450 6400 50  0001 C CNN
+	1    7450 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 6400 8250 6400
+Wire Wire Line
+	8300 6100 8300 7200
+$Comp
+L Stecker:USB_C_Buchse_SMD J?
+U 1 1 600BF6F6
+P 8850 7450
+F 0 "J?" H 8667 5735 50  0000 C CNN
+F 1 "USB_C_Buchse_SMD" H 8850 5800 50  0001 L CNN
+F 2 "Stecker:USB_C_Buchse_SMD" H 8850 7450 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2007141817_Jing-Extension-of-the-Electronic-Co-C168698_C168698.pdf" H 8850 7450 50  0001 L CNN
+F 4 "" H 8667 5826 50  0000 C CNN "NB"
+F 5 "Jing Extension of the Electronic Co." H 8850 7450 50  0001 L CNN "Hersteller"
+F 6 "C168698" H 8850 7450 50  0001 L CNN "Herstellernummer"
+F 7 "LCSC" H 8850 7450 50  0001 L CNN "Distributor"
+F 8 "C168698" H 8850 7450 50  0001 L CNN "Bestellnummer"
+	1    8850 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 6400 8250 6900
+Wire Wire Line
+	8250 6900 8350 6900
+Connection ~ 8250 6400
+Wire Wire Line
+	8250 6400 8350 6400
+Wire Wire Line
+	8250 6900 8250 7650
+Wire Wire Line
+	8250 7650 8350 7650
+Connection ~ 8250 6900
+Wire Wire Line
+	8250 7650 8250 8150
+Wire Wire Line
+	8250 8150 8350 8150
+Connection ~ 8250 7650
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 600BF70B
+P 10850 6400
+F 0 "R?" H 10850 6897 50  0000 C CNN
+F 1 "0R_0603" H 10700 6250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 10250 6600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 10250 6600 50  0001 L CNN
+F 4 "0R" H 10850 6806 50  0000 C CNN "Wert"
+F 5 "" H 10850 6807 50  0000 C CNN "NB"
+F 6 "R" H 10850 6715 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 10850 6624 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 10850 6533 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    10850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 600BF711
+P 10450 6400
+F 0 "#PWR?" H 10450 6250 50  0001 C CNN
+F 1 "VBUS" H 10465 6573 50  0000 C CNN
+F 2 "" H 10450 6400 50  0001 C CNN
+F 3 "" H 10450 6400 50  0001 C CNN
+	1    10450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:0R_0603 R?
+U 1 1 600BF71C
+P 13850 6400
+F 0 "R?" H 13850 6897 50  0000 C CNN
+F 1 "0R_0603" H 13700 6250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 13250 6600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 13250 6600 50  0001 L CNN
+F 4 "0R" H 13850 6806 50  0000 C CNN "Wert"
+F 5 "" H 13850 6807 50  0000 C CNN "NB"
+F 6 "R" H 13850 6715 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 13850 6624 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 13850 6533 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    13850 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 600BF722
+P 13450 6400
+F 0 "#PWR?" H 13450 6250 50  0001 C CNN
+F 1 "VBUS" H 13465 6573 50  0000 C CNN
+F 2 "" H 13450 6400 50  0001 C CNN
+F 3 "" H 13450 6400 50  0001 C CNN
+	1    13450 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11350 8150 11250 8150
+Wire Wire Line
+	11250 8150 11250 7650
+Wire Wire Line
+	11250 6400 11200 6400
+Wire Wire Line
+	11250 6400 11350 6400
+Connection ~ 11250 6400
+Wire Wire Line
+	11350 7650 11250 7650
+Connection ~ 11250 7650
+Wire Wire Line
+	11250 7650 11250 6900
+Wire Wire Line
+	11350 6900 11250 6900
+Connection ~ 11250 6900
+Wire Wire Line
+	11250 6900 11250 6400
+Wire Wire Line
+	14350 6400 14250 6400
+Wire Wire Line
+	14350 8150 14250 8150
+Wire Wire Line
+	14250 8150 14250 7650
+Connection ~ 14250 6400
+Wire Wire Line
+	14250 6400 14200 6400
+Wire Wire Line
+	14350 7650 14250 7650
+Connection ~ 14250 7650
+Wire Wire Line
+	14250 7650 14250 6900
+Wire Wire Line
+	14350 6900 14250 6900
+Connection ~ 14250 6900
+Wire Wire Line
+	14250 6900 14250 6400
+NoConn ~ 14350 6200
+NoConn ~ 14350 6300
+NoConn ~ 14350 6500
+NoConn ~ 14350 6800
+NoConn ~ 14350 7000
+NoConn ~ 14350 7100
+NoConn ~ 14350 7450
+NoConn ~ 14350 7550
+NoConn ~ 14350 7750
+NoConn ~ 14350 8050
+NoConn ~ 14350 8250
+NoConn ~ 14350 8350
+Wire Wire Line
+	14350 8700 14300 8700
+Connection ~ 14300 8700
+Wire Wire Line
+	14300 8700 14300 8600
+Wire Wire Line
+	14350 8600 14300 8600
+Connection ~ 14300 8600
+Wire Wire Line
+	14300 8600 14300 8450
+NoConn ~ 11350 6200
+NoConn ~ 11350 6300
+NoConn ~ 11350 6500
+NoConn ~ 11350 6800
+NoConn ~ 11350 7000
+NoConn ~ 11350 7100
+NoConn ~ 11350 7450
+NoConn ~ 11350 7550
+NoConn ~ 11350 7750
+NoConn ~ 11350 8050
+NoConn ~ 11350 8250
+NoConn ~ 11350 8350
+NoConn ~ 8350 6200
+NoConn ~ 8350 6300
+NoConn ~ 8350 6500
+NoConn ~ 8350 6800
+NoConn ~ 8350 7000
+NoConn ~ 8350 7100
+NoConn ~ 8350 7450
+NoConn ~ 8350 7550
+NoConn ~ 8350 7750
+NoConn ~ 8350 8050
+NoConn ~ 8350 8250
+NoConn ~ 8350 8350
+Wire Wire Line
+	7500 1900 7450 1900
+Wire Wire Line
+	10500 1900 10450 1900
+Wire Wire Line
+	13500 1900 13450 1900
+Wire Wire Line
+	13500 6400 13450 6400
+Wire Wire Line
+	10500 6400 10450 6400
+Wire Wire Line
+	7500 6400 7450 6400
+$Comp
+L Kondensator:22u_1210 C1
+U 1 1 5FDCE3E9
+P 2400 10500
+F 0 "C1" V 2354 10628 50  0000 L CNN
+F 1 "22u_1210" H 2400 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 2400 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 2400 10500 50  0001 L CNN
+F 4 "22uF" V 2445 10628 50  0000 L CNN "Wert"
+F 5 "" V 2491 10628 50  0000 L CNN "NB"
+	1    2400 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601C4320
+P 2850 10500
+F 0 "C?" V 2804 10628 50  0000 L CNN
+F 1 "100n_0603" H 2850 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 2850 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 2850 10500 50  0001 L CNN
+F 4 "100nF" V 2895 10628 50  0000 L CNN "Wert"
+F 5 "" V 2941 10628 50  0000 L CNN "NB"
+	1    2850 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601DB5CC
+P 3350 10500
+F 0 "C?" V 3304 10628 50  0000 L CNN
+F 1 "22u_1210" H 3350 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 3350 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 3350 10500 50  0001 L CNN
+F 4 "22uF" V 3395 10628 50  0000 L CNN "Wert"
+F 5 "" V 3441 10628 50  0000 L CNN "NB"
+	1    3350 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601DB5D4
+P 3800 10500
+F 0 "C?" V 3754 10628 50  0000 L CNN
+F 1 "100n_0603" H 3800 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 3800 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 3800 10500 50  0001 L CNN
+F 4 "100nF" V 3845 10628 50  0000 L CNN "Wert"
+F 5 "" V 3891 10628 50  0000 L CNN "NB"
+	1    3800 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601ED61C
+P 4300 10500
+F 0 "C?" V 4254 10628 50  0000 L CNN
+F 1 "22u_1210" H 4300 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 4300 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 4300 10500 50  0001 L CNN
+F 4 "22uF" V 4345 10628 50  0000 L CNN "Wert"
+F 5 "" V 4391 10628 50  0000 L CNN "NB"
+	1    4300 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601ED624
+P 4750 10500
+F 0 "C?" V 4704 10628 50  0000 L CNN
+F 1 "100n_0603" H 4750 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 4750 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 4750 10500 50  0001 L CNN
+F 4 "100nF" V 4795 10628 50  0000 L CNN "Wert"
+F 5 "" V 4841 10628 50  0000 L CNN "NB"
+	1    4750 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601ED62C
+P 5250 10500
+F 0 "C?" V 5204 10628 50  0000 L CNN
+F 1 "22u_1210" H 5250 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 5250 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 5250 10500 50  0001 L CNN
+F 4 "22uF" V 5295 10628 50  0000 L CNN "Wert"
+F 5 "" V 5341 10628 50  0000 L CNN "NB"
+	1    5250 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601ED634
+P 5700 10500
+F 0 "C?" V 5654 10628 50  0000 L CNN
+F 1 "100n_0603" H 5700 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 5700 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5700 10500 50  0001 L CNN
+F 4 "100nF" V 5745 10628 50  0000 L CNN "Wert"
+F 5 "" V 5791 10628 50  0000 L CNN "NB"
+	1    5700 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601FF8B4
+P 6200 10500
+F 0 "C?" V 6154 10628 50  0000 L CNN
+F 1 "22u_1210" H 6200 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 6200 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 6200 10500 50  0001 L CNN
+F 4 "22uF" V 6245 10628 50  0000 L CNN "Wert"
+F 5 "" V 6291 10628 50  0000 L CNN "NB"
+	1    6200 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601FF8BC
+P 6650 10500
+F 0 "C?" V 6604 10628 50  0000 L CNN
+F 1 "100n_0603" H 6650 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6650 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6650 10500 50  0001 L CNN
+F 4 "100nF" V 6695 10628 50  0000 L CNN "Wert"
+F 5 "" V 6741 10628 50  0000 L CNN "NB"
+	1    6650 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601FF8C4
+P 7150 10500
+F 0 "C?" V 7104 10628 50  0000 L CNN
+F 1 "22u_1210" H 7150 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 7150 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 7150 10500 50  0001 L CNN
+F 4 "22uF" V 7195 10628 50  0000 L CNN "Wert"
+F 5 "" V 7241 10628 50  0000 L CNN "NB"
+	1    7150 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601FF8CC
+P 7600 10500
+F 0 "C?" V 7554 10628 50  0000 L CNN
+F 1 "100n_0603" H 7600 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 7600 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7600 10500 50  0001 L CNN
+F 4 "100nF" V 7645 10628 50  0000 L CNN "Wert"
+F 5 "" V 7691 10628 50  0000 L CNN "NB"
+	1    7600 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601FF8D4
+P 8100 10500
+F 0 "C?" V 8054 10628 50  0000 L CNN
+F 1 "22u_1210" H 8100 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 8100 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 8100 10500 50  0001 L CNN
+F 4 "22uF" V 8145 10628 50  0000 L CNN "Wert"
+F 5 "" V 8191 10628 50  0000 L CNN "NB"
+	1    8100 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601FF8DC
+P 8550 10500
+F 0 "C?" V 8504 10628 50  0000 L CNN
+F 1 "100n_0603" H 8550 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 8550 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8550 10500 50  0001 L CNN
+F 4 "100nF" V 8595 10628 50  0000 L CNN "Wert"
+F 5 "" V 8641 10628 50  0000 L CNN "NB"
+	1    8550 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:22u_1210 C?
+U 1 1 601FF8E4
+P 9050 10500
+F 0 "C?" V 9004 10628 50  0000 L CNN
+F 1 "22u_1210" H 9050 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC3225" H 9050 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C1210C226K3RACTU.pdf" H 9050 10500 50  0001 L CNN
+F 4 "22uF" V 9095 10628 50  0000 L CNN "Wert"
+F 5 "" V 9141 10628 50  0000 L CNN "NB"
+	1    9050 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C?
+U 1 1 601FF8EC
+P 9500 10500
+F 0 "C?" V 9454 10628 50  0000 L CNN
+F 1 "100n_0603" H 9500 10350 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9500 10350 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9500 10500 50  0001 L CNN
+F 4 "100nF" V 9545 10628 50  0000 L CNN "Wert"
+F 5 "" V 9591 10628 50  0000 L CNN "NB"
+	1    9500 10500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 60210219
+P 6000 10150
+F 0 "#PWR?" H 6000 10000 50  0001 C CNN
+F 1 "VBUS" H 6015 10323 50  0000 C CNN
+F 2 "" H 6000 10150 50  0001 C CNN
+F 3 "" H 6000 10150 50  0001 C CNN
+	1    6000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60210C6C
+P 6000 10900
+F 0 "#PWR?" H 6000 10650 50  0001 C CNN
+F 1 "GND" H 6005 10727 50  0000 C CNN
+F 2 "" H 6000 10900 50  0001 C CNN
+F 3 "" H 6000 10900 50  0001 C CNN
+	1    6000 10900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 10250 2400 10150
+Wire Wire Line
+	2400 10150 2850 10150
+Wire Wire Line
+	9500 10150 9500 10250
+Connection ~ 6000 10150
+Wire Wire Line
+	6000 10150 6200 10150
+Wire Wire Line
+	9500 10750 9500 10900
+Wire Wire Line
+	9500 10900 9050 10900
+Wire Wire Line
+	2400 10900 2400 10750
+Connection ~ 6000 10900
+Wire Wire Line
+	6000 10900 5700 10900
+Wire Wire Line
+	2850 10750 2850 10900
+Connection ~ 2850 10900
+Wire Wire Line
+	2850 10900 2400 10900
+Wire Wire Line
+	3350 10750 3350 10900
+Connection ~ 3350 10900
+Wire Wire Line
+	3350 10900 2850 10900
+Wire Wire Line
+	3800 10750 3800 10900
+Connection ~ 3800 10900
+Wire Wire Line
+	3800 10900 3350 10900
+Wire Wire Line
+	4300 10750 4300 10900
+Connection ~ 4300 10900
+Wire Wire Line
+	4300 10900 3800 10900
+Wire Wire Line
+	4750 10750 4750 10900
+Connection ~ 4750 10900
+Wire Wire Line
+	4750 10900 4300 10900
+Wire Wire Line
+	5250 10750 5250 10900
+Connection ~ 5250 10900
+Wire Wire Line
+	5250 10900 4750 10900
+Wire Wire Line
+	5700 10750 5700 10900
+Connection ~ 5700 10900
+Wire Wire Line
+	5700 10900 5250 10900
+Wire Wire Line
+	6200 10750 6200 10900
+Connection ~ 6200 10900
+Wire Wire Line
+	6200 10900 6000 10900
+Wire Wire Line
+	6650 10750 6650 10900
+Connection ~ 6650 10900
+Wire Wire Line
+	6650 10900 6200 10900
+Wire Wire Line
+	7150 10750 7150 10900
+Connection ~ 7150 10900
+Wire Wire Line
+	7150 10900 6650 10900
+Wire Wire Line
+	7600 10750 7600 10900
+Connection ~ 7600 10900
+Wire Wire Line
+	7600 10900 7150 10900
+Wire Wire Line
+	8100 10750 8100 10900
+Connection ~ 8100 10900
+Wire Wire Line
+	8100 10900 7600 10900
+Wire Wire Line
+	8550 10750 8550 10900
+Connection ~ 8550 10900
+Wire Wire Line
+	8550 10900 8100 10900
+Wire Wire Line
+	9050 10750 9050 10900
+Connection ~ 9050 10900
+Wire Wire Line
+	9050 10900 8550 10900
+Wire Wire Line
+	2850 10250 2850 10150
+Connection ~ 2850 10150
+Wire Wire Line
+	2850 10150 3350 10150
+Wire Wire Line
+	3350 10250 3350 10150
+Connection ~ 3350 10150
+Wire Wire Line
+	3350 10150 3800 10150
+Wire Wire Line
+	3800 10250 3800 10150
+Connection ~ 3800 10150
+Wire Wire Line
+	3800 10150 4300 10150
+Wire Wire Line
+	4300 10250 4300 10150
+Connection ~ 4300 10150
+Wire Wire Line
+	4300 10150 4750 10150
+Wire Wire Line
+	4750 10250 4750 10150
+Connection ~ 4750 10150
+Wire Wire Line
+	4750 10150 5250 10150
+Wire Wire Line
+	5250 10250 5250 10150
+Connection ~ 5250 10150
+Wire Wire Line
+	5250 10150 5700 10150
+Wire Wire Line
+	5700 10250 5700 10150
+Connection ~ 5700 10150
+Wire Wire Line
+	5700 10150 6000 10150
+Wire Wire Line
+	6200 10250 6200 10150
+Connection ~ 6200 10150
+Wire Wire Line
+	6200 10150 6650 10150
+Wire Wire Line
+	6650 10250 6650 10150
+Connection ~ 6650 10150
+Wire Wire Line
+	6650 10150 7150 10150
+Wire Wire Line
+	7150 10250 7150 10150
+Connection ~ 7150 10150
+Wire Wire Line
+	7150 10150 7600 10150
+Wire Wire Line
+	7600 10250 7600 10150
+Connection ~ 7600 10150
+Wire Wire Line
+	7600 10150 8100 10150
+Wire Wire Line
+	8100 10250 8100 10150
+Connection ~ 8100 10150
+Wire Wire Line
+	8100 10150 8550 10150
+Wire Wire Line
+	8550 10250 8550 10150
+Connection ~ 8550 10150
+Wire Wire Line
+	8550 10150 9050 10150
+Wire Wire Line
+	9050 10250 9050 10150
+Connection ~ 9050 10150
+Wire Wire Line
+	9050 10150 9500 10150
+Text Notes 4900 9900 0    50   ~ 0
+Immer eine C Kombination in der nähe einer Buchse platzieren
 $EndSCHEMATC
