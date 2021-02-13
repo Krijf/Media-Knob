@@ -4,14 +4,13 @@ Multi purpose Media Knob/Dial for Windows
 
 emulate a usb HID device with the hid project lib.
 
-Features:
+Features at the last expansion stage :
 - Volume Control
 - Mute
 - Mikrofon Mute
 - USB Switch
-- Aux Output Switch with automatic Inpust selection dependet off the USB input Selection
+- USB HUB for multible USB Devices
 - 3D printed case
-- case is created with fusion 360
 - Open Source
 
 ![Flowchart](https://github.com/Krijf/Media-Knob/blob/main/Documentation/Media_Knob.png)
