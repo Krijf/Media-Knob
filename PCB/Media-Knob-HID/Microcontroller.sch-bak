@@ -1,0 +1,748 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 7
+Title "Media-Knob_HID"
+Date "2020-12-13"
+Rev "V0.1"
+Comp "Benedikt Graf"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Kondensator:22p_0603 C403
+U 1 1 5ECAC8E5
+P 4900 3100
+F 0 "C403" H 4900 3250 50  0000 C CNN
+F 1 "22p_0603" H 4900 2950 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 4900 2950 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C220K5RACTU.pdf" H 4900 3100 50  0001 L CNN
+F 4 "22pF" H 5600 2700 50  0000 L CNN "Wert"
+F 5 "" H 4850 2850 50  0000 L CNN "NB"
+	1    4900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kondensator:22p_0603 C404
+U 1 1 5ECAD2A1
+P 4900 3650
+F 0 "C404" H 4900 3800 50  0000 C CNN
+F 1 "22p_0603" H 4900 3500 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 4900 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C220K5RACTU.pdf" H 4900 3650 50  0001 L CNN
+F 4 "22pF" H 4850 3500 50  0000 L CNN "Wert"
+F 5 "" H 4850 3400 50  0000 L CNN "NB"
+	1    4900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0401
+U 1 1 5ECBCCA6
+P 4550 3650
+F 0 "#PWR0401" H 4550 3400 50  0001 C CNN
+F 1 "GND" H 4555 3477 50  0000 C CNN
+F 2 "" H 4550 3650 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0407
+U 1 1 5ECBD5D3
+P 10050 6300
+F 0 "#PWR0407" H 10050 6050 50  0001 C CNN
+F 1 "GND" H 10055 6127 50  0000 C CNN
+F 2 "" H 10050 6300 50  0001 C CNN
+F 3 "" H 10050 6300 50  0001 C CNN
+	1    10050 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 6150 10050 6150
+Wire Wire Line
+	10050 6150 10050 6300
+Wire Wire Line
+	9850 6050 10050 6050
+Wire Wire Line
+	10050 6050 10050 6150
+Connection ~ 10050 6150
+Wire Wire Line
+	9850 5950 10050 5950
+Wire Wire Line
+	10050 5950 10050 6050
+Connection ~ 10050 6050
+Wire Wire Line
+	9850 5850 10050 5850
+Wire Wire Line
+	10050 5850 10050 5950
+Connection ~ 10050 5950
+Wire Wire Line
+	9850 5750 10050 5750
+Wire Wire Line
+	10050 5750 10050 5850
+Connection ~ 10050 5850
+$Comp
+L Technik:TP_100 TP407
+U 1 1 5ECC4DB4
+P 10750 3850
+F 0 "TP407" H 10794 3958 50  0000 L CNN
+F 1 "TP_100" H 10800 3900 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 10750 3850 50  0001 C CNN
+F 3 "" H 10750 3850 50  0001 C CNN
+	1    10750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3850 10750 3850
+Wire Wire Line
+	10750 3850 10900 3850
+Connection ~ 10750 3850
+$Comp
+L power:GND #PWR0408
+U 1 1 5ECC7C09
+P 11750 3850
+F 0 "#PWR0408" H 11750 3600 50  0001 C CNN
+F 1 "GND" H 11755 3677 50  0000 C CNN
+F 2 "" H 11750 3850 50  0001 C CNN
+F 3 "" H 11750 3850 50  0001 C CNN
+	1    11750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 3850 11750 3850
+$Comp
+L Kondensator:1u_0603 C407
+U 1 1 5ECC886D
+P 6000 5750
+F 0 "C407" V 5954 5878 50  0000 L CNN
+F 1 "1u_0603" H 6000 5600 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 6000 5600 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C105K3RACTU.pdf" H 6000 5750 50  0001 L CNN
+F 4 "1uF" H 5950 5600 50  0000 L CNN "Wert"
+F 5 "" H 5950 5500 50  0000 L CNN "NB"
+	1    6000 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0404
+U 1 1 5ECC97A2
+P 6000 6100
+F 0 "#PWR0404" H 6000 5850 50  0001 C CNN
+F 1 "GND" H 6005 5927 50  0000 C CNN
+F 2 "" H 6000 6100 50  0001 C CNN
+F 3 "" H 6000 6100 50  0001 C CNN
+	1    6000 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6100 6000 6000
+$Comp
+L Technik:TP_100 TP404
+U 1 1 5ECCB568
+P 6150 5500
+F 0 "TP404" H 6194 5593 50  0000 L CNN
+F 1 "TP_100" H 6200 5550 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 6150 5500 50  0001 C CNN
+F 3 "" H 6150 5500 50  0001 C CNN
+	1    6150 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 5500 6150 5500
+Wire Wire Line
+	6150 5500 7150 5500
+Connection ~ 6150 5500
+$Comp
+L Kondensator:100n_0603 C410
+U 1 1 5ECCC49D
+P 11250 4100
+F 0 "C410" H 11250 4250 50  0000 C CNN
+F 1 "100n_0603" H 11250 3950 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 11250 3950 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 11250 4100 50  0001 L CNN
+F 4 "100nF" H 11200 3950 50  0000 L CNN "Wert"
+F 5 "" H 11200 3850 50  0000 L CNN "NB"
+	1    11250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Technik:TP_100 TP408
+U 1 1 5ECCD1EC
+P 10750 4100
+F 0 "TP408" H 10794 4193 50  0000 L CNN
+F 1 "TP_100" H 10800 4150 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 10750 4100 50  0001 C CNN
+F 3 "" H 10750 4100 50  0001 C CNN
+	1    10750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0409
+U 1 1 5ECCE26F
+P 11750 4100
+F 0 "#PWR0409" H 11750 3850 50  0001 C CNN
+F 1 "GND" H 11755 3927 50  0000 C CNN
+F 2 "" H 11750 4100 50  0001 C CNN
+F 3 "" H 11750 4100 50  0001 C CNN
+	1    11750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4100 10750 4100
+Wire Wire Line
+	10750 4100 11000 4100
+Connection ~ 10750 4100
+Wire Wire Line
+	11500 4100 11750 4100
+Wire Wire Line
+	6550 6200 6550 6100
+$Comp
+L Widerstand:10K_0603 R404
+U 1 1 5ECD64B4
+P 11250 3850
+F 0 "R404" H 11250 3950 50  0000 C CNN
+F 1 "10K_0603" H 11100 3700 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 10650 4050 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 10650 4050 50  0001 L CNN
+F 4 "10KR" H 11150 3850 50  0000 L CNN "Wert"
+F 5 "" H 11100 3750 50  0000 L CNN "NB"
+	1    11250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:22R_0603 R401
+U 1 1 5ECD77FD
+P 4950 4250
+F 0 "R401" H 4950 4350 50  0000 C CNN
+F 1 "22R_0603" H 4800 4100 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 4350 4450 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4350 4450 50  0001 L CNN
+F 4 "22R" H 4850 4250 50  0000 L CNN "Wert"
+F 5 "" H 4800 4150 50  0000 L CNN "NB"
+	1    4950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:10K_0603 R403
+U 1 1 5ECD85CE
+P 7000 2900
+F 0 "R403" H 7000 3125 50  0000 C CNN
+F 1 "10K_0603" H 6850 2750 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6400 3100 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6400 3100 50  0001 L CNN
+F 4 "10KR" H 6900 2900 50  0000 L CNN "Wert"
+F 5 "" H 6850 2800 50  0000 L CNN "NB"
+	1    7000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Technik:TP_100 TP405
+U 1 1 5ECD8DA7
+P 6750 3250
+F 0 "TP405" H 6794 3343 50  0000 L CNN
+F 1 "TP_100" H 6800 3300 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 6750 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0001 C CNN
+	1    6750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kondensator:100n_0603 C401
+U 1 1 5ECE61E8
+P 4450 8200
+F 0 "C401" V 4350 8000 50  0000 L CNN
+F 1 "100n_0603" H 4450 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 4450 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 4450 8200 50  0001 L CNN
+F 4 "100nF" H 4400 8050 50  0000 L CNN "Wert"
+F 5 "" H 4400 7950 50  0000 L CNN "NB"
+	1    4450 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C402
+U 1 1 5ECEAFE1
+P 4850 8200
+F 0 "C402" V 4750 8000 50  0000 L CNN
+F 1 "100n_0603" H 4850 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 4850 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 4850 8200 50  0001 L CNN
+F 4 "100nF" H 4800 8050 50  0000 L CNN "Wert"
+F 5 "" H 4800 7950 50  0000 L CNN "NB"
+	1    4850 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C405
+U 1 1 5ECF0077
+P 5250 8200
+F 0 "C405" V 5150 7950 50  0000 L CNN
+F 1 "100n_0603" H 5250 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 5250 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5250 8200 50  0001 L CNN
+F 4 "100nF" H 5200 8050 50  0000 L CNN "Wert"
+F 5 "" H 5200 7950 50  0000 L CNN "NB"
+	1    5250 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C406
+U 1 1 5ECF007E
+P 5650 8200
+F 0 "C406" V 5550 7950 50  0000 L CNN
+F 1 "100n_0603" H 5650 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 5650 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5650 8200 50  0001 L CNN
+F 4 "100nF" H 5600 8050 50  0000 L CNN "Wert"
+F 5 "" H 5600 7950 50  0000 L CNN "NB"
+	1    5650 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C408
+U 1 1 5ECF1995
+P 6050 8200
+F 0 "C408" V 5950 7950 50  0000 L CNN
+F 1 "100n_0603" H 6050 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 6050 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6050 8200 50  0001 L CNN
+F 4 "100nF" H 6000 8050 50  0000 L CNN "Wert"
+F 5 "" H 6000 7950 50  0000 L CNN "NB"
+	1    6050 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L Kondensator:100n_0603 C409
+U 1 1 5ECF199C
+P 6450 8200
+F 0 "C409" V 6350 7950 50  0000 L CNN
+F 1 "100n_0603" H 6450 8050 50  0001 C CNN
+F 2 "Kondensator:CAPC1608" H 6450 8050 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6450 8200 50  0001 L CNN
+F 4 "100nF" H 6400 8050 50  0000 L CNN "Wert"
+F 5 "" H 6400 7950 50  0000 L CNN "NB"
+	1    6450 8200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0403
+U 1 1 5ECF3080
+P 5450 8450
+F 0 "#PWR0403" H 5450 8200 50  0001 C CNN
+F 1 "GND" H 5455 8277 50  0000 C CNN
+F 2 "" H 5450 8450 50  0001 C CNN
+F 3 "" H 5450 8450 50  0001 C CNN
+	1    5450 8450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 8450 4850 8450
+Wire Wire Line
+	4850 8450 5250 8450
+Connection ~ 4850 8450
+Wire Wire Line
+	5250 8450 5450 8450
+Connection ~ 5250 8450
+Wire Wire Line
+	5650 8450 5450 8450
+Connection ~ 5450 8450
+Wire Wire Line
+	5650 8450 6050 8450
+Connection ~ 5650 8450
+Wire Wire Line
+	6050 8450 6450 8450
+Connection ~ 6050 8450
+Wire Wire Line
+	6450 7950 6050 7950
+Wire Wire Line
+	6050 7950 5650 7950
+Connection ~ 6050 7950
+Wire Wire Line
+	4450 7950 4850 7950
+Wire Wire Line
+	4850 7950 5250 7950
+Connection ~ 4850 7950
+Connection ~ 5250 7950
+Connection ~ 5650 7950
+Text Notes 5000 7700 0    50   ~ 0
+Place near VCC Pin of IC1\n
+$Comp
+L Oscillator:16MHz_KX_7 Q401
+U 1 1 5ED0325C
+P 5500 3400
+F 0 "Q401" H 5578 3471 50  0000 L CNN
+F 1 "16MHz_KX_7" H 4750 4000 50  0001 C CNN
+F 2 "Quarz:16MHZ_KX7" H 5500 3400 50  0001 L CNN
+F 3 "https://www.distrelec.de/Web/Downloads/86/02/KX-7-12-88602.pdf?pid=${product.code}" H 5500 3400 50  0001 L CNN
+F 4 "16MHz" H 5600 3400 50  0000 L CNN "Wert"
+F 5 "Geyer" H 5000 3600 50  0001 L CNN "Hersteller"
+F 6 "GEY KX-7 SMD CRY" H 5500 3400 50  0001 L CNN "Bestellnummer"
+F 7 "Reichelt" H 5500 3400 50  0001 L CNN "Distributor"
+F 8 "GEY KX-7 SMD CRY" H 5500 3400 50  0001 L CNN "Herstellernummer"
+F 9 "" H 4850 3600 50  0000 L CNN "NB"
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3650 4550 3650
+Wire Wire Line
+	5200 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 3650
+Connection ~ 4550 3650
+Wire Wire Line
+	5200 3350 4550 3350
+Wire Wire Line
+	4550 3350 4550 3400
+Connection ~ 4550 3400
+Wire Wire Line
+	4650 3100 4550 3100
+Wire Wire Line
+	4550 3100 4550 3350
+Connection ~ 4550 3350
+Wire Wire Line
+	5150 3100 5500 3100
+Wire Wire Line
+	5150 3650 5500 3650
+Wire Wire Line
+	7150 3450 5950 3450
+Wire Wire Line
+	5950 3450 5950 3100
+Wire Wire Line
+	5950 3100 5500 3100
+Connection ~ 5500 3100
+Wire Wire Line
+	5500 3650 7150 3650
+Connection ~ 5500 3650
+Wire Wire Line
+	6550 6200 7150 6200
+Wire Wire Line
+	7150 6100 6550 6100
+Connection ~ 6550 6100
+Wire Wire Line
+	6550 6100 6550 6000
+Wire Wire Line
+	6550 6000 7150 6000
+Connection ~ 6550 6000
+Wire Wire Line
+	6550 6000 6550 5900
+Wire Wire Line
+	7150 5900 6550 5900
+Connection ~ 6550 5900
+Wire Wire Line
+	6550 5900 6550 5800
+Wire Wire Line
+	7150 5800 6550 5800
+Connection ~ 6550 5800
+Wire Wire Line
+	6550 5400 6550 5650
+Wire Wire Line
+	7150 5650 6550 5650
+Connection ~ 6550 5650
+Wire Wire Line
+	6550 5650 6550 5800
+Wire Wire Line
+	4600 4250 4400 4250
+Wire Wire Line
+	4600 4450 4400 4450
+$Comp
+L Stecker:2x3_254 J401
+U 1 1 5F04E4F3
+P 12600 6450
+F 0 "J401" H 12644 6422 50  0000 L CNN
+F 1 "2x3_254" H 12600 6450 50  0001 C CNN
+F 2 "Stecker:2x3_254" H 12600 6450 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C140/RND_205-00634_DB_EN.pdf" H 12600 6450 50  0001 L CNN
+F 4 "Reichelt" H 12600 6450 50  0001 L CNN "Distributor"
+F 5 "RND 205-00634" H 12600 6450 50  0001 L CNN "Field8"
+F 6 "RND" H 12600 6450 50  0001 L CNN "Hersteller"
+F 7 "205-00634" H 12600 6450 50  0001 L CNN "Herstellernummer"
+F 8 "" H 12350 6050 50  0000 L CNN "NB"
+	1    12600 6450
+	1    0    0    -1  
+$EndComp
+Text Notes 12200 6100 0    100  ~ 0
+ICSP 
+Wire Wire Line
+	12400 6250 12300 6250
+Wire Wire Line
+	12400 6450 12300 6450
+Wire Wire Line
+	12400 6550 12300 6550
+Wire Wire Line
+	12400 6650 12300 6650
+Wire Wire Line
+	12400 6750 12300 6750
+Text GLabel 12300 6250 0    50   Input ~ 0
+MISO
+Text GLabel 12300 6450 0    50   Input ~ 0
+SCK
+Text GLabel 12300 6550 0    50   Input ~ 0
+MOSI
+Text GLabel 12300 6650 0    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0411
+U 1 1 5F05C1E0
+P 12300 6750
+F 0 "#PWR0411" H 12300 6500 50  0001 C CNN
+F 1 "GND" H 12305 6577 50  0000 C CNN
+F 2 "" H 12300 6750 50  0001 C CNN
+F 3 "" H 12300 6750 50  0001 C CNN
+	1    12300 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 6350 12400 6350
+Text GLabel 4450 5000 0    50   Input ~ 0
+MISO
+Text GLabel 4450 4900 0    50   Input ~ 0
+MOSI
+Text GLabel 4450 4800 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	7000 2500 7000 2550
+Wire Wire Line
+	6600 3250 6750 3250
+Wire Wire Line
+	6750 3250 7000 3250
+Connection ~ 6750 3250
+Wire Wire Line
+	7000 3250 7150 3250
+Connection ~ 7000 3250
+$Comp
+L Technik:TP_100 TP402
+U 1 1 5F08E674
+P 4900 4750
+F 0 "TP402" H 4944 4843 50  0000 L CNN
+F 1 "TP_100" H 4950 4800 50  0001 L CNN
+F 2 "Technik:TP100" H 4900 4750 50  0001 C CNN
+F 3 "" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Technik:TP_100 TP403
+U 1 1 5F08ECEB
+P 5100 4750
+F 0 "TP403" H 5144 4843 50  0000 L CNN
+F 1 "TP_100" H 5150 4800 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 5100 4750 50  0001 C CNN
+F 3 "" H 5100 4750 50  0001 C CNN
+	1    5100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Technik:TP_100 TP401
+U 1 1 5F08F244
+P 4700 4750
+F 0 "TP401" H 4744 4843 50  0000 L CNN
+F 1 "TP_100" H 4750 4800 50  0001 L CNN
+F 2 "Technik:TP100" H 4700 4750 50  0001 C CNN
+F 3 "" H 4700 4750 50  0001 C CNN
+	1    4700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Widerstand:22R_0603 R402
+U 1 1 5ECD7021
+P 4950 4450
+F 0 "R402" H 4950 4550 50  0000 C CNN
+F 1 "22R_0603" H 4800 4300 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 4350 4650 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4350 4650 50  0001 L CNN
+F 4 "22R" H 4850 4450 50  0000 L CNN "Wert"
+F 5 "" H 4800 4350 50  0000 L CNN "NB"
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4250 5400 4250
+Wire Wire Line
+	5400 4250 5400 3800
+Wire Wire Line
+	5400 3800 7150 3800
+Wire Wire Line
+	5500 4000 5500 4450
+Wire Wire Line
+	5500 4450 5300 4450
+Wire Wire Line
+	5500 4000 7150 4000
+Wire Wire Line
+	4450 4800 4700 4800
+Wire Wire Line
+	4700 4800 4700 4750
+Wire Wire Line
+	4450 4900 4900 4900
+Wire Wire Line
+	4900 4900 4900 4750
+Wire Wire Line
+	4450 5000 5100 5000
+Wire Wire Line
+	5100 5000 5100 4750
+Wire Wire Line
+	5700 4200 5700 4800
+Wire Wire Line
+	5700 4800 4700 4800
+Wire Wire Line
+	5700 4200 7150 4200
+Connection ~ 4700 4800
+Wire Wire Line
+	4900 4900 5800 4900
+Wire Wire Line
+	5800 4900 5800 4300
+Wire Wire Line
+	5800 4300 7150 4300
+Connection ~ 4900 4900
+Wire Wire Line
+	5100 5000 5950 5000
+Wire Wire Line
+	5950 5000 5950 4400
+Wire Wire Line
+	5950 4400 7150 4400
+Connection ~ 5100 5000
+Wire Wire Line
+	7000 4650 7150 4650
+Wire Wire Line
+	7000 4750 7150 4750
+Wire Wire Line
+	7000 5000 7150 5000
+Wire Wire Line
+	7000 5100 7150 5100
+NoConn ~ 9850 3250
+NoConn ~ 9850 3350
+NoConn ~ 9850 3450
+NoConn ~ 9850 3750
+NoConn ~ 9850 4450
+NoConn ~ 9850 4350
+Wire Wire Line
+	10000 3550 9850 3550
+Text Label 6800 3800 0    50   ~ 0
+D-_1
+Text Label 6800 4000 0    50   ~ 0
+D+_1
+$Comp
+L Mikrocontroller:Atmega32U4 IC401
+U 1 1 5ECA3329
+P 8500 4700
+F 0 "IC401" H 8500 6415 50  0000 C CNN
+F 1 "Atmega32U4" H 8500 6324 50  0000 C CNN
+F 2 "Microcontroller:ATMEGA32U4-AU" H 8500 3200 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 8750 3550 50  0001 L CNN
+F 4 "556-ATMEGA32U4-AU" H 8500 4700 50  0001 L CNN "Bestellnummer"
+F 5 "Mouser" H 8500 4700 50  0001 L CNN "Distributor"
+F 6 "Microchip" H 8500 4700 50  0001 L CNN "Hersteller"
+F 7 "ATMEGA32U4-AU" H 8500 4700 50  0001 L CNN "Herstellernummer"
+F 8 "" H 7350 3000 50  0000 L CNN "NB"
+	1    8500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 4750 9850 4750
+Wire Wire Line
+	10050 4650 9850 4650
+NoConn ~ 9850 4850
+NoConn ~ 9850 4950
+NoConn ~ 9850 5050
+Wire Wire Line
+	10050 5350 9850 5350
+NoConn ~ 9850 4250
+Wire Wire Line
+	10050 4550 9850 4550
+Text HLabel 10050 4550 2    50   Input ~ 0
+Rotary_SW
+Text HLabel 10050 4650 2    50   Input ~ 0
+Rotary_A
+Text HLabel 10050 4750 2    50   Input ~ 0
+Rotary_B
+Text HLabel 10050 5350 2    50   Output ~ 0
+LED_RING_IN
+Text HLabel 4400 4250 0    50   BiDi ~ 0
+D-
+Text HLabel 4400 4450 0    50   BiDi ~ 0
+D+
+Text HLabel 6600 3250 0    50   Input ~ 0
+RESET
+Text HLabel 7000 4650 0    50   Input ~ 0
+SW5
+Text HLabel 7000 4750 0    50   Input ~ 0
+SW4
+Text HLabel 7000 5000 0    50   Input ~ 0
+SW3
+Text HLabel 7000 5100 0    50   Input ~ 0
+SW2
+Text HLabel 10000 3550 2    50   Input ~ 0
+SW1
+Text HLabel 10050 5150 2    39   Output ~ 0
+Input_Select
+Wire Wire Line
+	9850 5150 10000 5150
+Wire Wire Line
+	5250 7950 5450 7950
+$Comp
+L power:+3.3V #PWR0406
+U 1 1 5FCADF7A
+P 7000 2500
+F 0 "#PWR0406" H 7000 2350 50  0001 C CNN
+F 1 "+3.3V" H 7015 2673 50  0000 C CNN
+F 2 "" H 7000 2500 50  0001 C CNN
+F 3 "" H 7000 2500 50  0001 C CNN
+	1    7000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0405
+U 1 1 5FCAE512
+P 6550 5400
+F 0 "#PWR0405" H 6550 5250 50  0001 C CNN
+F 1 "+3.3V" H 6565 5573 50  0000 C CNN
+F 2 "" H 6550 5400 50  0001 C CNN
+F 3 "" H 6550 5400 50  0001 C CNN
+	1    6550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0410
+U 1 1 5FCAEC40
+P 11900 6350
+F 0 "#PWR0410" H 11900 6200 50  0001 C CNN
+F 1 "+3.3V" H 11915 6523 50  0000 C CNN
+F 2 "" H 11900 6350 50  0001 C CNN
+F 3 "" H 11900 6350 50  0001 C CNN
+	1    11900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0402
+U 1 1 5FCAEFCD
+P 5450 7950
+F 0 "#PWR0402" H 5450 7800 50  0001 C CNN
+F 1 "+3.3V" H 5465 8123 50  0000 C CNN
+F 2 "" H 5450 7950 50  0001 C CNN
+F 3 "" H 5450 7950 50  0001 C CNN
+	1    5450 7950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 7950
+Wire Wire Line
+	5450 7950 5650 7950
+NoConn ~ 9850 5250
+$Comp
+L Technik:TP_100 TP406
+U 1 1 5FDD753D
+P 10000 5150
+F 0 "TP406" H 10044 5243 50  0000 L CNN
+F 1 "TP_100" H 10050 5200 50  0001 L CNN
+F 2 "Technik:TP100_VIA030_PAD100" H 10000 5150 50  0001 C CNN
+F 3 "" H 10000 5150 50  0001 C CNN
+	1    10000 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 10000 5150
+Wire Wire Line
+	10000 5150 10050 5150
+$EndSCHEMATC
