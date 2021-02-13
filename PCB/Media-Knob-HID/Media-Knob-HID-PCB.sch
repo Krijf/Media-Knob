@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Media-Knob_HID"
 Date "2020-12-13"
 Rev "V0.1"
@@ -76,19 +76,13 @@ F13 "SW1" I R 6850 2450 50
 F14 "Input_Select" O L 5750 2200 39 
 $EndSheet
 $Sheet
-S 4150 2150 600  2350
+S 4150 2150 600  500 
 U 5FBD5D88
-F0 "Interface" 50
-F1 "Interface.sch" 50
+F0 "Upstream" 50
+F1 "Upstream.sch" 50
 F2 "Input_Select" I R 4750 2200 50 
 F3 "D-_HOST" B R 4750 2550 50 
 F4 "D+_HOST" B R 4750 2450 50 
-F5 "D-_Down2" B R 4750 2900 50 
-F6 "D+_Down2" B R 4750 2800 50 
-F7 "D-_Down3" B R 4750 3200 50 
-F8 "D+_Down3" B R 4750 3100 50 
-F9 "D-_Down4" B R 4750 3500 50 
-F10 "D+_Down4" B R 4750 3400 50 
 $EndSheet
 $Sheet
 S 1600 5600 1900 1400
@@ -104,4 +98,16 @@ F1 "USB_HUB.sch" 50
 $EndSheet
 Wire Wire Line
 	4750 2200 5750 2200
+$Sheet
+S 4150 2900 600  1600
+U 602BCB73
+F0 "Downstream" 50
+F1 "Downstream.sch" 50
+F2 "D-_Down4" B R 4750 3750 50 
+F3 "D+_Down4" B R 4750 3650 50 
+F4 "D-_Down3" B R 4750 3450 50 
+F5 "D+_Down3" B R 4750 3350 50 
+F6 "D-_Down2" B R 4750 3150 50 
+F7 "D+_Down2" B R 4750 3050 50 
+$EndSheet
 $EndSCHEMATC
