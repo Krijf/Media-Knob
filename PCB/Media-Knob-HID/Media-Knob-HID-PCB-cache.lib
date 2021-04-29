@@ -1,87 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Artikel_ESD_USB_2.0
+# Oscillator_16MHz_KX_7
 #
-DEF Artikel_ESD_USB_2.0 D 0 40 Y Y 1 F N
-F0 "D" -300 400 50 H V L CNN
-F1 "Artikel_ESD_USB_2.0" 100 -400 50 H V L CNN
-F2 "" 150 -100 50 H I C CNN
-F3 "" -50 0 50 H I C CNN
-F4 "?NB?" 200 -500 50 H V L CNN "NB"
-F5 "Texas Instruments" 0 0 50 H I C CNN "Hersteller"
-F6 "TPD2EUSB30ADRTR" 0 0 50 H I C CNN "Herstellerbestellnummer"
-F7 "LCSC" 0 0 50 H I C CNN "Distributor"
-F8 "C94934" -50 0 50 H I C CNN "Bestellnummer"
+DEF Oscillator_16MHz_KX_7 Q 0 0 N Y 1 F N
+F0 "Q" 100 150 50 H V L CNN
+F1 "Oscillator_16MHz_KX_7" 0 0 50 H I L CNN
+F2 "Quarz:16MHZ_KX7" 0 0 50 H I L CNN
+F3 "" 0 0 50 H I L CNN
+F4 "16MHz" 100 50 50 H V L CNN "Wert"
+F5 "?NB?" 100 -50 50 H V L CNN "NB"
+F6 "Geyer" 0 0 50 H I L CNN "Hersteller"
+F7 "GEY KX-7 SMD CRY" 0 0 50 H I L CNN "Herstellernummer"
+F8 "Reichelt" 0 0 50 H I L CNN "Distributor"
+F9 "GEY KX-7 SMD CRY" 0 0 50 H I L CNN "Bestellnummer"
 DRAW
-S 350 -350 -300 350 0 1 0 N
-P 2 0 1 0 -50 50 50 50 N
-P 4 0 1 0 -50 -50 50 -50 0 50 -50 -50 N
-P 7 0 1 0 0 -300 0 300 200 300 200 -300 -200 -300 -200 300 0 300 N
-P 2 1 1 0 -250 -150 -150 -150 N
-P 2 1 1 0 -250 250 -150 250 N
-P 2 1 1 0 150 -150 250 -150 N
-P 2 1 1 0 150 250 250 250 N
-P 4 1 1 0 -250 -250 -150 -250 -200 -150 -250 -250 N
-P 4 1 1 0 -250 150 -150 150 -200 250 -250 150 N
-P 4 1 1 0 150 -250 250 -250 200 -150 150 -250 N
-P 4 1 1 0 150 150 250 150 200 250 150 150 N
-X D+ ~ 400 0 200 L 50 50 1 1 I
-X D- ~ -400 0 200 R 50 50 1 1 I
-X GND ~ 0 -500 200 U 50 50 1 1 I
+S -50 50 50 0 0 1 0 N
+P 2 0 1 0 -50 -50 50 -50 N
+P 2 0 1 0 -50 100 50 100 N
+X 1 1 0 300 200 D 50 50 1 1 P
+X 2 2 -300 50 200 R 50 50 1 1 W
+X 3 3 0 -250 200 U 50 50 1 1 P
+X 4 4 -300 0 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Artikel_Fuse_5A_FF
+# _Artikel_NEOPIXEL
 #
-DEF Artikel_Fuse_5A_FF F 0 40 Y Y 1 F N
-F0 "F" -150 100 50 H V L CNN
-F1 "Artikel_Fuse_5A_FF" -150 -100 50 H V L CNN
-F2 "Artikel:Fuse_0603" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "?NB?" -150 -200 50 H V L CNN "NB"
-F5 "Littlefuse" 0 0 50 H I C CNN "Hersteller"
-F6 "0494005.NR" 0 0 50 H I C CNN "Herstellernummer"
-F7 "LCSC" 0 0 50 H I C CNN "Distributor"
-F8 "C187645" 0 0 50 H I C CNN "Bestellnummer"
-DRAW
-S -150 50 150 -50 1 1 0 N
-P 2 0 1 0 -150 0 150 0 N
-X ~ 1 -350 0 200 R 50 50 1 1 P
-X ~ 2 350 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Artikel_LMZ12003
-#
-DEF Artikel_LMZ12003 IC 0 40 Y Y 1 F N
-F0 "IC" -250 600 50 H V C CNN
-F1 "Artikel_LMZ12003" -100 -650 50 H V C CNN
-F2 "" -100 -50 50 H I C CNN
-F3 "" -400 -50 50 H I C CNN
-F4 "?NB?" -200 -750 50 H V C CNN
-F5 "Texas Instruments" 0 0 50 H I C CNN
-F6 "LMZ12003" 0 0 50 H I C CNN
-F7 "LCSC" 0 0 50 H I C CNN
-F8 " C527538" 0 0 50 H I C CNN
-DRAW
-S -300 550 250 -600 0 1 0 N
-X RON 2 -500 100 200 R 50 50 0 0 I
-X EN 3 -500 200 200 R 50 50 0 0 I
-X GND 4 450 -450 200 L 50 50 0 0 W
-X SS 5 -500 0 200 R 50 50 0 0 I
-X FB 6 450 250 200 L 50 50 0 0 I
-X 1 VIN -500 450 200 R 50 50 0 0 W
-X 7 VOUT 450 450 200 L 50 50 0 0 w
-X GND ~ 450 -550 200 L 50 50 0 0 W
-ENDDRAW
-ENDDEF
-#
-# Artikel_NEOPIXEL
-#
-DEF Artikel_NEOPIXEL D 0 40 Y Y 1 F N
+DEF _Artikel_NEOPIXEL D 0 40 Y Y 1 F N
 F0 "D" -300 300 50 H V L CNN
-F1 "Artikel_NEOPIXEL" -100 -250 50 H I L CNN
+F1 "_Artikel_NEOPIXEL" -100 -250 50 H I L CNN
 F2 "Artikel:Neopixel" -50 0 50 H I L CNN
 F3 "" -50 0 50 H I L CNN
 F4 "?NB?" -300 -250 50 H V L CNN "NB"
@@ -104,11 +52,11 @@ X DIN 4 500 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Artikel_PCB_Switch_Winkel_THT
+# _Artikel_PCB_Switch_Winkel_THT
 #
-DEF Artikel_PCB_Switch_Winkel_THT SW 0 40 Y Y 1 F N
+DEF _Artikel_PCB_Switch_Winkel_THT SW 0 40 Y Y 1 F N
 F0 "SW" -150 300 50 H V L CNN
-F1 "Artikel_PCB_Switch_Winkel_THT" 0 -250 50 H I L CNN
+F1 "_Artikel_PCB_Switch_Winkel_THT" 0 -250 50 H I L CNN
 F2 "Artikel:PCB_Switch_Winkel_THT" 0 0 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "?NB?" -150 -250 50 H V L CNN "NB"
@@ -133,11 +81,11 @@ X ~ 4 350 -150 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Artikel_Rotary_stehend_THT
+# _Artikel_Rotary_stehend_THT
 #
-DEF Artikel_Rotary_stehend_THT SW 0 40 Y Y 1 F N
+DEF _Artikel_Rotary_stehend_THT SW 0 40 Y Y 1 F N
 F0 "SW" -200 300 50 H V L CNN
-F1 "Artikel_Rotary_stehend_THT" 850 -350 50 H I L CNN
+F1 "_Artikel_Rotary_stehend_THT" 850 -350 50 H I L CNN
 F2 "Artikel:Rotary_stehend_THT" 0 0 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "?NB?" 250 -300 50 H V L CNN "NB"
@@ -162,64 +110,11 @@ X M2 7 100 -550 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Artikel_TPS2001C
+# _Kondensator_100n_0603
 #
-DEF Artikel_TPS2001C IC 0 40 Y Y 1 F N
-F0 "IC" -250 350 50 H V L CNN
-F1 "Artikel_TPS2001C" -250 -400 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "?NB?" -250 -500 50 H V L CNN "NB"
-F5 "Txas Instruments" 0 0 50 H I C CNN "Hersteller"
-F6 "TPS2001C" 0 0 50 H I C CNN "Herstellerbestellnummer"
-F7 "LCSC" 0 0 50 H I C CNN "Distributor"
-F8 " C206204" 0 0 50 H I C CNN "Bestellnummer"
-DRAW
-S 250 -350 -250 300 0 1 0 N
-X GND 1 450 -200 200 L 50 50 0 0 W
-X IN 2 -450 250 200 R 50 50 0 0 W
-X IN 3 -450 150 200 R 50 50 0 0 W
-X EN 4 -450 -150 200 R 50 50 0 0 I
-X /FLT 5 -450 -50 200 R 50 50 0 0 O
-X OUT 6 450 250 200 L 50 50 0 0 w
-X OUT 7 450 150 200 L 50 50 0 0 w
-X OUT 8 450 50 200 L 50 50 0 0 w
-X GND 9 450 -300 200 L 50 50 0 0 W
-ENDDRAW
-ENDDEF
-#
-# Artikel_TS3USB30E
-#
-DEF Artikel_TS3USB30E IC 0 40 Y Y 1 F N
-F0 "IC" -250 450 39 H V L CNN
-F1 "Artikel_TS3USB30E" -250 -400 39 H V L CNN
-F2 "Artikel:SOIC-10" 0 0 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-F4 "?NB?" -250 -450 39 H V L CNN "NB"
-F5 "Texas Instruments" 0 0 39 H I C CNN "Hersteller"
-F6 "TS3USB30EDGSR" 0 0 39 H I C CNN "Herstellerbestellnummer"
-F7 "LCSC" 0 0 39 H I C CNN "Distributor"
-F8 "C131998" 0 0 39 H I C CNN "Bestellnummer"
-DRAW
-S -250 400 250 -350 0 1 8 N
-X S 1 450 250 200 L 50 50 0 0 I
-X VCC 10 450 -200 200 L 50 50 0 0 W
-X D1+ 2 -450 50 200 R 50 50 0 0 B
-X D2+ 3 -450 -200 200 R 50 50 0 0 B
-X D+ 4 -450 350 200 R 50 50 0 0 B
-X GND 5 450 -300 200 L 50 50 0 0 W
-X D- 6 -450 250 200 R 50 50 0 0 B
-X D2- 7 -450 -300 200 R 50 50 0 0 B
-X D1- 8 -450 -50 200 R 50 50 0 0 B
-X OE 9 450 350 200 L 50 50 0 0 I L
-ENDDRAW
-ENDDEF
-#
-# Kondensator_100n_0603
-#
-DEF Kondensator_100n_0603 C 0 40 Y Y 1 F N
+DEF _Kondensator_100n_0603 C 0 40 Y Y 1 F N
 F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_100n_0603" 0 -150 50 H I L CNN
+F1 "_Kondensator_100n_0603" 0 -150 50 H I L CNN
 F2 "Kondensator:CAPC1608" 0 -150 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "100nF" -50 -150 50 H V L CNN "Wert"
@@ -232,34 +127,11 @@ X ~ 2 250 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Kondensator_150u_8x6,2mm
+# _Kondensator_1u_0603
 #
-DEF Kondensator_150u_8x6,2mm C 0 40 Y Y 1 F N
+DEF _Kondensator_1u_0603 C 0 40 Y Y 1 F N
 F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_150u_8x6,2mm" 0 -150 50 H I L CNN
-F2 "" 0 -150 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "150uF" -50 -150 50 H V L CNN "Wert"
-F5 "?NB?" -50 -250 50 H V L CNN "NB"
-F6 "Panasonic" 0 0 50 H I C CNN "Hersteller"
-F7 " EEEFC1A151P" 0 0 50 H I C CNN "Herstellerbestellnummer"
-F8 "LCSC" 0 0 50 H I C CNN "Distributor"
-F9 " C413597" 0 0 50 H I C CNN "Bestellnummer"
-DRAW
-P 2 0 1 0 -200 150 -100 150 N
-P 2 0 1 0 -150 200 -150 100 N
-P 2 0 1 0 -50 100 -50 -100 N
-P 2 0 1 20 50 100 50 -100 N
-X ~ 1 -250 0 200 R 50 50 1 1 P
-X ~ 2 250 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Kondensator_1u_0603
-#
-DEF Kondensator_1u_0603 C 0 40 Y Y 1 F N
-F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_1u_0603" 0 -150 50 H I L CNN
+F1 "_Kondensator_1u_0603" 0 -150 50 H I L CNN
 F2 "Kondensator:CAPC1608" 0 -150 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "1uF" -50 -150 50 H V L CNN "Wert"
@@ -272,28 +144,11 @@ X ~ 2 250 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Kondensator_22n_0603
+# _Kondensator_22p_0603
 #
-DEF Kondensator_22n_0603 C 0 40 Y Y 1 F N
+DEF _Kondensator_22p_0603 C 0 40 Y Y 1 F N
 F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_22n_0603" 0 -150 50 H I L CNN
-F2 "Kondensator:CAPC1608" 0 -150 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "22nF" -50 -150 50 H V L CNN "Wert"
-F5 "?NB?" -50 -250 50 H V L CNN "NB"
-DRAW
-P 2 0 1 0 -50 100 -50 -100 N
-P 2 0 1 0 50 100 50 -100 N
-X ~ 1 -250 0 200 R 50 50 1 1 P
-X ~ 2 250 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Kondensator_22p_0603
-#
-DEF Kondensator_22p_0603 C 0 40 Y Y 1 F N
-F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_22p_0603" 0 -150 50 H I L CNN
+F1 "_Kondensator_22p_0603" 0 -150 50 H I L CNN
 F2 "Kondensator:CAPC1608" 0 -150 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "22pF" -50 -150 50 H V L CNN "Wert"
@@ -306,28 +161,11 @@ X ~ 2 250 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Kondensator_22u_1210
+# _Mikrocontroller_Atmega32U4
 #
-DEF Kondensator_22u_1210 C 0 40 Y Y 1 F N
-F0 "C" -50 150 50 H V L CNN
-F1 "Kondensator_22u_1210" 0 -150 50 H I L CNN
-F2 "Kondensator:CAPC3225" 0 -150 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "22uF" -50 -150 50 H V L CNN "Wert"
-F5 "?NB?" -50 -250 50 H V L CNN "NB"
-DRAW
-P 2 0 1 0 -50 100 -50 -100 N
-P 2 0 1 0 50 100 50 -100 N
-X ~ 1 -250 0 200 R 50 50 1 1 P
-X ~ 2 250 0 200 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Mikrocontroller_Atmega32U4
-#
-DEF Mikrocontroller_Atmega32U4 IC 0 40 Y Y 1 F N
+DEF _Mikrocontroller_Atmega32U4 IC 0 40 Y Y 1 F N
 F0 "IC" -1150 1600 50 H V L CNN
-F1 "Mikrocontroller_Atmega32U4" -1150 -1600 50 H V L CNN
+F1 "_Mikrocontroller_Atmega32U4" -1150 -1600 50 H V L CNN
 F2 "Microcontroller:ATMEGA32U4-AU" 0 -1500 50 H I L CNN
 F3 "" 250 -1150 50 H I L CNN
 F4 "?NB?" -1150 -1700 50 H V L CNN "NB"
@@ -395,35 +233,11 @@ X PB1_(PCINT1/SCLK) 9 -1350 500 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Oscillator_16MHz_KX_7
+# _Stecker_2x3_254
 #
-DEF Oscillator_16MHz_KX_7 Q 0 0 N Y 1 F N
-F0 "Q" 100 150 50 H V L CNN
-F1 "Oscillator_16MHz_KX_7" 0 0 50 H I L CNN
-F2 "Quarz:16MHZ_KX7" 0 0 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "16MHz" 100 50 50 H V L CNN "Wert"
-F5 "?NB?" 100 -50 50 H V L CNN "NB"
-F6 "Geyer" 0 0 50 H I L CNN "Hersteller"
-F7 "GEY KX-7 SMD CRY" 0 0 50 H I L CNN "Herstellernummer"
-F8 "Reichelt" 0 0 50 H I L CNN "Distributor"
-F9 "GEY KX-7 SMD CRY" 0 0 50 H I L CNN "Bestellnummer"
-DRAW
-S -50 50 50 0 0 1 0 N
-P 2 0 1 0 -50 -50 50 -50 N
-P 2 0 1 0 -50 100 50 100 N
-X 1 1 0 300 200 D 50 50 1 1 P
-X 2 2 -300 50 200 R 50 50 1 1 W
-X 3 3 0 -250 200 U 50 50 1 1 P
-X 4 4 -300 0 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Stecker_2x3_254
-#
-DEF Stecker_2x3_254 J 0 40 Y Y 1 F N
+DEF _Stecker_2x3_254 J 0 40 Y Y 1 F N
 F0 "J" -250 300 50 H V L CNN
-F1 "Stecker_2x3_254" 0 0 50 H I L CNN
+F1 "_Stecker_2x3_254" 0 0 50 H I L CNN
 F2 "Stecker:2x3_254" 0 0 50 H I L CNN
 F3 "" 0 0 50 H I L CNN
 F4 "?NB?" -250 -400 50 H V L CNN "NB"
@@ -442,80 +256,11 @@ X ~ 6 -200 -300 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Stecker_DC_Barrel_Jack
+# _Technik_TP_100
 #
-DEF Stecker_DC_Barrel_Jack J 0 40 Y Y 1 F N
-F0 "J" 200 200 50 H V C CNN
-F1 "Stecker_DC_Barrel_Jack" 450 100 50 H V C CNN
-F2 "" -100 -150 50 H I C CNN
-F3 "" -100 -150 50 H I C CNN
-F4 "?NB?" 250 0 50 H V C CNN "NB"
-F5 "XKB Connectivity" 0 0 50 H I C CNN "Hersteller"
-F6 "DC-042C-W-2.0" 0 0 50 H I C CNN "Herstellerbestellnummer"
-F7 "LCSC" 0 0 50 H I C CNN "Distributor"
-F8 "C381108" 0 0 50 H I C CNN "Bestellnummer"
-DRAW
-S -200 250 150 -200 0 1 0 N
-S -100 50 100 -50 0 1 0 F
-P 4 0 1 0 -200 -150 0 -150 50 -100 100 -150 N
-P 4 0 1 0 -200 150 0 150 50 100 100 150 N
-P 7 0 1 0 -200 0 -100 0 -100 50 100 50 100 -50 -100 -50 -100 0 N
-X 3 GND -400 -150 200 R 50 50 1 1 w
-X 2 Shield -400 150 200 R 50 50 1 1 w
-X 4 VCC -400 0 200 R 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# Stecker_USB_C_Buchse_SMD
-#
-DEF Stecker_USB_C_Buchse_SMD J 0 40 Y Y 1 F N
-F0 "J" -300 1500 50 H V L CNN
-F1 "Stecker_USB_C_Buchse_SMD" 0 -1650 50 H I L CNN
-F2 "Stecker:USB_C_Buchse_SMD" 0 0 50 H I L CNN
-F3 "" 0 0 50 H I L CNN
-F4 "?NB?" -300 -1650 50 H V L CNN "NB"
-F5 "Jing Extension of the Electronic Co." 0 0 50 H I L CNN "Hersteller"
-F6 "C168698" 0 0 50 H I L CNN "Herstellernummer"
-F7 "LCSC" 0 0 50 H I L CNN "Distributor"
-F8 "C168698" 0 0 50 H I L CNN "Bestellnummer"
-DRAW
-S -300 1450 150 -1550 0 1 0 N
-X SHIELD M1 -500 -1150 200 R 50 50 0 0 W
-X SHIELD M2 -500 -1250 200 R 50 50 0 0 W
-X SHIELD M3 -500 -1350 200 R 50 50 0 0 W
-X SHIELD M4 -500 -1450 200 R 50 50 0 0 W
-X GND A1 -500 250 200 R 50 50 1 1 W
-X RX2- A10 -500 1150 200 R 50 50 1 1 I
-X RX2+ A11 -500 1250 200 R 50 50 1 1 I
-X GND A12 -500 1350 200 R 50 50 1 1 W
-X TX1+ A2 -500 350 200 R 50 50 1 1 O
-X TX1- A3 -500 450 200 R 50 50 1 1 O
-X VBUS A4 -500 550 200 R 50 50 1 1 W
-X CC1 A5 -500 650 200 R 50 50 1 1 T
-X D+ A6 -500 750 200 R 50 50 1 1 B
-X D- A7 -500 850 200 R 50 50 1 1 B
-X SBU1 A8 -500 950 200 R 50 50 1 1 T
-X VBUS A9 -500 1050 200 R 50 50 1 1 W
-X GND B1 -500 -1000 200 R 50 50 1 1 W
-X RX1- B10 -500 -100 200 R 50 50 1 1 I
-X RX1+ B11 -500 0 200 R 50 50 1 1 I
-X GND B12 -500 100 200 R 50 50 1 1 W
-X TX2+ B2 -500 -900 200 R 50 50 1 1 O
-X TX2- B3 -500 -800 200 R 50 50 1 1 O
-X VBUS B4 -500 -700 200 R 50 50 1 1 W
-X CC2 B5 -500 -600 200 R 50 50 1 1 T
-X D+ B6 -500 -500 200 R 50 50 1 1 B
-X D- B7 -500 -400 200 R 50 50 1 1 B
-X SBU2 B8 -500 -300 200 R 50 50 1 1 T
-X VBUS B9 -500 -200 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# Technik_TP_100
-#
-DEF Technik_TP_100 TP 0 0 N N 1 F N
+DEF _Technik_TP_100 TP 0 0 N N 1 F N
 F0 "TP" 50 100 50 H V L CNN
-F1 "Technik_TP_100" 50 50 50 H I L CNN
+F1 "_Technik_TP_100" 50 50 50 H I L CNN
 F2 "Technik:TP100;" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -527,42 +272,11 @@ X ~ 1 0 0 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Transistor_T_NFET_PMV20ENR
+# _Widerstand_0R_0603
 #
-DEF Transistor_T_NFET_PMV20ENR T 0 40 Y Y 1 F N
-F0 "T" 200 100 50 H V L CNN
-F1 "Transistor_T_NFET_PMV20ENR" 200 0 50 H V L CNN
-F2 "Transistor:T_SOT23" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-F4 "?NB?" 200 -100 50 H V L CNN "NB"
-F5 "Nexperia" 0 0 50 H I C CNN "Hersteller"
-F6 "PMV20ENR" 0 0 50 H I C CNN "Herstellerbestellnummer"
-F7 "LCSC" 0 0 50 H I C CNN "Distributor"
-F8 "C456088" 0 0 50 H I C CNN "Bestellnummer"
-DRAW
-C 0 0 180 0 1 0 N
-P 2 0 1 8 -150 -100 -100 -100 N
-P 2 0 1 12 -100 100 -100 -100 N
-P 2 0 1 0 -50 -100 0 -100 N
-P 2 0 1 0 -50 0 0 0 N
-P 2 0 1 0 -50 100 0 100 N
-P 2 0 1 0 0 -200 0 -100 N
-P 2 0 1 0 0 0 0 -100 N
-P 2 0 1 0 0 100 0 200 N
-P 2 0 1 0 50 50 150 50 N
-P 4 0 1 0 100 50 50 -50 150 -50 100 50 N
-P 5 0 1 0 0 -100 50 -100 100 -100 100 100 0 100 N
-X G 1 -350 -100 200 R 50 50 0 0 I
-X S 2 0 400 200 D 50 50 0 0 I
-X D 3 0 -400 200 U 50 50 0 0 O
-ENDDRAW
-ENDDEF
-#
-# Widerstand_0R_0603
-#
-DEF Widerstand_0R_0603 R 0 40 Y Y 1 F N
+DEF _Widerstand_0R_0603 R 0 40 Y Y 1 F N
 F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_0R_0603" -150 -150 50 H I L BNN
+F1 "_Widerstand_0R_0603" -150 -150 50 H I L BNN
 F2 "Widerstand:RESC1608" -600 200 50 H I L CNN
 F3 "" -600 200 50 H I L CNN
 F4 "0R" -50 0 50 H V L CNN "Wert"
@@ -577,27 +291,11 @@ X ~ 1 -350 0 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Widerstand_100K_0603
+# _Widerstand_10K_0603
 #
-DEF Widerstand_100K_0603 R 0 40 Y Y 1 F N
+DEF _Widerstand_10K_0603 R 0 40 Y Y 1 F N
 F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_100K_0603" -150 -150 50 H I L BNN
-F2 "Widerstand:RESC1608" 50 -100 50 H I L CNN
-F3 "" -600 200 50 H I L CNN
-F4 "100k" -100 0 50 H V L CNN "Wert"
-F5 "?NB?" -150 -100 50 H V L CNN "NB"
-DRAW
-S -150 50 150 -50 0 1 0 N
-X ~ 2 350 0 200 L 50 50 0 1 P
-X ~ 1 -350 0 200 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Widerstand_10K_0603
-#
-DEF Widerstand_10K_0603 R 0 40 Y Y 1 F N
-F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_10K_0603" -150 -150 50 H I L BNN
+F1 "_Widerstand_10K_0603" -150 -150 50 H I L BNN
 F2 "Widerstand:RESC1608" -600 200 50 H I L CNN
 F3 "" -600 200 50 H I L CNN
 F4 "10KR" -100 0 50 H V L CNN "Wert"
@@ -609,27 +307,11 @@ X ~ 1 -350 0 200 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Widerstand_1K07_0603
+# _Widerstand_22R_0603
 #
-DEF Widerstand_1K07_0603 R 0 40 Y Y 1 F N
+DEF _Widerstand_22R_0603 R 0 40 Y Y 1 F N
 F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_1K07_0603" -150 -150 50 H I L BNN
-F2 "Widerstand:RESC1608" 50 -100 50 H I L CNN
-F3 "" -600 200 50 H I L CNN
-F4 "1k07" -100 0 50 H V L CNN "Wert"
-F5 "?NB?" -150 -100 50 H V L CNN "NB"
-DRAW
-S -150 50 150 -50 0 1 0 N
-X ~ 2 350 0 200 L 50 50 0 1 P
-X ~ 1 -350 0 200 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Widerstand_22R_0603
-#
-DEF Widerstand_22R_0603 R 0 40 Y Y 1 F N
-F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_22R_0603" -150 -150 50 H I L BNN
+F1 "_Widerstand_22R_0603" -150 -150 50 H I L BNN
 F2 "Widerstand:RESC1608" -600 200 50 H I L CNN
 F3 "" -600 200 50 H I L CNN
 F4 "22R" -100 0 50 H V L CNN "Wert"
@@ -638,37 +320,6 @@ DRAW
 S -150 50 150 -50 0 1 0 N
 X ~ 2 350 0 200 L 50 50 0 1 P
 X ~ 1 -350 0 200 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Widerstand_5k62_0603
-#
-DEF Widerstand_5k62_0603 R 0 40 Y Y 1 F N
-F0 "R" -150 100 50 H V L BNN
-F1 "Widerstand_5k62_0603" -150 -150 50 H I L BNN
-F2 "Widerstand:RESC1608" 50 -100 50 H I L CNN
-F3 "" -600 200 50 H I L CNN
-F4 "5k62" -100 0 50 H V L CNN "Wert"
-F5 "?NB?" -150 -100 50 H V L CNN "NB"
-DRAW
-S -150 50 150 -50 0 1 0 N
-X ~ 2 350 0 200 L 50 50 0 1 P
-X ~ 1 -350 0 200 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+12V
-#
-DEF power_+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -713,21 +364,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VBUS
-#
-DEF power_VBUS #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VBUS" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VBUS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

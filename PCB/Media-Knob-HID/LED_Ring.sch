@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 8
+Sheet 2 5
 Title "Media-Knob_HID"
 Date "2020-12-13"
 Rev "V0.1"
@@ -13,163 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Artikel:NEOPIXEL D201
-U 1 1 5F092ECD
-P 5900 2900
-F 0 "D201" H 5900 3223 50  0000 C CNN
-F 1 "NEOPIXEL" H 5800 2650 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 5850 2900 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 2900 50  0001 L CNN
-F 4 "SK6812RGBW" H 5900 2900 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 5900 2900 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 5900 2900 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 5900 2900 50  0001 L CNN "Herstellernummer"
-F 8 "" H 5600 2650 50  0000 L CNN "NB"
-	1    5900 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D205
-U 1 1 5F0933C0
-P 7100 2900
-F 0 "D205" H 7100 3223 50  0000 C CNN
-F 1 "NEOPIXEL" H 7000 2650 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 7050 2900 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 2900 50  0001 L CNN
-F 4 "SK6812RGBW" H 7100 2900 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 7100 2900 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 7100 2900 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 7100 2900 50  0001 L CNN "Herstellernummer"
-F 8 "" H 6800 2650 50  0000 L CNN "NB"
-	1    7100 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D209
-U 1 1 5F09389C
-P 8300 2900
-F 0 "D209" H 8300 3223 50  0000 C CNN
-F 1 "NEOPIXEL" H 8200 2650 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 8250 2900 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 2900 50  0001 L CNN
-F 4 "SK6812RGBW" H 8300 2900 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 8300 2900 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 8300 2900 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 8300 2900 50  0001 L CNN "Herstellernummer"
-F 8 "" H 8000 2650 50  0000 L CNN "NB"
-	1    8300 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D213
-U 1 1 5F093D29
-P 9500 2900
-F 0 "D213" H 9500 3223 50  0000 C CNN
-F 1 "NEOPIXEL" H 9400 2650 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 9450 2900 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 2900 50  0001 L CNN
-F 4 "SK6812RGBW" H 9500 2900 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 9500 2900 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 9500 2900 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 9500 2900 50  0001 L CNN "Herstellernummer"
-F 8 "" H 9200 2650 50  0000 L CNN "NB"
-	1    9500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D217
-U 1 1 5F093FE3
-P 10700 2900
-F 0 "D217" H 10700 3223 50  0000 C CNN
-F 1 "NEOPIXEL" H 10600 2650 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 10650 2900 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 2900 50  0001 L CNN
-F 4 "SK6812RGBW" H 10700 2900 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 10700 2900 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 10700 2900 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 10700 2900 50  0001 L CNN "Herstellernummer"
-F 8 "" H 10400 2650 50  0000 L CNN "NB"
-	1    10700 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP204
-U 1 1 5F0B14EC
-P 6500 3000
-F 0 "TP204" H 6544 3093 50  0000 L CNN
-F 1 "TP_100" H 6550 3050 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 6500 3000 50  0001 C CNN
-F 3 "" H 6500 3000 50  0001 C CNN
-	1    6500 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP209
-U 1 1 5F0B20FA
-P 7700 3000
-F 0 "TP209" H 7744 3093 50  0000 L CNN
-F 1 "TP_100" H 7750 3050 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 7700 3000 50  0001 C CNN
-F 3 "" H 7700 3000 50  0001 C CNN
-	1    7700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP213
-U 1 1 5F0B339A
-P 8900 3000
-F 0 "TP213" H 8944 3093 50  0000 L CNN
-F 1 "TP_100" H 8950 3050 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 8900 3000 50  0001 C CNN
-F 3 "" H 8900 3000 50  0001 C CNN
-	1    8900 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP217
-U 1 1 5F0B3DD1
-P 10100 3000
-F 0 "TP217" H 10144 3093 50  0000 L CNN
-F 1 "TP_100" H 10150 3050 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 10100 3000 50  0001 C CNN
-F 3 "" H 10100 3000 50  0001 C CNN
-	1    10100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP221
-U 1 1 5F0B461D
-P 11300 3000
-F 0 "TP221" H 11344 3093 50  0000 L CNN
-F 1 "TP_100" H 11350 3050 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 11300 3000 50  0001 C CNN
-F 3 "" H 11300 3000 50  0001 C CNN
-	1    11300 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11300 3000 11200 3000
-Wire Wire Line
-	10200 3000 10100 3000
-Connection ~ 10100 3000
-Wire Wire Line
-	10100 3000 10000 3000
-Wire Wire Line
-	9000 3000 8900 3000
-Connection ~ 8900 3000
-Wire Wire Line
-	8900 3000 8800 3000
-Wire Wire Line
-	7800 3000 7700 3000
-Connection ~ 7700 3000
-Wire Wire Line
-	7700 3000 7600 3000
-Wire Wire Line
-	6600 3000 6500 3000
-Connection ~ 6500 3000
-Wire Wire Line
-	6500 3000 6400 3000
 $Comp
 L power:GND #PWR0239
 U 1 1 5F0BD12B
@@ -223,71 +68,6 @@ F 1 "GND" H 6505 2277 50  0000 C CNN
 F 2 "" H 6500 2450 50  0001 C CNN
 F 3 "" H 6500 2450 50  0001 C CNN
 	1    6500 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C201
-U 1 1 5F0C6120
-P 5900 2450
-F 0 "C201" H 5900 2715 50  0000 C CNN
-F 1 "100n_0603" H 5900 2300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 5900 2300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 2450 50  0001 L CNN
-F 4 "100nF" H 5800 2600 50  0000 L CNN "Wert"
-F 5 "" H 5850 2200 50  0000 L CNN "NB"
-	1    5900 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C205
-U 1 1 5F0C6C72
-P 7100 2450
-F 0 "C205" H 7100 2715 50  0000 C CNN
-F 1 "100n_0603" H 7100 2300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 7100 2300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 2450 50  0001 L CNN
-F 4 "100nF" H 7000 2600 50  0000 L CNN "Wert"
-F 5 "" H 7050 2200 50  0000 L CNN "NB"
-	1    7100 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C209
-U 1 1 5F0C723D
-P 8300 2450
-F 0 "C209" H 8300 2715 50  0000 C CNN
-F 1 "100n_0603" H 8300 2300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 8300 2300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 2450 50  0001 L CNN
-F 4 "100nF" H 8200 2600 50  0000 L CNN "Wert"
-F 5 "" H 8250 2200 50  0000 L CNN "NB"
-	1    8300 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C213
-U 1 1 5F0C7940
-P 9450 2450
-F 0 "C213" H 9450 2715 50  0000 C CNN
-F 1 "100n_0603" H 9450 2300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 9450 2300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 2450 50  0001 L CNN
-F 4 "100nF" H 9350 2600 50  0000 L CNN "Wert"
-F 5 "" H 9400 2200 50  0000 L CNN "NB"
-	1    9450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C217
-U 1 1 5F0C7D19
-P 10650 2450
-F 0 "C217" H 10650 2715 50  0000 C CNN
-F 1 "100n_0603" H 10650 2300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 10650 2300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 2450 50  0001 L CNN
-F 4 "100nF" H 10550 2600 50  0000 L CNN "Wert"
-F 5 "" H 10600 2200 50  0000 L CNN "NB"
-	1    10650 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -345,163 +125,8 @@ Wire Wire Line
 Wire Wire Line
 	8550 2450 8800 2450
 Connection ~ 8800 2450
-$Comp
-L Artikel:NEOPIXEL D202
-U 1 1 5F10BCFC
-P 5900 4100
-F 0 "D202" H 5900 4423 50  0000 C CNN
-F 1 "NEOPIXEL" H 5800 3850 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 5850 4100 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 4100 50  0001 L CNN
-F 4 "SK6812RGBW" H 5900 4100 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 5900 4100 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 5900 4100 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 5900 4100 50  0001 L CNN "Herstellernummer"
-F 8 "" H 5600 3850 50  0000 L CNN "NB"
-	1    5900 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D206
-U 1 1 5F10BD02
-P 7100 4100
-F 0 "D206" H 7100 4423 50  0000 C CNN
-F 1 "NEOPIXEL" H 7000 3850 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 7050 4100 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 4100 50  0001 L CNN
-F 4 "SK6812RGBW" H 7100 4100 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 7100 4100 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 7100 4100 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 7100 4100 50  0001 L CNN "Herstellernummer"
-F 8 "" H 6800 3850 50  0000 L CNN "NB"
-	1    7100 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D210
-U 1 1 5F10BD08
-P 8300 4100
-F 0 "D210" H 8300 4423 50  0000 C CNN
-F 1 "NEOPIXEL" H 8200 3850 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 8250 4100 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 4100 50  0001 L CNN
-F 4 "SK6812RGBW" H 8300 4100 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 8300 4100 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 8300 4100 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 8300 4100 50  0001 L CNN "Herstellernummer"
-F 8 "" H 8000 3850 50  0000 L CNN "NB"
-	1    8300 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D214
-U 1 1 5F10BD0E
-P 9500 4100
-F 0 "D214" H 9500 4423 50  0000 C CNN
-F 1 "NEOPIXEL" H 9400 3850 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 9450 4100 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 4100 50  0001 L CNN
-F 4 "SK6812RGBW" H 9500 4100 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 9500 4100 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 9500 4100 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 9500 4100 50  0001 L CNN "Herstellernummer"
-F 8 "" H 9200 3850 50  0000 L CNN "NB"
-	1    9500 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D218
-U 1 1 5F10BD14
-P 10700 4100
-F 0 "D218" H 10700 4423 50  0000 C CNN
-F 1 "NEOPIXEL" H 10600 3850 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 10650 4100 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 4100 50  0001 L CNN
-F 4 "SK6812RGBW" H 10700 4100 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 10700 4100 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 10700 4100 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 10700 4100 50  0001 L CNN "Herstellernummer"
-F 8 "" H 10400 3850 50  0000 L CNN "NB"
-	1    10700 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP205
-U 1 1 5F10BD1A
-P 6500 4200
-F 0 "TP205" H 6544 4293 50  0000 L CNN
-F 1 "TP_100" H 6550 4250 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 6500 4200 50  0001 C CNN
-F 3 "" H 6500 4200 50  0001 C CNN
-	1    6500 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP210
-U 1 1 5F10BD20
-P 7700 4200
-F 0 "TP210" H 7744 4293 50  0000 L CNN
-F 1 "TP_100" H 7750 4250 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 7700 4200 50  0001 C CNN
-F 3 "" H 7700 4200 50  0001 C CNN
-	1    7700 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP214
-U 1 1 5F10BD26
-P 8900 4200
-F 0 "TP214" H 8944 4293 50  0000 L CNN
-F 1 "TP_100" H 8950 4250 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 8900 4200 50  0001 C CNN
-F 3 "" H 8900 4200 50  0001 C CNN
-	1    8900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP218
-U 1 1 5F10BD2C
-P 10100 4200
-F 0 "TP218" H 10144 4293 50  0000 L CNN
-F 1 "TP_100" H 10150 4250 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 10100 4200 50  0001 C CNN
-F 3 "" H 10100 4200 50  0001 C CNN
-	1    10100 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP222
-U 1 1 5F10BD32
-P 11300 4200
-F 0 "TP222" H 11344 4293 50  0000 L CNN
-F 1 "TP_100" H 11350 4250 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 11300 4200 50  0001 C CNN
-F 3 "" H 11300 4200 50  0001 C CNN
-	1    11300 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11300 4200 11200 4200
-Wire Wire Line
-	10200 4200 10100 4200
-Connection ~ 10100 4200
-Wire Wire Line
-	10100 4200 10000 4200
-Wire Wire Line
-	9000 4200 8900 4200
-Connection ~ 8900 4200
-Wire Wire Line
-	8900 4200 8800 4200
-Wire Wire Line
-	7800 4200 7700 4200
-Connection ~ 7700 4200
-Wire Wire Line
-	7700 4200 7600 4200
-Wire Wire Line
-	6600 4200 6500 4200
-Connection ~ 6500 4200
-Wire Wire Line
-	6500 4200 6400 4200
 $Comp
 L power:GND #PWR0240
 U 1 1 5F10BD45
@@ -555,71 +180,6 @@ F 1 "GND" H 6505 3477 50  0000 C CNN
 F 2 "" H 6500 3650 50  0001 C CNN
 F 3 "" H 6500 3650 50  0001 C CNN
 	1    6500 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C202
-U 1 1 5F10BD82
-P 5900 3650
-F 0 "C202" H 5900 3915 50  0000 C CNN
-F 1 "100n_0603" H 5900 3500 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 5900 3500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 3650 50  0001 L CNN
-F 4 "100nF" H 5800 3800 50  0000 L CNN "Wert"
-F 5 "" H 5850 3400 50  0000 L CNN "NB"
-	1    5900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C206
-U 1 1 5F10BD89
-P 7100 3650
-F 0 "C206" H 7100 3915 50  0000 C CNN
-F 1 "100n_0603" H 7100 3500 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 7100 3500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 3650 50  0001 L CNN
-F 4 "100nF" H 7000 3800 50  0000 L CNN "Wert"
-F 5 "" H 7050 3400 50  0000 L CNN "NB"
-	1    7100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C210
-U 1 1 5F10BD90
-P 8300 3650
-F 0 "C210" H 8300 3915 50  0000 C CNN
-F 1 "100n_0603" H 8300 3500 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 8300 3500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 3650 50  0001 L CNN
-F 4 "100nF" H 8200 3800 50  0000 L CNN "Wert"
-F 5 "" H 8250 3400 50  0000 L CNN "NB"
-	1    8300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C214
-U 1 1 5F10BD97
-P 9450 3650
-F 0 "C214" H 9450 3915 50  0000 C CNN
-F 1 "100n_0603" H 9450 3500 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 9450 3500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 3650 50  0001 L CNN
-F 4 "100nF" H 9400 3800 50  0000 L CNN "Wert"
-F 5 "" H 9400 3400 50  0000 L CNN "NB"
-	1    9450 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C218
-U 1 1 5F10BD9E
-P 10650 3650
-F 0 "C218" H 10650 3915 50  0000 C CNN
-F 1 "100n_0603" H 10650 3500 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 10650 3500 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 3650 50  0001 L CNN
-F 4 "100nF" H 10550 3800 50  0000 L CNN "Wert"
-F 5 "" H 10600 3400 50  0000 L CNN "NB"
-	1    10650 3650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -685,164 +245,8 @@ Wire Wire Line
 	11300 3250 11300 3000
 Wire Wire Line
 	5150 3250 5150 4200
-Connection ~ 11300 3000
-$Comp
-L Artikel:NEOPIXEL D203
-U 1 1 5F12CCEE
-P 5900 5300
-F 0 "D203" H 5900 5623 50  0000 C CNN
-F 1 "NEOPIXEL" H 5800 5050 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 5850 5300 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 5300 50  0001 L CNN
-F 4 "SK6812RGBW" H 5900 5300 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 5900 5300 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 5900 5300 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 5900 5300 50  0001 L CNN "Herstellernummer"
-F 8 "" H 5600 5050 50  0000 L CNN "NB"
-	1    5900 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D207
-U 1 1 5F12CCF4
-P 7100 5300
-F 0 "D207" H 7100 5623 50  0000 C CNN
-F 1 "NEOPIXEL" H 7000 5050 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 7050 5300 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 5300 50  0001 L CNN
-F 4 "SK6812RGBW" H 7100 5300 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 7100 5300 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 7100 5300 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 7100 5300 50  0001 L CNN "Herstellernummer"
-F 8 "" H 6800 5050 50  0000 L CNN "NB"
-	1    7100 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D211
-U 1 1 5F12CCFA
-P 8300 5300
-F 0 "D211" H 8300 5623 50  0000 C CNN
-F 1 "NEOPIXEL" H 8200 5050 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 8250 5300 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 5300 50  0001 L CNN
-F 4 "SK6812RGBW" H 8300 5300 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 8300 5300 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 8300 5300 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 8300 5300 50  0001 L CNN "Herstellernummer"
-F 8 "" H 8000 5050 50  0000 L CNN "NB"
-	1    8300 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D215
-U 1 1 5F12CD00
-P 9500 5300
-F 0 "D215" H 9500 5623 50  0000 C CNN
-F 1 "NEOPIXEL" H 9400 5050 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 9450 5300 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 5300 50  0001 L CNN
-F 4 "SK6812RGBW" H 9500 5300 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 9500 5300 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 9500 5300 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 9500 5300 50  0001 L CNN "Herstellernummer"
-F 8 "" H 9200 5050 50  0000 L CNN "NB"
-	1    9500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D219
-U 1 1 5F12CD06
-P 10700 5300
-F 0 "D219" H 10700 5623 50  0000 C CNN
-F 1 "NEOPIXEL" H 10600 5050 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 10650 5300 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 5300 50  0001 L CNN
-F 4 "SK6812RGBW" H 10700 5300 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 10700 5300 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 10700 5300 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 10700 5300 50  0001 L CNN "Herstellernummer"
-F 8 "" H 10400 5050 50  0000 L CNN "NB"
-	1    10700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP206
-U 1 1 5F12CD0C
-P 6500 5400
-F 0 "TP206" H 6544 5493 50  0000 L CNN
-F 1 "TP_100" H 6550 5450 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 6500 5400 50  0001 C CNN
-F 3 "" H 6500 5400 50  0001 C CNN
-	1    6500 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP211
-U 1 1 5F12CD12
-P 7700 5400
-F 0 "TP211" H 7744 5493 50  0000 L CNN
-F 1 "TP_100" H 7750 5450 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 7700 5400 50  0001 C CNN
-F 3 "" H 7700 5400 50  0001 C CNN
-	1    7700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP215
-U 1 1 5F12CD18
-P 8900 5400
-F 0 "TP215" H 8944 5493 50  0000 L CNN
-F 1 "TP_100" H 8950 5450 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 8900 5400 50  0001 C CNN
-F 3 "" H 8900 5400 50  0001 C CNN
-	1    8900 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP219
-U 1 1 5F12CD1E
-P 10100 5400
-F 0 "TP219" H 10144 5493 50  0000 L CNN
-F 1 "TP_100" H 10150 5450 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 10100 5400 50  0001 C CNN
-F 3 "" H 10100 5400 50  0001 C CNN
-	1    10100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP223
-U 1 1 5F12CD24
-P 11300 5400
-F 0 "TP223" H 11344 5493 50  0000 L CNN
-F 1 "TP_100" H 11350 5450 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 11300 5400 50  0001 C CNN
-F 3 "" H 11300 5400 50  0001 C CNN
-	1    11300 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11300 5400 11200 5400
-Wire Wire Line
-	10200 5400 10100 5400
-Connection ~ 10100 5400
-Wire Wire Line
-	10100 5400 10000 5400
-Wire Wire Line
-	9000 5400 8900 5400
-Connection ~ 8900 5400
-Wire Wire Line
-	8900 5400 8800 5400
-Wire Wire Line
-	7800 5400 7700 5400
-Connection ~ 7700 5400
-Wire Wire Line
-	7700 5400 7600 5400
-Wire Wire Line
-	6600 5400 6500 5400
-Connection ~ 6500 5400
-Wire Wire Line
-	6500 5400 6400 5400
 $Comp
 L power:GND #PWR0241
 U 1 1 5F12CD37
@@ -896,71 +300,6 @@ F 1 "GND" H 6505 4677 50  0000 C CNN
 F 2 "" H 6500 4850 50  0001 C CNN
 F 3 "" H 6500 4850 50  0001 C CNN
 	1    6500 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C203
-U 1 1 5F12CD74
-P 5900 4850
-F 0 "C203" H 5900 5115 50  0000 C CNN
-F 1 "100n_0603" H 5900 4700 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 5900 4700 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 4850 50  0001 L CNN
-F 4 "100nF" H 5800 5000 50  0000 L CNN "Wert"
-F 5 "" H 5850 4600 50  0000 L CNN "NB"
-	1    5900 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C207
-U 1 1 5F12CD7B
-P 7100 4850
-F 0 "C207" H 7100 5115 50  0000 C CNN
-F 1 "100n_0603" H 7100 4700 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 7100 4700 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 4850 50  0001 L CNN
-F 4 "100nF" H 7000 5000 50  0000 L CNN "Wert"
-F 5 "" H 7050 4600 50  0000 L CNN "NB"
-	1    7100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C211
-U 1 1 5F12CD82
-P 8300 4850
-F 0 "C211" H 8300 5115 50  0000 C CNN
-F 1 "100n_0603" H 8300 4700 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 8300 4700 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 4850 50  0001 L CNN
-F 4 "100nF" H 8200 5000 50  0000 L CNN "Wert"
-F 5 "" H 8250 4600 50  0000 L CNN "NB"
-	1    8300 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C215
-U 1 1 5F12CD89
-P 9450 4850
-F 0 "C215" H 9450 5115 50  0000 C CNN
-F 1 "100n_0603" H 9450 4700 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 9450 4700 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 4850 50  0001 L CNN
-F 4 "100nF" H 9400 5000 50  0000 L CNN "Wert"
-F 5 "" H 9400 4600 50  0000 L CNN "NB"
-	1    9450 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C219
-U 1 1 5F12CD90
-P 10650 4850
-F 0 "C219" H 10650 5115 50  0000 C CNN
-F 1 "100n_0603" H 10650 4700 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 10650 4700 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 4850 50  0001 L CNN
-F 4 "100nF" H 10600 5000 50  0000 L CNN "Wert"
-F 5 "" H 10600 4600 50  0000 L CNN "NB"
-	1    10650 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1018,152 +357,8 @@ Wire Wire Line
 Wire Wire Line
 	8550 4850 8800 4850
 Connection ~ 8800 4850
-$Comp
-L Artikel:NEOPIXEL D204
-U 1 1 5F12CDB9
-P 5900 6500
-F 0 "D204" H 5900 6823 50  0000 C CNN
-F 1 "NEOPIXEL" H 5800 6250 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 5850 6500 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 6500 50  0001 L CNN
-F 4 "SK6812RGBW" H 5900 6500 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 5900 6500 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 5900 6500 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 5900 6500 50  0001 L CNN "Herstellernummer"
-F 8 "" H 5600 6250 50  0000 L CNN "NB"
-	1    5900 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D208
-U 1 1 5F12CDBF
-P 7100 6500
-F 0 "D208" H 7100 6823 50  0000 C CNN
-F 1 "NEOPIXEL" H 7000 6250 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 7050 6500 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 6500 50  0001 L CNN
-F 4 "SK6812RGBW" H 7100 6500 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 7100 6500 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 7100 6500 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 7100 6500 50  0001 L CNN "Herstellernummer"
-F 8 "" H 6800 6250 50  0000 L CNN "NB"
-	1    7100 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D212
-U 1 1 5F12CDC5
-P 8300 6500
-F 0 "D212" H 8300 6823 50  0000 C CNN
-F 1 "NEOPIXEL" H 8200 6250 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 8250 6500 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 6500 50  0001 L CNN
-F 4 "SK6812RGBW" H 8300 6500 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 8300 6500 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 8300 6500 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 8300 6500 50  0001 L CNN "Herstellernummer"
-F 8 "" H 8000 6250 50  0000 L CNN "NB"
-	1    8300 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D216
-U 1 1 5F12CDCB
-P 9500 6500
-F 0 "D216" H 9500 6823 50  0000 C CNN
-F 1 "NEOPIXEL" H 9400 6250 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 9450 6500 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 6500 50  0001 L CNN
-F 4 "SK6812RGBW" H 9500 6500 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 9500 6500 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 9500 6500 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 9500 6500 50  0001 L CNN "Herstellernummer"
-F 8 "" H 9200 6250 50  0000 L CNN "NB"
-	1    9500 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:NEOPIXEL D220
-U 1 1 5F12CDD1
-P 10700 6500
-F 0 "D220" H 10700 6823 50  0000 C CNN
-F 1 "NEOPIXEL" H 10600 6250 50  0001 C CNN
-F 2 "Artikel:Neopixel" H 10650 6500 50  0001 L CNN
-F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 6500 50  0001 L CNN
-F 4 "SK6812RGBW" H 10700 6500 50  0001 L CNN "Bestellnummer"
-F 5 "Adafruit" H 10700 6500 50  0001 L CNN "Distributor"
-F 6 "Adafruit" H 10700 6500 50  0001 L CNN "Hersteller"
-F 7 "SK6812RGBW" H 10700 6500 50  0001 L CNN "Herstellernummer"
-F 8 "" H 10400 6250 50  0000 L CNN "NB"
-	1    10700 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP207
-U 1 1 5F12CDD7
-P 6500 6600
-F 0 "TP207" H 6544 6693 50  0000 L CNN
-F 1 "TP_100" H 6550 6650 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 6500 6600 50  0001 C CNN
-F 3 "" H 6500 6600 50  0001 C CNN
-	1    6500 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP212
-U 1 1 5F12CDDD
-P 7700 6600
-F 0 "TP212" H 7744 6693 50  0000 L CNN
-F 1 "TP_100" H 7750 6650 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 7700 6600 50  0001 C CNN
-F 3 "" H 7700 6600 50  0001 C CNN
-	1    7700 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP216
-U 1 1 5F12CDE3
-P 8900 6600
-F 0 "TP216" H 8944 6693 50  0000 L CNN
-F 1 "TP_100" H 8950 6650 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 8900 6600 50  0001 C CNN
-F 3 "" H 8900 6600 50  0001 C CNN
-	1    8900 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP220
-U 1 1 5F12CDE9
-P 10100 6600
-F 0 "TP220" H 10144 6693 50  0000 L CNN
-F 1 "TP_100" H 10150 6650 50  0001 L CNN
-F 2 "Technik:TP100_VIA030_PAD100" H 10100 6600 50  0001 C CNN
-F 3 "" H 10100 6600 50  0001 C CNN
-	1    10100 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11300 6600 11200 6600
-Wire Wire Line
-	10200 6600 10100 6600
-Connection ~ 10100 6600
-Wire Wire Line
-	10100 6600 10000 6600
-Wire Wire Line
-	9000 6600 8900 6600
-Connection ~ 8900 6600
-Wire Wire Line
-	8900 6600 8800 6600
-Wire Wire Line
-	7800 6600 7700 6600
-Connection ~ 7700 6600
-Wire Wire Line
-	7700 6600 7600 6600
-Wire Wire Line
-	6600 6600 6500 6600
-Connection ~ 6500 6600
-Wire Wire Line
-	6500 6600 6400 6600
 $Comp
 L power:GND #PWR0242
 U 1 1 5F12CE02
@@ -1217,71 +412,6 @@ F 1 "GND" H 6505 5877 50  0000 C CNN
 F 2 "" H 6500 6050 50  0001 C CNN
 F 3 "" H 6500 6050 50  0001 C CNN
 	1    6500 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C204
-U 1 1 5F12CE3F
-P 5900 6050
-F 0 "C204" H 5900 6315 50  0000 C CNN
-F 1 "100n_0603" H 5900 5900 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 5900 5900 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 6050 50  0001 L CNN
-F 4 "100nF" H 5800 6200 50  0000 L CNN "Wert"
-F 5 "" H 5850 5800 50  0000 L CNN "NB"
-	1    5900 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C208
-U 1 1 5F12CE46
-P 7100 6050
-F 0 "C208" H 7100 6315 50  0000 C CNN
-F 1 "100n_0603" H 7100 5900 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 7100 5900 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 6050 50  0001 L CNN
-F 4 "100nF" H 7000 6200 50  0000 L CNN "Wert"
-F 5 "" H 7050 5800 50  0000 L CNN "NB"
-	1    7100 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C212
-U 1 1 5F12CE4D
-P 8300 6050
-F 0 "C212" H 8300 6315 50  0000 C CNN
-F 1 "100n_0603" H 8300 5900 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 8300 5900 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 6050 50  0001 L CNN
-F 4 "100nF" H 8200 6200 50  0000 L CNN "Wert"
-F 5 "" H 8250 5800 50  0000 L CNN "NB"
-	1    8300 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C216
-U 1 1 5F12CE54
-P 9450 6050
-F 0 "C216" H 9450 6315 50  0000 C CNN
-F 1 "100n_0603" H 9450 5900 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 9450 5900 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 6050 50  0001 L CNN
-F 4 "100nF" H 9350 6200 50  0000 L CNN "Wert"
-F 5 "" H 9400 5800 50  0000 L CNN "NB"
-	1    9450 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Kondensator:100n_0603 C220
-U 1 1 5F12CE5B
-P 10650 6050
-F 0 "C220" H 10650 6315 50  0000 C CNN
-F 1 "100n_0603" H 10650 5900 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 10650 5900 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 6050 50  0001 L CNN
-F 4 "100nF" H 10550 6200 50  0000 L CNN "Wert"
-F 5 "" H 10600 5800 50  0000 L CNN "NB"
-	1    10650 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1347,7 +477,6 @@ Wire Wire Line
 	11300 5650 11300 5400
 Wire Wire Line
 	5150 5650 5150 6600
-Connection ~ 11300 5400
 Wire Wire Line
 	5400 5400 5150 5400
 Wire Wire Line
@@ -1356,138 +485,8 @@ Wire Wire Line
 	5150 4450 11300 4450
 Wire Wire Line
 	11300 4450 11300 4200
-Connection ~ 11300 4200
-Text HLabel 5600 8250 0    50   Input ~ 0
+Text HLabel 11300 6600 2    50   Input ~ 0
 LED_RING_IN
-$Comp
-L Transistor:T_NFET_PMV20ENR T201
-U 1 1 5FBE0F98
-P 6350 8250
-F 0 "T201" V 6603 8250 50  0000 C CNN
-F 1 "T_NFET_PMV20ENR" V 6694 8250 50  0000 C CNN
-F 2 "Transistor:T_SOT23" H 6350 8250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Nexperia-PMV20ENR_C456088.pdf" H 6350 8250 50  0001 C CNN
-F 4 "" V 6785 8250 50  0000 C CNN "NB"
-F 5 "Nexperia" H 6350 8250 50  0001 C CNN "Hersteller"
-F 6 "PMV20ENR" H 6350 8250 50  0001 C CNN "Herstellerbestellnummer"
-F 7 "LCSC" H 6350 8250 50  0001 C CNN "Distributor"
-F 8 "C456088" H 6350 8250 50  0001 C CNN "Bestellnummer"
-	1    6350 8250
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R202
-U 1 1 5FBE273E
-P 7100 7900
-F 0 "R202" V 7009 7988 50  0000 L CNN
-F 1 "10K_0603" H 6950 7750 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6500 8100 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6500 8100 50  0001 L CNN
-F 4 "10KR" V 7100 7988 50  0000 L CNN "Wert"
-F 5 "" V 7191 7988 50  0000 L CNN "NB"
-	1    7100 7900
-	0    1    1    0   
-$EndComp
-$Comp
-L Technik:TP_100 TP202
-U 1 1 5FC0B4AD
-P 5900 8250
-F 0 "TP202" H 5944 8343 50  0000 L CNN
-F 1 "TP_100" H 5950 8300 50  0001 L CNN
-F 2 "Technik:TP100;" H 5900 8250 50  0001 C CNN
-F 3 "" H 5900 8250 50  0001 C CNN
-	1    5900 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP208
-U 1 1 5FC0BFBB
-P 6800 8250
-F 0 "TP208" H 6844 8343 50  0000 L CNN
-F 1 "TP_100" H 6850 8300 50  0001 L CNN
-F 2 "Technik:TP100;" H 6800 8250 50  0001 C CNN
-F 3 "" H 6800 8250 50  0001 C CNN
-	1    6800 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:10K_0603 R201
-U 1 1 5FC0CF10
-P 5700 7900
-F 0 "R201" V 5609 7988 50  0000 L CNN
-F 1 "10K_0603" H 5550 7750 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 5100 8100 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5100 8100 50  0001 L CNN
-F 4 "10KR" V 5700 7988 50  0000 L CNN "Wert"
-F 5 "" V 5791 7988 50  0000 L CNN "NB"
-	1    5700 7900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 7550 6250 7550
-Wire Wire Line
-	6250 7550 6250 7900
-Wire Wire Line
-	6750 8250 6800 8250
-Wire Wire Line
-	6800 8250 7100 8250
-Connection ~ 6800 8250
-Wire Wire Line
-	5700 8250 5900 8250
-Wire Wire Line
-	5950 8250 5900 8250
-Connection ~ 5900 8250
-$Comp
-L Technik:TP_100 TP203
-U 1 1 5FC34B28
-P 6250 7550
-F 0 "TP203" H 6294 7643 50  0000 L CNN
-F 1 "TP_100" H 6300 7600 50  0001 L CNN
-F 2 "Technik:TP100;" H 6250 7550 50  0001 C CNN
-F 3 "" H 6250 7550 50  0001 C CNN
-	1    6250 7550
-	1    0    0    -1  
-$EndComp
-Connection ~ 6250 7550
-Wire Wire Line
-	5600 8250 5700 8250
-Connection ~ 5700 8250
-$Comp
-L power:+3.3V #PWR0205
-U 1 1 5FC7541C
-P 5700 7500
-F 0 "#PWR0205" H 5700 7350 50  0001 C CNN
-F 1 "+3.3V" H 5715 7673 50  0000 C CNN
-F 2 "" H 5700 7500 50  0001 C CNN
-F 3 "" H 5700 7500 50  0001 C CNN
-	1    5700 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0214
-U 1 1 5FC761ED
-P 7100 7500
-F 0 "#PWR0214" H 7100 7350 50  0001 C CNN
-F 1 "+5V" H 7115 7673 50  0000 C CNN
-F 2 "" H 7100 7500 50  0001 C CNN
-F 3 "" H 7100 7500 50  0001 C CNN
-	1    7100 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 7500 5700 7550
-Connection ~ 5700 7550
-Wire Wire Line
-	7100 7500 7100 7550
-Wire Wire Line
-	7100 8250 7950 8250
-Wire Wire Line
-	7950 8250 7950 6950
-Wire Wire Line
-	7950 6950 11300 6950
-Wire Wire Line
-	11300 6950 11300 6600
-Connection ~ 7100 8250
 $Comp
 L power:+5V #PWR0204
 U 1 1 5FC95764
@@ -1728,19 +727,853 @@ F 3 "" H 5400 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5400 2450
+Wire Wire Line
+	5150 3000 5400 3000
 $Comp
-L Technik:TP_100 TP201
-U 1 1 5FC9F7D6
+L _Kondensator:100n_0603 C?
+U 1 1 6092BB05
+P 5900 6050
+F 0 "C?" H 5900 6405 50  0000 C CNN
+F 1 "100n_0603" H 5900 5900 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 5900 5900 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 6050 50  0001 L CNN
+F 4 "100nF" H 5900 6314 50  0000 C CNN "Wert"
+F 5 "" H 5900 6223 50  0000 C CNN "NB"
+	1    5900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6092C9D1
+P 6500 6600
+F 0 "TP?" H 6544 6693 50  0000 L CNN
+F 1 "TP_100" H 6550 6650 50  0001 L CNN
+F 2 "Technik:TP100;" H 6500 6600 50  0001 C CNN
+F 3 "" H 6500 6600 50  0001 C CNN
+	1    6500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6092CDBA
+P 5900 6500
+F 0 "D?" H 5900 6915 50  0000 C CNN
+F 1 "NEOPIXEL" H 5800 6250 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 5850 6500 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 6500 50  0001 L CNN
+F 4 "" H 5900 6824 50  0000 C CNN "NB"
+F 5 "Adafruit" H 5900 6500 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 5900 6500 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 5900 6500 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 5900 6500 50  0001 L CNN "Bestellnummer"
+	1    5900 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 6600 6500 6600
+Connection ~ 6500 6600
+Wire Wire Line
+	6500 6600 6600 6600
+Wire Wire Line
+	7600 6600 7700 6600
+Wire Wire Line
+	8800 6600 8900 6600
+Wire Wire Line
+	10000 6600 10100 6600
+Wire Wire Line
+	10000 5400 10100 5400
+Wire Wire Line
+	8800 5400 8900 5400
+Wire Wire Line
+	7600 5400 7700 5400
+Wire Wire Line
+	6400 5400 6500 5400
+Wire Wire Line
+	6400 4200 6500 4200
+Wire Wire Line
+	7600 4200 7700 4200
+Wire Wire Line
+	8800 4200 8900 4200
+Wire Wire Line
+	10000 4200 10100 4200
+Wire Wire Line
+	10000 3000 10100 3000
+Wire Wire Line
+	8800 3000 8900 3000
+Wire Wire Line
+	7600 3000 7700 3000
+Wire Wire Line
+	6400 3000 6500 3000
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 60931808
+P 7100 6050
+F 0 "C?" H 7100 6405 50  0000 C CNN
+F 1 "100n_0603" H 7100 5900 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 7100 5900 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 6050 50  0001 L CNN
+F 4 "100nF" H 7100 6314 50  0000 C CNN "Wert"
+F 5 "" H 7100 6223 50  0000 C CNN "NB"
+	1    7100 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 60931CEB
+P 8300 6050
+F 0 "C?" H 8300 6405 50  0000 C CNN
+F 1 "100n_0603" H 8300 5900 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 8300 5900 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 6050 50  0001 L CNN
+F 4 "100nF" H 8300 6314 50  0000 C CNN "Wert"
+F 5 "" H 8300 6223 50  0000 C CNN "NB"
+	1    8300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 60932235
+P 9450 6050
+F 0 "C?" H 9450 6405 50  0000 C CNN
+F 1 "100n_0603" H 9450 5900 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9450 5900 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 6050 50  0001 L CNN
+F 4 "100nF" H 9450 6314 50  0000 C CNN "Wert"
+F 5 "" H 9450 6223 50  0000 C CNN "NB"
+	1    9450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609326BE
+P 10650 6050
+F 0 "C?" H 10650 6405 50  0000 C CNN
+F 1 "100n_0603" H 10650 5900 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 10650 5900 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 6050 50  0001 L CNN
+F 4 "100nF" H 10650 6314 50  0000 C CNN "Wert"
+F 5 "" H 10650 6223 50  0000 C CNN "NB"
+	1    10650 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 609486E4
+P 7100 6500
+F 0 "D?" H 7100 6915 50  0000 C CNN
+F 1 "NEOPIXEL" H 7000 6250 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 7050 6500 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 6500 50  0001 L CNN
+F 4 "" H 7100 6824 50  0000 C CNN "NB"
+F 5 "Adafruit" H 7100 6500 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 7100 6500 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 7100 6500 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 7100 6500 50  0001 L CNN "Bestellnummer"
+	1    7100 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 60948EEF
+P 8300 6500
+F 0 "D?" H 8300 6915 50  0000 C CNN
+F 1 "NEOPIXEL" H 8200 6250 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 8250 6500 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 6500 50  0001 L CNN
+F 4 "" H 8300 6824 50  0000 C CNN "NB"
+F 5 "Adafruit" H 8300 6500 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 8300 6500 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 8300 6500 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 8300 6500 50  0001 L CNN "Bestellnummer"
+	1    8300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 60949748
+P 9500 6500
+F 0 "D?" H 9500 6915 50  0000 C CNN
+F 1 "NEOPIXEL" H 9400 6250 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 9450 6500 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 6500 50  0001 L CNN
+F 4 "" H 9500 6824 50  0000 C CNN "NB"
+F 5 "Adafruit" H 9500 6500 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 9500 6500 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 9500 6500 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 9500 6500 50  0001 L CNN "Bestellnummer"
+	1    9500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 60949D0D
+P 10700 6500
+F 0 "D?" H 10700 6915 50  0000 C CNN
+F 1 "NEOPIXEL" H 10600 6250 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 10650 6500 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 6500 50  0001 L CNN
+F 4 "" H 10700 6824 50  0000 C CNN "NB"
+F 5 "Adafruit" H 10700 6500 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 10700 6500 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 10700 6500 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 10700 6500 50  0001 L CNN "Bestellnummer"
+	1    10700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6094A789
+P 7700 6600
+F 0 "TP?" H 7744 6693 50  0000 L CNN
+F 1 "TP_100" H 7750 6650 50  0001 L CNN
+F 2 "Technik:TP100;" H 7700 6600 50  0001 C CNN
+F 3 "" H 7700 6600 50  0001 C CNN
+	1    7700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6094ABD3
+P 8900 6600
+F 0 "TP?" H 8944 6693 50  0000 L CNN
+F 1 "TP_100" H 8950 6650 50  0001 L CNN
+F 2 "Technik:TP100;" H 8900 6600 50  0001 C CNN
+F 3 "" H 8900 6600 50  0001 C CNN
+	1    8900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6094AFA2
+P 10100 6600
+F 0 "TP?" H 10144 6693 50  0000 L CNN
+F 1 "TP_100" H 10150 6650 50  0001 L CNN
+F 2 "Technik:TP100;" H 10100 6600 50  0001 C CNN
+F 3 "" H 10100 6600 50  0001 C CNN
+	1    10100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6095ABBF
+P 5900 4850
+F 0 "C?" H 5900 5205 50  0000 C CNN
+F 1 "100n_0603" H 5900 4700 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 5900 4700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 4850 50  0001 L CNN
+F 4 "100nF" H 5900 5114 50  0000 C CNN "Wert"
+F 5 "" H 5900 5023 50  0000 C CNN "NB"
+	1    5900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6095ABD7
+P 6500 5400
+F 0 "TP?" H 6544 5493 50  0000 L CNN
+F 1 "TP_100" H 6550 5450 50  0001 L CNN
+F 2 "Technik:TP100;" H 6500 5400 50  0001 C CNN
+F 3 "" H 6500 5400 50  0001 C CNN
+	1    6500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6095ABE6
+P 5900 5300
+F 0 "D?" H 5900 5715 50  0000 C CNN
+F 1 "NEOPIXEL" H 5800 5050 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 5850 5300 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 5300 50  0001 L CNN
+F 4 "" H 5900 5624 50  0000 C CNN "NB"
+F 5 "Adafruit" H 5900 5300 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 5900 5300 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 5900 5300 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 5900 5300 50  0001 L CNN "Bestellnummer"
+	1    5900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6095ABF2
+P 7100 4850
+F 0 "C?" H 7100 5205 50  0000 C CNN
+F 1 "100n_0603" H 7100 4700 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 7100 4700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 4850 50  0001 L CNN
+F 4 "100nF" H 7100 5114 50  0000 C CNN "Wert"
+F 5 "" H 7100 5023 50  0000 C CNN "NB"
+	1    7100 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6095ABFE
+P 8300 4850
+F 0 "C?" H 8300 5205 50  0000 C CNN
+F 1 "100n_0603" H 8300 4700 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 8300 4700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 4850 50  0001 L CNN
+F 4 "100nF" H 8300 5114 50  0000 C CNN "Wert"
+F 5 "" H 8300 5023 50  0000 C CNN "NB"
+	1    8300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6095AC0A
+P 9450 4850
+F 0 "C?" H 9450 5205 50  0000 C CNN
+F 1 "100n_0603" H 9450 4700 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9450 4700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 4850 50  0001 L CNN
+F 4 "100nF" H 9450 5114 50  0000 C CNN "Wert"
+F 5 "" H 9450 5023 50  0000 C CNN "NB"
+	1    9450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6095AC16
+P 10650 4850
+F 0 "C?" H 10650 5205 50  0000 C CNN
+F 1 "100n_0603" H 10650 4700 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 10650 4700 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 4850 50  0001 L CNN
+F 4 "100nF" H 10650 5114 50  0000 C CNN "Wert"
+F 5 "" H 10650 5023 50  0000 C CNN "NB"
+	1    10650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6095AC25
+P 7100 5300
+F 0 "D?" H 7100 5715 50  0000 C CNN
+F 1 "NEOPIXEL" H 7000 5050 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 7050 5300 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 5300 50  0001 L CNN
+F 4 "" H 7100 5624 50  0000 C CNN "NB"
+F 5 "Adafruit" H 7100 5300 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 7100 5300 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 7100 5300 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 7100 5300 50  0001 L CNN "Bestellnummer"
+	1    7100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6095AC34
+P 8300 5300
+F 0 "D?" H 8300 5715 50  0000 C CNN
+F 1 "NEOPIXEL" H 8200 5050 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 8250 5300 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 5300 50  0001 L CNN
+F 4 "" H 8300 5624 50  0000 C CNN "NB"
+F 5 "Adafruit" H 8300 5300 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 8300 5300 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 8300 5300 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 8300 5300 50  0001 L CNN "Bestellnummer"
+	1    8300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6095AC43
+P 9500 5300
+F 0 "D?" H 9500 5715 50  0000 C CNN
+F 1 "NEOPIXEL" H 9400 5050 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 9450 5300 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 5300 50  0001 L CNN
+F 4 "" H 9500 5624 50  0000 C CNN "NB"
+F 5 "Adafruit" H 9500 5300 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 9500 5300 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 9500 5300 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 9500 5300 50  0001 L CNN "Bestellnummer"
+	1    9500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6095AC52
+P 10700 5300
+F 0 "D?" H 10700 5715 50  0000 C CNN
+F 1 "NEOPIXEL" H 10600 5050 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 10650 5300 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 5300 50  0001 L CNN
+F 4 "" H 10700 5624 50  0000 C CNN "NB"
+F 5 "Adafruit" H 10700 5300 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 10700 5300 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 10700 5300 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 10700 5300 50  0001 L CNN "Bestellnummer"
+	1    10700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6095AC5C
+P 7700 5400
+F 0 "TP?" H 7744 5493 50  0000 L CNN
+F 1 "TP_100" H 7750 5450 50  0001 L CNN
+F 2 "Technik:TP100;" H 7700 5400 50  0001 C CNN
+F 3 "" H 7700 5400 50  0001 C CNN
+	1    7700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6095AC66
+P 8900 5400
+F 0 "TP?" H 8944 5493 50  0000 L CNN
+F 1 "TP_100" H 8950 5450 50  0001 L CNN
+F 2 "Technik:TP100;" H 8900 5400 50  0001 C CNN
+F 3 "" H 8900 5400 50  0001 C CNN
+	1    8900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6095AC70
+P 10100 5400
+F 0 "TP?" H 10144 5493 50  0000 L CNN
+F 1 "TP_100" H 10150 5450 50  0001 L CNN
+F 2 "Technik:TP100;" H 10100 5400 50  0001 C CNN
+F 3 "" H 10100 5400 50  0001 C CNN
+	1    10100 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5400 6600 5400
+Connection ~ 7700 5400
+Wire Wire Line
+	7700 5400 7800 5400
+Connection ~ 8900 5400
+Wire Wire Line
+	8900 5400 9000 5400
+Connection ~ 10100 5400
+Wire Wire Line
+	10100 5400 10200 5400
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6096CD80
+P 5900 3650
+F 0 "C?" H 5900 4005 50  0000 C CNN
+F 1 "100n_0603" H 5900 3500 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 5900 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 3650 50  0001 L CNN
+F 4 "100nF" H 5900 3914 50  0000 C CNN "Wert"
+F 5 "" H 5900 3823 50  0000 C CNN "NB"
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6096D2A2
+P 6500 4200
+F 0 "TP?" H 6544 4293 50  0000 L CNN
+F 1 "TP_100" H 6550 4250 50  0001 L CNN
+F 2 "Technik:TP100;" H 6500 4200 50  0001 C CNN
+F 3 "" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6096D2B1
+P 5900 4100
+F 0 "D?" H 5900 4515 50  0000 C CNN
+F 1 "NEOPIXEL" H 5800 3850 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 5850 4100 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 4100 50  0001 L CNN
+F 4 "" H 5900 4424 50  0000 C CNN "NB"
+F 5 "Adafruit" H 5900 4100 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 5900 4100 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 5900 4100 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 5900 4100 50  0001 L CNN "Bestellnummer"
+	1    5900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6096D2BD
+P 7100 3650
+F 0 "C?" H 7100 4005 50  0000 C CNN
+F 1 "100n_0603" H 7100 3500 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 7100 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 3650 50  0001 L CNN
+F 4 "100nF" H 7100 3914 50  0000 C CNN "Wert"
+F 5 "" H 7100 3823 50  0000 C CNN "NB"
+	1    7100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6096D2C9
+P 8300 3650
+F 0 "C?" H 8300 4005 50  0000 C CNN
+F 1 "100n_0603" H 8300 3500 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 8300 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 3650 50  0001 L CNN
+F 4 "100nF" H 8300 3914 50  0000 C CNN "Wert"
+F 5 "" H 8300 3823 50  0000 C CNN "NB"
+	1    8300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6096D2D5
+P 9450 3650
+F 0 "C?" H 9450 4005 50  0000 C CNN
+F 1 "100n_0603" H 9450 3500 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9450 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 3650 50  0001 L CNN
+F 4 "100nF" H 9450 3914 50  0000 C CNN "Wert"
+F 5 "" H 9450 3823 50  0000 C CNN "NB"
+	1    9450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6096D2E1
+P 10650 3650
+F 0 "C?" H 10650 4005 50  0000 C CNN
+F 1 "100n_0603" H 10650 3500 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 10650 3500 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 3650 50  0001 L CNN
+F 4 "100nF" H 10650 3914 50  0000 C CNN "Wert"
+F 5 "" H 10650 3823 50  0000 C CNN "NB"
+	1    10650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6096D2F0
+P 7100 4100
+F 0 "D?" H 7100 4515 50  0000 C CNN
+F 1 "NEOPIXEL" H 7000 3850 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 7050 4100 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 4100 50  0001 L CNN
+F 4 "" H 7100 4424 50  0000 C CNN "NB"
+F 5 "Adafruit" H 7100 4100 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 7100 4100 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 7100 4100 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 7100 4100 50  0001 L CNN "Bestellnummer"
+	1    7100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6096D2FF
+P 8300 4100
+F 0 "D?" H 8300 4515 50  0000 C CNN
+F 1 "NEOPIXEL" H 8200 3850 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 8250 4100 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 4100 50  0001 L CNN
+F 4 "" H 8300 4424 50  0000 C CNN "NB"
+F 5 "Adafruit" H 8300 4100 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 8300 4100 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 8300 4100 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 8300 4100 50  0001 L CNN "Bestellnummer"
+	1    8300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6096D30E
+P 9500 4100
+F 0 "D?" H 9500 4515 50  0000 C CNN
+F 1 "NEOPIXEL" H 9400 3850 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 9450 4100 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 4100 50  0001 L CNN
+F 4 "" H 9500 4424 50  0000 C CNN "NB"
+F 5 "Adafruit" H 9500 4100 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 9500 4100 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 9500 4100 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 9500 4100 50  0001 L CNN "Bestellnummer"
+	1    9500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6096D31D
+P 10700 4100
+F 0 "D?" H 10700 4515 50  0000 C CNN
+F 1 "NEOPIXEL" H 10600 3850 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 10650 4100 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 4100 50  0001 L CNN
+F 4 "" H 10700 4424 50  0000 C CNN "NB"
+F 5 "Adafruit" H 10700 4100 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 10700 4100 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 10700 4100 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 10700 4100 50  0001 L CNN "Bestellnummer"
+	1    10700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6096D327
+P 7700 4200
+F 0 "TP?" H 7744 4293 50  0000 L CNN
+F 1 "TP_100" H 7750 4250 50  0001 L CNN
+F 2 "Technik:TP100;" H 7700 4200 50  0001 C CNN
+F 3 "" H 7700 4200 50  0001 C CNN
+	1    7700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6096D331
+P 8900 4200
+F 0 "TP?" H 8944 4293 50  0000 L CNN
+F 1 "TP_100" H 8950 4250 50  0001 L CNN
+F 2 "Technik:TP100;" H 8900 4200 50  0001 C CNN
+F 3 "" H 8900 4200 50  0001 C CNN
+	1    8900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6096D33B
+P 10100 4200
+F 0 "TP?" H 10144 4293 50  0000 L CNN
+F 1 "TP_100" H 10150 4250 50  0001 L CNN
+F 2 "Technik:TP100;" H 10100 4200 50  0001 C CNN
+F 3 "" H 10100 4200 50  0001 C CNN
+	1    10100 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 4200
+Wire Wire Line
+	6500 4200 6600 4200
+Connection ~ 7700 4200
+Wire Wire Line
+	7700 4200 7800 4200
+Connection ~ 8900 4200
+Wire Wire Line
+	8900 4200 9000 4200
+Connection ~ 10100 4200
+Wire Wire Line
+	10100 4200 10200 4200
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 60989C07
+P 5900 2450
+F 0 "C?" H 5900 2805 50  0000 C CNN
+F 1 "100n_0603" H 5900 2300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 5900 2300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 5900 2450 50  0001 L CNN
+F 4 "100nF" H 5900 2714 50  0000 C CNN "Wert"
+F 5 "" H 5900 2623 50  0000 C CNN "NB"
+	1    5900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6098A253
+P 6500 3000
+F 0 "TP?" H 6544 3093 50  0000 L CNN
+F 1 "TP_100" H 6550 3050 50  0001 L CNN
+F 2 "Technik:TP100;" H 6500 3000 50  0001 C CNN
+F 3 "" H 6500 3000 50  0001 C CNN
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6098A262
+P 5900 2900
+F 0 "D?" H 5900 3315 50  0000 C CNN
+F 1 "NEOPIXEL" H 5800 2650 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 5850 2900 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 5850 2900 50  0001 L CNN
+F 4 "" H 5900 3224 50  0000 C CNN "NB"
+F 5 "Adafruit" H 5900 2900 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 5900 2900 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 5900 2900 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 5900 2900 50  0001 L CNN "Bestellnummer"
+	1    5900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6098A26E
+P 7100 2450
+F 0 "C?" H 7100 2805 50  0000 C CNN
+F 1 "100n_0603" H 7100 2300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 7100 2300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 7100 2450 50  0001 L CNN
+F 4 "100nF" H 7100 2714 50  0000 C CNN "Wert"
+F 5 "" H 7100 2623 50  0000 C CNN "NB"
+	1    7100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6098A27A
+P 8300 2450
+F 0 "C?" H 8300 2805 50  0000 C CNN
+F 1 "100n_0603" H 8300 2300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 8300 2300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 8300 2450 50  0001 L CNN
+F 4 "100nF" H 8300 2714 50  0000 C CNN "Wert"
+F 5 "" H 8300 2623 50  0000 C CNN "NB"
+	1    8300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6098A286
+P 9450 2450
+F 0 "C?" H 9450 2805 50  0000 C CNN
+F 1 "100n_0603" H 9450 2300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9450 2300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9450 2450 50  0001 L CNN
+F 4 "100nF" H 9450 2714 50  0000 C CNN "Wert"
+F 5 "" H 9450 2623 50  0000 C CNN "NB"
+	1    9450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 6098A292
+P 10650 2450
+F 0 "C?" H 10650 2805 50  0000 C CNN
+F 1 "100n_0603" H 10650 2300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 10650 2300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10650 2450 50  0001 L CNN
+F 4 "100nF" H 10650 2714 50  0000 C CNN "Wert"
+F 5 "" H 10650 2623 50  0000 C CNN "NB"
+	1    10650 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6098A2A1
+P 7100 2900
+F 0 "D?" H 7100 3315 50  0000 C CNN
+F 1 "NEOPIXEL" H 7000 2650 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 7050 2900 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 7050 2900 50  0001 L CNN
+F 4 "" H 7100 3224 50  0000 C CNN "NB"
+F 5 "Adafruit" H 7100 2900 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 7100 2900 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 7100 2900 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 7100 2900 50  0001 L CNN "Bestellnummer"
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6098A2B0
+P 8300 2900
+F 0 "D?" H 8300 3315 50  0000 C CNN
+F 1 "NEOPIXEL" H 8200 2650 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 8250 2900 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 8250 2900 50  0001 L CNN
+F 4 "" H 8300 3224 50  0000 C CNN "NB"
+F 5 "Adafruit" H 8300 2900 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 8300 2900 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 8300 2900 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 8300 2900 50  0001 L CNN "Bestellnummer"
+	1    8300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6098A2BF
+P 9500 2900
+F 0 "D?" H 9500 3315 50  0000 C CNN
+F 1 "NEOPIXEL" H 9400 2650 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 9450 2900 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 9450 2900 50  0001 L CNN
+F 4 "" H 9500 3224 50  0000 C CNN "NB"
+F 5 "Adafruit" H 9500 2900 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 9500 2900 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 9500 2900 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 9500 2900 50  0001 L CNN "Bestellnummer"
+	1    9500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:NEOPIXEL D?
+U 1 1 6098A2CE
+P 10700 2900
+F 0 "D?" H 10700 3315 50  0000 C CNN
+F 1 "NEOPIXEL" H 10600 2650 50  0001 L CNN
+F 2 "Artikel:Neopixel" H 10650 2900 50  0001 L CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2757/p2757_SK6812RGBW_REV01.pdf" H 10650 2900 50  0001 L CNN
+F 4 "" H 10700 3224 50  0000 C CNN "NB"
+F 5 "Adafruit" H 10700 2900 50  0001 L CNN "Hersteller"
+F 6 "SK6812RGBW" H 10700 2900 50  0001 L CNN "Herstellernummer"
+F 7 "Adafruit" H 10700 2900 50  0001 L CNN "Distributor"
+F 8 "SK6812RGBW" H 10700 2900 50  0001 L CNN "Bestellnummer"
+	1    10700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6098A2D8
+P 7700 3000
+F 0 "TP?" H 7744 3093 50  0000 L CNN
+F 1 "TP_100" H 7750 3050 50  0001 L CNN
+F 2 "Technik:TP100;" H 7700 3000 50  0001 C CNN
+F 3 "" H 7700 3000 50  0001 C CNN
+	1    7700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6098A2E2
+P 8900 3000
+F 0 "TP?" H 8944 3093 50  0000 L CNN
+F 1 "TP_100" H 8950 3050 50  0001 L CNN
+F 2 "Technik:TP100;" H 8900 3000 50  0001 C CNN
+F 3 "" H 8900 3000 50  0001 C CNN
+	1    8900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 6098A2EC
+P 10100 3000
+F 0 "TP?" H 10144 3093 50  0000 L CNN
+F 1 "TP_100" H 10150 3050 50  0001 L CNN
+F 2 "Technik:TP100;" H 10100 3000 50  0001 C CNN
+F 3 "" H 10100 3000 50  0001 C CNN
+	1    10100 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 3000
+Wire Wire Line
+	6500 3000 6600 3000
+Connection ~ 7700 3000
+Wire Wire Line
+	7700 3000 7800 3000
+Connection ~ 8900 3000
+Wire Wire Line
+	8900 3000 9000 3000
+Connection ~ 10100 3000
+Wire Wire Line
+	10100 3000 10200 3000
+Connection ~ 7700 6600
+Wire Wire Line
+	7700 6600 7800 6600
+Connection ~ 8900 6600
+Wire Wire Line
+	8900 6600 9000 6600
+Connection ~ 10100 6600
+Wire Wire Line
+	10100 6600 10200 6600
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609B4D44
 P 5150 3000
-F 0 "TP201" H 5194 3093 50  0000 L CNN
+F 0 "TP?" H 5194 3093 50  0000 L CNN
 F 1 "TP_100" H 5200 3050 50  0001 L CNN
 F 2 "Technik:TP100;" H 5150 3000 50  0001 C CNN
 F 3 "" H 5150 3000 50  0001 C CNN
 	1    5150 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 3000 5400 3000
-Text Notes 6250 7150 0    50   ~ 0
-Level Switching\n
 $EndSCHEMATC

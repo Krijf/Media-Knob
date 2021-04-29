@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 8
+Sheet 3 5
 Title "Media-Knob_HID"
 Date "2020-12-13"
 Rev "V0.1"
@@ -13,73 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Artikel:PCB_Switch_Winkel_THT SW302
-U 1 1 5FA9AB88
-P 4500 4550
-F 0 "SW302" H 4500 4880 50  0000 C CNN
-F 1 "PCB_Switch_Winkel_THT" H 4500 4300 50  0001 C CNN
-F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 4550 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 4550 50  0001 L CNN
-F 4 "Reichelt" H 4500 4550 50  0001 L CNN "Distributor"
-F 5 "RND" H 4500 4550 50  0001 L CNN "Hersteller"
-F 6 "210-00255" H 4500 4550 50  0001 L CNN "Herstellernummer"
-F 7 "" H 4350 4300 50  0000 L CNN "NB"
-	1    4500 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:10K_0603 R301
-U 1 1 5FA9AB89
-P 5100 3150
-F 0 "R301" V 5054 3238 50  0000 L CNN
-F 1 "10K_0603" H 4950 3000 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 4500 3350 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4500 3350 50  0001 L CNN
-F 4 "10KR" H 5000 3150 50  0000 L CNN "Wert"
-F 5 "" H 4950 3050 50  0000 L CNN "NB"
-	1    5100 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R302
-U 1 1 5FA9AB8A
-P 5350 3150
-F 0 "R302" V 5304 3238 50  0000 L CNN
-F 1 "10K_0603" H 5200 3000 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 4750 3350 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4750 3350 50  0001 L CNN
-F 4 "10KR" H 5250 3150 50  0000 L CNN "Wert"
-F 5 "" H 5200 3050 50  0000 L CNN "NB"
-	1    5350 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R304
-U 1 1 5FA9AB8B
-P 5850 3150
-F 0 "R304" V 5804 3238 50  0000 L CNN
-F 1 "10K_0603" H 5700 3000 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 5250 3350 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5250 3350 50  0001 L CNN
-F 4 "10KR" H 5750 3150 50  0000 L CNN "Wert"
-F 5 "" H 5700 3050 50  0000 L CNN "NB"
-	1    5850 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R303
-U 1 1 5F0840CB
-P 5600 3150
-F 0 "R303" V 5554 3238 50  0000 L CNN
-F 1 "10K_0603" H 5450 3000 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 5000 3350 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5000 3350 50  0001 L CNN
-F 4 "10KR" H 5500 3150 50  0000 L CNN "Wert"
-F 5 "" H 5450 3050 50  0000 L CNN "NB"
-	1    5600 3150
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0305
 U 1 1 5F0840DD
@@ -185,36 +118,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 7150 4950 7150
 $Comp
-L Artikel:PCB_Switch_Winkel_THT SW304
-U 1 1 5FA9AB95
-P 4500 6200
-F 0 "SW304" H 4500 6530 50  0000 C CNN
-F 1 "PCB_Switch_Winkel_THT" H 4500 5950 50  0001 C CNN
-F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 6200 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 6200 50  0001 L CNN
-F 4 "Reichelt" H 4500 6200 50  0001 L CNN "Distributor"
-F 5 "RND" H 4500 6200 50  0001 L CNN "Hersteller"
-F 6 "210-00255" H 4500 6200 50  0001 L CNN "Herstellernummer"
-F 7 "" H 4350 5950 50  0000 L CNN "NB"
-	1    4500 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Artikel:PCB_Switch_Winkel_THT SW303
-U 1 1 5FA9AB96
-P 4500 5350
-F 0 "SW303" H 4500 5680 50  0000 C CNN
-F 1 "PCB_Switch_Winkel_THT" H 4500 5100 50  0001 C CNN
-F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 5350 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 5350 50  0001 L CNN
-F 4 "Reichelt" H 4500 5350 50  0001 L CNN "Distributor"
-F 5 "RND" H 4500 5350 50  0001 L CNN "Hersteller"
-F 6 "210-00255" H 4500 5350 50  0001 L CNN "Herstellernummer"
-F 7 "" H 4350 5100 50  0000 L CNN "NB"
-	1    4500 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0323
 U 1 1 5F084152
 P 11200 5550
@@ -223,34 +126,6 @@ F 1 "GND" H 11205 5377 50  0000 C CNN
 F 2 "" H 11200 5550 50  0001 C CNN
 F 3 "" H 11200 5550 50  0001 C CNN
 	1    11200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:10K_0603 R305
-U 1 1 5F10CA29
-P 6100 3150
-F 0 "R305" V 6054 3238 50  0000 L CNN
-F 1 "10K_0603" H 5950 3000 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 5500 3350 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5500 3350 50  0001 L CNN
-F 4 "10KR" H 6000 3150 50  0000 L CNN "Wert"
-F 5 "" H 5950 3050 50  0000 L CNN "NB"
-	1    6100 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Artikel:PCB_Switch_Winkel_THT SW305
-U 1 1 5F10D756
-P 4500 7000
-F 0 "SW305" H 4500 7330 50  0000 C CNN
-F 1 "PCB_Switch_Winkel_THT" H 4500 6750 50  0001 C CNN
-F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 7000 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 7000 50  0001 L CNN
-F 4 "Reichelt" H 4500 7000 50  0001 L CNN "Distributor"
-F 5 "RND" H 4500 7000 50  0001 L CNN "Hersteller"
-F 6 "210-00255" H 4500 7000 50  0001 L CNN "Herstellernummer"
-F 7 "" H 4350 6750 50  0000 L CNN "NB"
-	1    4500 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -279,22 +154,6 @@ Wire Wire Line
 	4850 6350 4950 6350
 Wire Wire Line
 	4150 6350 4050 6350
-$Comp
-L Artikel:Rotary_stehend_THT SW306
-U 1 1 5F08414C
-P 11100 4950
-F 0 "SW306" H 11100 5273 50  0000 C CNN
-F 1 "Rotary_stehend_THT" H 11100 4700 50  0001 C CNN
-F 2 "Artikel:Rotary_stehend_THT" H 11100 4950 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/A300/401756STEC11B13.PDF" H 11100 4950 50  0001 L CNN
-F 4 "STEC11B13" H 11100 4950 50  0001 L CNN "Bestellnummer"
-F 5 "Reichelt" H 11100 4950 50  0001 L CNN "Distributor"
-F 6 "ALPS" H 11100 4950 50  0001 L CNN "Hersteller"
-F 7 "STEC11B13" H 11100 4950 50  0001 L CNN "Herstellernummer"
-F 8 "" H 11350 4650 50  0000 L CNN "NB"
-	1    11100 4950
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0321
 U 1 1 5FA9ABB7
@@ -336,84 +195,6 @@ Wire Wire Line
 	11200 5550 11200 5500
 Wire Wire Line
 	11000 5550 11000 5500
-$Comp
-L Widerstand:10K_0603 R313
-U 1 1 5FA9ABBA
-P 11850 4400
-F 0 "R313" V 11804 4488 50  0000 L CNN
-F 1 "10K_0603" H 11700 4250 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 11250 4600 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 11250 4600 50  0001 L CNN
-F 4 "10KR" H 11750 4400 50  0000 L CNN "Wert"
-F 5 "" H 11700 4300 50  0000 L CNN "NB"
-	1    11850 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R312
-U 1 1 5F3E8359
-P 10200 4400
-F 0 "R312" V 10154 4488 50  0000 L CNN
-F 1 "10K_0603" H 10050 4250 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 9600 4600 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9600 4600 50  0001 L CNN
-F 4 "10KR" H 10100 4400 50  0000 L CNN "Wert"
-F 5 "" H 10050 4300 50  0000 L CNN "NB"
-	1    10200 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Widerstand:10K_0603 R311
-U 1 1 5F3E8584
-P 9750 4400
-F 0 "R311" V 9704 4488 50  0000 L CNN
-F 1 "10K_0603" H 9600 4250 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 9150 4600 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9150 4600 50  0001 L CNN
-F 4 "10KR" H 9650 4400 50  0000 L CNN "Wert"
-F 5 "" H 9600 4300 50  0000 L CNN "NB"
-	1    9750 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C308
-U 1 1 5FA9ABBD
-P 11850 5300
-F 0 "C308" V 11804 5428 50  0000 L CNN
-F 1 "100n_0603" H 11850 5150 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 11850 5150 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 11850 5300 50  0001 L CNN
-F 4 "100nF" H 11800 5150 50  0000 L CNN "Wert"
-F 5 "" H 11800 5050 50  0000 L CNN "NB"
-	1    11850 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C307
-U 1 1 5FA9ABBE
-P 10200 5300
-F 0 "C307" V 10154 5428 50  0000 L CNN
-F 1 "100n_0603" H 10200 5150 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 10200 5150 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10200 5300 50  0001 L CNN
-F 4 "100nF" H 10150 5150 50  0000 L CNN "Wert"
-F 5 "" H 10150 5050 50  0000 L CNN "NB"
-	1    10200 5300
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C306
-U 1 1 5FA9ABBF
-P 9750 5300
-F 0 "C306" V 9704 5428 50  0000 L CNN
-F 1 "100n_0603" H 9750 5150 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 9750 5150 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9750 5300 50  0001 L CNN
-F 4 "100nF" H 9700 5150 50  0000 L CNN "Wert"
-F 5 "" H 9700 5050 50  0000 L CNN "NB"
-	1    9750 5300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10200 5050 10200 4950
 Wire Wire Line
@@ -466,8 +247,6 @@ F 3 "" H 11850 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11500 4850 11600 4850
-Wire Wire Line
 	11850 4850 11850 4750
 Wire Wire Line
 	11850 4850 11850 5050
@@ -480,100 +259,9 @@ Wire Wire Line
 	10200 5600 10200 5550
 Wire Wire Line
 	9750 5600 9750 5550
-$Comp
-L Technik:TP_100 TP301
-U 1 1 5FA9ABA0
-P 7400 3700
-F 0 "TP301" H 7444 3793 50  0000 L CNN
-F 1 "TP_100" H 7450 3750 50  0001 L CNN
-F 2 "Technik:TP100" H 7400 3700 50  0001 C CNN
-F 3 "" H 7400 3700 50  0001 C CNN
-	1    7400 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP302
-U 1 1 5F15FAB6
-P 7400 4550
-F 0 "TP302" H 7444 4643 50  0000 L CNN
-F 1 "TP_100" H 7450 4600 50  0001 L CNN
-F 2 "Technik:TP100" H 7400 4550 50  0001 C CNN
-F 3 "" H 7400 4550 50  0001 C CNN
-	1    7400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP303
-U 1 1 5FA9ABA2
-P 7400 5350
-F 0 "TP303" H 7444 5443 50  0000 L CNN
-F 1 "TP_100" H 7450 5400 50  0001 L CNN
-F 2 "Technik:TP100" H 7400 5350 50  0001 C CNN
-F 3 "" H 7400 5350 50  0001 C CNN
-	1    7400 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP304
-U 1 1 5FA9ABA3
-P 7400 6200
-F 0 "TP304" H 7444 6293 50  0000 L CNN
-F 1 "TP_100" H 7450 6250 50  0001 L CNN
-F 2 "Technik:TP100" H 7400 6200 50  0001 C CNN
-F 3 "" H 7400 6200 50  0001 C CNN
-	1    7400 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP305
-U 1 1 5F1643A6
-P 7400 7000
-F 0 "TP305" H 7444 7093 50  0000 L CNN
-F 1 "TP_100" H 7450 7050 50  0001 L CNN
-F 2 "Technik:TP100" H 7400 7000 50  0001 C CNN
-F 3 "" H 7400 7000 50  0001 C CNN
-	1    7400 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Technik:TP_100 TP308
-U 1 1 5F164876
-P 11600 4850
-F 0 "TP308" H 11644 4943 50  0000 L CNN
-F 1 "TP_100" H 11650 4900 50  0001 L CNN
-F 2 "Technik:TP100" H 11600 4850 50  0001 C CNN
-F 3 "" H 11600 4850 50  0001 C CNN
-	1    11600 4850
-	1    0    0    -1  
-$EndComp
-Connection ~ 11600 4850
-Wire Wire Line
-	11600 4850 11850 4850
-$Comp
-L Technik:TP_100 TP306
-U 1 1 5F1650E8
-P 10350 4700
-F 0 "TP306" H 10394 4793 50  0000 L CNN
-F 1 "TP_100" H 10400 4750 50  0001 L CNN
-F 2 "Technik:TP100" H 10350 4700 50  0001 C CNN
-F 3 "" H 10350 4700 50  0001 C CNN
-	1    10350 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 10350 4850
 Wire Wire Line
 	10350 4850 10700 4850
-$Comp
-L Technik:TP_100 TP307
-U 1 1 5F1654E5
-P 10600 4700
-F 0 "TP307" H 10644 4793 50  0000 L CNN
-F 1 "TP_100" H 10650 4750 50  0001 L CNN
-F 2 "Technik:TP100" H 10600 4700 50  0001 C CNN
-F 3 "" H 10600 4700 50  0001 C CNN
-	1    10600 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 4700 10350 4850
 Wire Wire Line
@@ -581,21 +269,6 @@ Wire Wire Line
 Connection ~ 10600 4950
 Wire Wire Line
 	10600 4950 10700 4950
-$Comp
-L Artikel:PCB_Switch_Winkel_THT SW301
-U 1 1 5F084146
-P 4500 3700
-F 0 "SW301" H 4500 4030 50  0000 C CNN
-F 1 "PCB_Switch_Winkel_THT" H 4500 3450 50  0001 C CNN
-F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 3700 50  0001 L CNN
-F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 3700 50  0001 L CNN
-F 4 "Reichelt" H 4500 3700 50  0001 L CNN "Distributor"
-F 5 "RND" H 4500 3700 50  0001 L CNN "Hersteller"
-F 6 "210-00255" H 4500 3700 50  0001 L CNN "Herstellernummer"
-F 7 "" H 4350 3450 50  0000 L CNN "NB"
-	1    4500 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 2800 5100 2700
 Wire Wire Line
@@ -662,85 +335,10 @@ Wire Wire Line
 	4850 7000 6100 7000
 Wire Wire Line
 	6100 7000 6100 3500
-$Comp
-L Kondensator:100n_0603 C305
-U 1 1 5F311B69
-P 6350 7250
-F 0 "C305" V 6304 7378 50  0000 L CNN
-F 1 "100n_0603" H 6350 7100 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 6350 7100 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 7250 50  0001 L CNN
-F 4 "100nF" H 6300 7100 50  0000 L CNN "Wert"
-F 5 "" H 6300 7000 50  0000 L CNN "NB"
-	1    6350 7250
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C304
-U 1 1 5FA9ABA9
-P 6350 6450
-F 0 "C304" V 6304 6578 50  0000 L CNN
-F 1 "100n_0603" H 6350 6300 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 6350 6300 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 6450 50  0001 L CNN
-F 4 "100nF" H 6300 6300 50  0000 L CNN "Wert"
-F 5 "" H 6300 6200 50  0000 L CNN "NB"
-	1    6350 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C303
-U 1 1 5FA9ABAA
-P 6350 5600
-F 0 "C303" V 6304 5728 50  0000 L CNN
-F 1 "100n_0603" H 6350 5450 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 6350 5450 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 5600 50  0001 L CNN
-F 4 "100nF" H 6300 5450 50  0000 L CNN "Wert"
-F 5 "" H 6300 5350 50  0000 L CNN "NB"
-	1    6350 5600
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6100 7000 6350 7000
 Connection ~ 6100 7000
-Wire Wire Line
-	6350 6200 5850 6200
 Connection ~ 5850 6200
-Wire Wire Line
-	5600 5350 6350 5350
 Connection ~ 5600 5350
-$Comp
-L Kondensator:100n_0603 C302
-U 1 1 5FA9ABAB
-P 6350 4800
-F 0 "C302" V 6304 4928 50  0000 L CNN
-F 1 "100n_0603" H 6350 4650 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 6350 4650 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 4800 50  0001 L CNN
-F 4 "100nF" H 6300 4650 50  0000 L CNN "Wert"
-F 5 "" H 6300 4550 50  0000 L CNN "NB"
-	1    6350 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Kondensator:100n_0603 C301
-U 1 1 5FA9ABAC
-P 6350 3950
-F 0 "C301" V 6304 4078 50  0000 L CNN
-F 1 "100n_0603" H 6350 3800 50  0001 C CNN
-F 2 "Kondensator:CAPC1608" H 6350 3800 50  0001 L CNN
-F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 3950 50  0001 L CNN
-F 4 "100nF" H 6300 3800 50  0000 L CNN "Wert"
-F 5 "" H 6300 3700 50  0000 L CNN "NB"
-	1    6350 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5100 3700 6350 3700
 Connection ~ 5100 3700
-Wire Wire Line
-	5350 4550 6350 4550
 Connection ~ 5350 4550
 $Comp
 L power:GND #PWR0312
@@ -807,111 +405,6 @@ Wire Wire Line
 	6350 5050 6350 5100
 Wire Wire Line
 	6350 4200 6350 4250
-$Comp
-L Widerstand:0R_0603 R306
-U 1 1 5F327FAC
-P 6950 3700
-F 0 "R306" H 6950 3925 50  0000 C CNN
-F 1 "0R_0603" H 6800 3550 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6350 3900 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 3900 50  0001 L CNN
-F 4 "0R" H 6950 3834 50  0000 C CNN "Wert"
-F 5 "" H 6950 3833 50  0000 C CNN "NB"
-	1    6950 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:0R_0603 R307
-U 1 1 5FA9ABB3
-P 6950 4550
-F 0 "R307" H 6950 4775 50  0000 C CNN
-F 1 "0R_0603" H 6800 4400 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6350 4750 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 4750 50  0001 L CNN
-F 4 "0R" H 6950 4684 50  0000 C CNN "Wert"
-F 5 "" H 6950 4683 50  0000 C CNN "NB"
-	1    6950 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:0R_0603 R308
-U 1 1 5F32997B
-P 6950 5350
-F 0 "R308" H 6950 5575 50  0000 C CNN
-F 1 "0R_0603" H 6800 5200 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6350 5550 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 5550 50  0001 L CNN
-F 4 "0R" H 6950 5484 50  0000 C CNN "Wert"
-F 5 "" H 6950 5483 50  0000 C CNN "NB"
-	1    6950 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:0R_0603 R309
-U 1 1 5F32A138
-P 6950 6200
-F 0 "R309" H 6950 6425 50  0000 C CNN
-F 1 "0R_0603" H 6800 6050 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6350 6400 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 6400 50  0001 L CNN
-F 4 "0R" H 6950 6334 50  0000 C CNN "Wert"
-F 5 "" H 6950 6333 50  0000 C CNN "NB"
-	1    6950 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Widerstand:0R_0603 R310
-U 1 1 5F33FA46
-P 6950 7000
-F 0 "R310" H 6950 7225 50  0000 C CNN
-F 1 "0R_0603" H 6800 6850 50  0001 L BNN
-F 2 "Widerstand:RESC1608" H 6350 7200 50  0001 L CNN
-F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 7200 50  0001 L CNN
-F 4 "0R" H 6950 7134 50  0000 C CNN "Wert"
-F 5 "" H 6950 7133 50  0000 C CNN "NB"
-	1    6950 7000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 3700 6600 3700
-Connection ~ 6350 3700
-Wire Wire Line
-	7300 3700 7400 3700
-Connection ~ 7400 3700
-Wire Wire Line
-	7400 3700 7750 3700
-Wire Wire Line
-	6350 4550 6600 4550
-Connection ~ 6350 4550
-Wire Wire Line
-	7300 4550 7400 4550
-Connection ~ 7400 4550
-Wire Wire Line
-	7400 4550 7750 4550
-Wire Wire Line
-	6350 5350 6600 5350
-Connection ~ 6350 5350
-Wire Wire Line
-	7300 5350 7400 5350
-Connection ~ 7400 5350
-Wire Wire Line
-	7400 5350 7750 5350
-Wire Wire Line
-	6350 6200 6600 6200
-Connection ~ 6350 6200
-Wire Wire Line
-	7300 6200 7400 6200
-Connection ~ 7400 6200
-Wire Wire Line
-	7400 6200 7750 6200
-Wire Wire Line
-	6350 7000 6600 7000
-Connection ~ 6350 7000
-Wire Wire Line
-	7300 7000 7400 7000
-Connection ~ 7400 7000
-Wire Wire Line
-	7400 7000 7750 7000
 Text HLabel 12000 4850 2    50   Output ~ 0
 Rotary_SW
 Text HLabel 9650 4950 0    50   Output ~ 0
@@ -978,4 +471,526 @@ Wire Wire Line
 	10200 4000 10200 4050
 Wire Wire Line
 	11850 4000 11850 4050
+Wire Wire Line
+	5850 6200 6350 6200
+Wire Wire Line
+	6100 7000 6350 7000
+Wire Wire Line
+	5600 5350 6350 5350
+Wire Wire Line
+	5350 4550 6350 4550
+Wire Wire Line
+	5100 3700 6350 3700
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609B8EC8
+P 6350 7250
+F 0 "C?" V 6259 7378 50  0000 L CNN
+F 1 "100n_0603" H 6350 7100 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6350 7100 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 7250 50  0001 L CNN
+F 4 "100nF" V 6350 7378 50  0000 L CNN "Wert"
+F 5 "" V 6441 7378 50  0000 L CNN "NB"
+	1    6350 7250
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 7000
+Wire Wire Line
+	6350 7000 6600 7000
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609B9D64
+P 6350 6450
+F 0 "C?" V 6259 6578 50  0000 L CNN
+F 1 "100n_0603" H 6350 6300 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6350 6300 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 6450 50  0001 L CNN
+F 4 "100nF" V 6350 6578 50  0000 L CNN "Wert"
+F 5 "" V 6441 6578 50  0000 L CNN "NB"
+	1    6350 6450
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 6200
+Wire Wire Line
+	6350 6200 6600 6200
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BA11D
+P 6350 5600
+F 0 "C?" V 6259 5728 50  0000 L CNN
+F 1 "100n_0603" H 6350 5450 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6350 5450 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 5600 50  0001 L CNN
+F 4 "100nF" V 6350 5728 50  0000 L CNN "Wert"
+F 5 "" V 6441 5728 50  0000 L CNN "NB"
+	1    6350 5600
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 5350
+Wire Wire Line
+	6350 5350 6600 5350
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BA630
+P 6350 4800
+F 0 "C?" V 6259 4928 50  0000 L CNN
+F 1 "100n_0603" H 6350 4650 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6350 4650 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 4800 50  0001 L CNN
+F 4 "100nF" V 6350 4928 50  0000 L CNN "Wert"
+F 5 "" V 6441 4928 50  0000 L CNN "NB"
+	1    6350 4800
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4550 6600 4550
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BABB1
+P 6350 3950
+F 0 "C?" V 6259 4078 50  0000 L CNN
+F 1 "100n_0603" H 6350 3800 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 6350 3800 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 6350 3950 50  0001 L CNN
+F 4 "100nF" V 6350 4078 50  0000 L CNN "Wert"
+F 5 "" V 6441 4078 50  0000 L CNN "NB"
+	1    6350 3950
+	0    1    1    0   
+$EndComp
+Connection ~ 6350 3700
+Wire Wire Line
+	6350 3700 6600 3700
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BAFB9
+P 9750 5300
+F 0 "C?" V 9659 5428 50  0000 L CNN
+F 1 "100n_0603" H 9750 5150 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 9750 5150 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 9750 5300 50  0001 L CNN
+F 4 "100nF" V 9750 5428 50  0000 L CNN "Wert"
+F 5 "" V 9841 5428 50  0000 L CNN "NB"
+	1    9750 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BB62E
+P 10200 5300
+F 0 "C?" V 10109 5428 50  0000 L CNN
+F 1 "100n_0603" H 10200 5150 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 10200 5150 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 10200 5300 50  0001 L CNN
+F 4 "100nF" V 10200 5428 50  0000 L CNN "Wert"
+F 5 "" V 10291 5428 50  0000 L CNN "NB"
+	1    10200 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L _Kondensator:100n_0603 C?
+U 1 1 609BBA90
+P 11850 5300
+F 0 "C?" V 11759 5428 50  0000 L CNN
+F 1 "100n_0603" H 11850 5150 50  0001 L CNN
+F 2 "Kondensator:CAPC1608" H 11850 5150 50  0001 L CNN
+F 3 "https://api.kemet.com/component-edge/download/specsheet/C0603C104K3RACTU.pdf" H 11850 5300 50  0001 L CNN
+F 4 "100nF" V 11850 5428 50  0000 L CNN "Wert"
+F 5 "" V 11941 5428 50  0000 L CNN "NB"
+	1    11850 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:0R_0603 R?
+U 1 1 609BC7B9
+P 6950 3700
+F 0 "R?" H 6950 4289 50  0000 C CNN
+F 1 "0R_0603" H 6800 3550 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6350 3900 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 3900 50  0001 L CNN
+F 4 "0R" H 6950 4198 50  0000 C CNN "Wert"
+F 5 "" H 6950 4107 50  0000 C CNN "NB"
+F 6 "R" H 6950 4016 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 6950 3925 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 6950 3834 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Widerstand:0R_0603 R?
+U 1 1 609BD36A
+P 6950 4550
+F 0 "R?" H 6950 5139 50  0000 C CNN
+F 1 "0R_0603" H 6800 4400 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6350 4750 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 4750 50  0001 L CNN
+F 4 "0R" H 6950 5048 50  0000 C CNN "Wert"
+F 5 "" H 6950 4957 50  0000 C CNN "NB"
+F 6 "R" H 6950 4866 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 6950 4775 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 6950 4684 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    6950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Widerstand:0R_0603 R?
+U 1 1 609BD861
+P 6950 5350
+F 0 "R?" H 6950 5939 50  0000 C CNN
+F 1 "0R_0603" H 6800 5200 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6350 5550 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 5550 50  0001 L CNN
+F 4 "0R" H 6950 5848 50  0000 C CNN "Wert"
+F 5 "" H 6950 5757 50  0000 C CNN "NB"
+F 6 "R" H 6950 5666 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 6950 5575 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 6950 5484 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    6950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Widerstand:0R_0603 R?
+U 1 1 609BDF90
+P 6950 6200
+F 0 "R?" H 6950 6789 50  0000 C CNN
+F 1 "0R_0603" H 6800 6050 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6350 6400 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 6400 50  0001 L CNN
+F 4 "0R" H 6950 6698 50  0000 C CNN "Wert"
+F 5 "" H 6950 6607 50  0000 C CNN "NB"
+F 6 "R" H 6950 6516 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 6950 6425 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 6950 6334 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    6950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Widerstand:0R_0603 R?
+U 1 1 609BE3E7
+P 6950 7000
+F 0 "R?" H 6950 7589 50  0000 C CNN
+F 1 "0R_0603" H 6800 6850 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 6350 7200 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 6350 7200 50  0001 L CNN
+F 4 "0R" H 6950 7498 50  0000 C CNN "Wert"
+F 5 "" H 6950 7407 50  0000 C CNN "NB"
+F 6 "R" H 6950 7316 50  0000 C CNN "Spice_Primitive"
+F 7 "0" H 6950 7225 50  0000 C CNN "Spice_Model"
+F 8 "Y" H 6950 7134 50  0000 C CNN "Spice_Netlist_Enabled"
+	1    6950 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C2BF0
+P 5100 3150
+F 0 "R?" V 5009 3238 50  0000 L CNN
+F 1 "10K_0603" H 4950 3000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 4500 3350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4500 3350 50  0001 L CNN
+F 4 "10KR" V 5100 3238 50  0000 L CNN "Wert"
+F 5 "" V 5191 3238 50  0000 L CNN "NB"
+	1    5100 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C3EF7
+P 5350 3150
+F 0 "R?" V 5259 3238 50  0000 L CNN
+F 1 "10K_0603" H 5200 3000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 4750 3350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 4750 3350 50  0001 L CNN
+F 4 "10KR" V 5350 3238 50  0000 L CNN "Wert"
+F 5 "" V 5441 3238 50  0000 L CNN "NB"
+	1    5350 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C4273
+P 5600 3150
+F 0 "R?" V 5509 3238 50  0000 L CNN
+F 1 "10K_0603" H 5450 3000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 5000 3350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5000 3350 50  0001 L CNN
+F 4 "10KR" V 5600 3238 50  0000 L CNN "Wert"
+F 5 "" V 5691 3238 50  0000 L CNN "NB"
+	1    5600 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C4549
+P 5850 3150
+F 0 "R?" V 5759 3238 50  0000 L CNN
+F 1 "10K_0603" H 5700 3000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 5250 3350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5250 3350 50  0001 L CNN
+F 4 "10KR" V 5850 3238 50  0000 L CNN "Wert"
+F 5 "" V 5941 3238 50  0000 L CNN "NB"
+	1    5850 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C46EE
+P 6100 3150
+F 0 "R?" V 6009 3238 50  0000 L CNN
+F 1 "10K_0603" H 5950 3000 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 5500 3350 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 5500 3350 50  0001 L CNN
+F 4 "10KR" V 6100 3238 50  0000 L CNN "Wert"
+F 5 "" V 6191 3238 50  0000 L CNN "NB"
+	1    6100 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C490B
+P 9750 4400
+F 0 "R?" V 9659 4488 50  0000 L CNN
+F 1 "10K_0603" H 9600 4250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 9150 4600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9150 4600 50  0001 L CNN
+F 4 "10KR" V 9750 4488 50  0000 L CNN "Wert"
+F 5 "" V 9841 4488 50  0000 L CNN "NB"
+	1    9750 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C5648
+P 10200 4400
+F 0 "R?" V 10109 4488 50  0000 L CNN
+F 1 "10K_0603" H 10050 4250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 9600 4600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 9600 4600 50  0001 L CNN
+F 4 "10KR" V 10200 4488 50  0000 L CNN "Wert"
+F 5 "" V 10291 4488 50  0000 L CNN "NB"
+	1    10200 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L _Widerstand:10K_0603 R?
+U 1 1 609C5B9C
+P 11850 4400
+F 0 "R?" V 11759 4488 50  0000 L CNN
+F 1 "10K_0603" H 11700 4250 50  0001 L BNN
+F 2 "Widerstand:RESC1608" H 11250 4600 50  0001 L CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 11250 4600 50  0001 L CNN
+F 4 "10KR" V 11850 4488 50  0000 L CNN "Wert"
+F 5 "" V 11941 4488 50  0000 L CNN "NB"
+	1    11850 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 3700 7500 3700
+Wire Wire Line
+	7300 4550 7500 4550
+Wire Wire Line
+	7300 5350 7500 5350
+Wire Wire Line
+	7300 6200 7500 6200
+Wire Wire Line
+	7300 7000 7500 7000
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C680E
+P 7500 3700
+F 0 "TP?" H 7544 3793 50  0000 L CNN
+F 1 "TP_100" H 7550 3750 50  0001 L CNN
+F 2 "Technik:TP100;" H 7500 3700 50  0001 C CNN
+F 3 "" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 3700
+Wire Wire Line
+	7500 3700 7750 3700
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C734F
+P 7500 4550
+F 0 "TP?" H 7544 4643 50  0000 L CNN
+F 1 "TP_100" H 7550 4600 50  0001 L CNN
+F 2 "Technik:TP100;" H 7500 4550 50  0001 C CNN
+F 3 "" H 7500 4550 50  0001 C CNN
+	1    7500 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 4550
+Wire Wire Line
+	7500 4550 7750 4550
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C783B
+P 7500 5350
+F 0 "TP?" H 7544 5443 50  0000 L CNN
+F 1 "TP_100" H 7550 5400 50  0001 L CNN
+F 2 "Technik:TP100;" H 7500 5350 50  0001 C CNN
+F 3 "" H 7500 5350 50  0001 C CNN
+	1    7500 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 5350
+Wire Wire Line
+	7500 5350 7750 5350
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C7CD5
+P 7500 6200
+F 0 "TP?" H 7544 6293 50  0000 L CNN
+F 1 "TP_100" H 7550 6250 50  0001 L CNN
+F 2 "Technik:TP100;" H 7500 6200 50  0001 C CNN
+F 3 "" H 7500 6200 50  0001 C CNN
+	1    7500 6200
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 6200
+Wire Wire Line
+	7500 6200 7750 6200
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C8118
+P 7500 7000
+F 0 "TP?" H 7544 7093 50  0000 L CNN
+F 1 "TP_100" H 7550 7050 50  0001 L CNN
+F 2 "Technik:TP100;" H 7500 7000 50  0001 C CNN
+F 3 "" H 7500 7000 50  0001 C CNN
+	1    7500 7000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 7000
+Wire Wire Line
+	7500 7000 7750 7000
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C85CF
+P 10350 4700
+F 0 "TP?" H 10394 4793 50  0000 L CNN
+F 1 "TP_100" H 10400 4750 50  0001 L CNN
+F 2 "Technik:TP100;" H 10350 4700 50  0001 C CNN
+F 3 "" H 10350 4700 50  0001 C CNN
+	1    10350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C8AE3
+P 10600 4700
+F 0 "TP?" H 10644 4793 50  0000 L CNN
+F 1 "TP_100" H 10650 4750 50  0001 L CNN
+F 2 "Technik:TP100;" H 10600 4700 50  0001 C CNN
+F 3 "" H 10600 4700 50  0001 C CNN
+	1    10600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11500 4850 11600 4850
+$Comp
+L _Technik:TP_100 TP?
+U 1 1 609C90AD
+P 11600 4850
+F 0 "TP?" H 11644 4943 50  0000 L CNN
+F 1 "TP_100" H 11650 4900 50  0001 L CNN
+F 2 "Technik:TP100;" H 11600 4850 50  0001 C CNN
+F 3 "" H 11600 4850 50  0001 C CNN
+	1    11600 4850
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 4850
+Wire Wire Line
+	11600 4850 11850 4850
+$Comp
+L _Artikel:Rotary_stehend_THT SW?
+U 1 1 609CA023
+P 11100 4950
+F 0 "SW?" H 11100 5365 50  0000 C CNN
+F 1 "Rotary_stehend_THT" H 11950 4600 50  0001 L CNN
+F 2 "Artikel:Rotary_stehend_THT" H 11100 4950 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/A300/401756STEC11B13.PDF" H 11100 4950 50  0001 L CNN
+F 4 "" H 11100 5274 50  0000 C CNN "NB"
+F 5 "ALPS" H 11100 4950 50  0001 L CNN "Hersteller"
+F 6 "STEC11B13" H 11100 4950 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 11100 4950 50  0001 L CNN "Distributor"
+F 8 "STEC11B13" H 11100 4950 50  0001 L CNN "Bestellnummer"
+	1    11100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:PCB_Switch_Winkel_THT SW?
+U 1 1 609CBA23
+P 4500 3700
+F 0 "SW?" H 4500 4122 50  0000 C CNN
+F 1 "PCB_Switch_Winkel_THT" H 4500 3450 50  0001 L CNN
+F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 3700 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 3700 50  0001 L CNN
+F 4 "" H 4500 4031 50  0000 C CNN "NB"
+F 5 "RND" H 4500 3700 50  0001 L CNN "Hersteller"
+F 6 "210-00255" H 4500 3700 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 4500 3700 50  0001 L CNN "Distributor"
+	1    4500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:PCB_Switch_Winkel_THT SW?
+U 1 1 609CD090
+P 4500 4550
+F 0 "SW?" H 4500 4972 50  0000 C CNN
+F 1 "PCB_Switch_Winkel_THT" H 4500 4300 50  0001 L CNN
+F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 4550 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 4550 50  0001 L CNN
+F 4 "" H 4500 4881 50  0000 C CNN "NB"
+F 5 "RND" H 4500 4550 50  0001 L CNN "Hersteller"
+F 6 "210-00255" H 4500 4550 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 4500 4550 50  0001 L CNN "Distributor"
+	1    4500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:PCB_Switch_Winkel_THT SW?
+U 1 1 609CDB40
+P 4500 5350
+F 0 "SW?" H 4500 5772 50  0000 C CNN
+F 1 "PCB_Switch_Winkel_THT" H 4500 5100 50  0001 L CNN
+F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 5350 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 5350 50  0001 L CNN
+F 4 "" H 4500 5681 50  0000 C CNN "NB"
+F 5 "RND" H 4500 5350 50  0001 L CNN "Hersteller"
+F 6 "210-00255" H 4500 5350 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 4500 5350 50  0001 L CNN "Distributor"
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:PCB_Switch_Winkel_THT SW?
+U 1 1 609CE3ED
+P 4500 6200
+F 0 "SW?" H 4500 6622 50  0000 C CNN
+F 1 "PCB_Switch_Winkel_THT" H 4500 5950 50  0001 L CNN
+F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 6200 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 6200 50  0001 L CNN
+F 4 "" H 4500 6531 50  0000 C CNN "NB"
+F 5 "RND" H 4500 6200 50  0001 L CNN "Hersteller"
+F 6 "210-00255" H 4500 6200 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 4500 6200 50  0001 L CNN "Distributor"
+	1    4500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L _Artikel:PCB_Switch_Winkel_THT SW?
+U 1 1 609CED0C
+P 4500 7000
+F 0 "SW?" H 4500 7422 50  0000 C CNN
+F 1 "PCB_Switch_Winkel_THT" H 4500 6750 50  0001 L CNN
+F 2 "Artikel:PCB_Switch_Winkel_THT" H 4500 7000 50  0001 L CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/C200/RND_210-00255_DB_EN.pdf" H 4500 7000 50  0001 L CNN
+F 4 "" H 4500 7331 50  0000 C CNN "NB"
+F 5 "RND" H 4500 7000 50  0001 L CNN "Hersteller"
+F 6 "210-00255" H 4500 7000 50  0001 L CNN "Herstellernummer"
+F 7 "Reichelt" H 4500 7000 50  0001 L CNN "Distributor"
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
